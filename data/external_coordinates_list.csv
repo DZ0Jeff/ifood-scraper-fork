@@ -1,0 +1,1027 @@
+,city,city_ascii,lat,lng,country,iso2,iso3,admin_name,capital,population,id
+8,Mexico City,Mexico City,19.4333,-99.1333,Mexico,MX,MEX,Ciudad de México,primary,20996000.0,1484247881
+136,Guadalajara,Guadalajara,20.6767,-103.3475,Mexico,MX,MEX,Jalisco,admin,5253000.0,1484950208
+189,Monterrey,Monterrey,25.6667,-100.3,Mexico,MX,MEX,Nuevo León,admin,4295000.0,1484559591
+340,Tijuana,Tijuana,32.525,-117.0333,Mexico,MX,MEX,Baja California,minor,2384609.0,1484708778
+451,Ecatepec,Ecatepec,19.6097,-99.06,Mexico,MX,MEX,México,minor,1656107.0,1484003694
+472,Puebla,Puebla,19.0333,-98.1833,Mexico,MX,MEX,Puebla,admin,1576259.0,1484416394
+511,León de los Aldama,Leon de los Aldama,21.1167,-101.6833,Mexico,MX,MEX,Guanajuato,minor,1454793.0,1484811199
+548,Juárez,Juarez,31.7386,-106.487,Mexico,MX,MEX,Chihuahua,minor,1321004.0,1484840083
+623,Zapopan,Zapopan,20.7167,-103.4,Mexico,MX,MEX,Jalisco,minor,1155790.0,1484198680
+633,Ciudad Nezahualcóyotl,Ciudad Nezahualcoyotl,19.41,-99.03,Mexico,MX,MEX,México,,1109363.0,1484016661
+636,Nezahualcóyotl,Nezahualcoyotl,19.4,-98.9889,Mexico,MX,MEX,México,minor,1110565.0,1484074285
+643,Mexicali,Mexicali,32.6633,-115.4678,Mexico,MX,MEX,Baja California,admin,1102342.0,1484788702
+910,Aguascalientes,Aguascalientes,21.876,-102.296,Mexico,MX,MEX,Aguascalientes,admin,934424.0,1484666646
+936,Mérida,Merida,20.97,-89.62,Mexico,MX,MEX,Yucatán,admin,892363.0,1484396779
+945,Chihuahua,Chihuahua,28.6353,-106.0889,Mexico,MX,MEX,Chihuahua,admin,878062.0,1484335603
+980,Naucalpan de Juárez,Naucalpan de Juarez,19.4753,-99.2378,Mexico,MX,MEX,México,minor,833779.0,1484850125
+989,San Luis Potosí,San Luis Potosi,22.1511,-100.9761,Mexico,MX,MEX,San Luis Potosí,admin,824229.0,1484583620
+992,Toluca,Toluca,19.2925,-99.6569,Mexico,MX,MEX,México,admin,819561.0,1484124846
+994,Querétaro,Queretaro,20.5875,-100.3928,Mexico,MX,MEX,Querétaro,admin,804663.0,1484604775
+997,Hermosillo,Hermosillo,29.0989,-110.9542,Mexico,MX,MEX,Sonora,admin,812229.0,1484015319
+1000,Saltillo,Saltillo,25.4333,-101.0,Mexico,MX,MEX,Coahuila de Zaragoza,admin,807537.0,1484107245
+1015,Morelia,Morelia,19.7683,-101.1894,Mexico,MX,MEX,Michoacán de Ocampo,,784776.0,1484669072
+1020,Culiacán,Culiacan,24.8069,-107.3939,Mexico,MX,MEX,Sinaloa,admin,785800.0,1484516810
+1041,Tlalnepantla,Tlalnepantla,19.5367,-99.1947,Mexico,MX,MEX,México,minor,750224.0,1484861603
+1055,Cancún,Cancun,21.1606,-86.8475,Mexico,MX,MEX,Quintana Roo,minor,743626.0,1484010310
+1057,Tlajomulco de Zúñiga,Tlajomulco de Zuniga,20.4736,-103.4431,Mexico,MX,MEX,Jalisco,minor,727750.0,1484017493
+1077,Reynosa,Reynosa,26.0922,-98.2778,Mexico,MX,MEX,Tamaulipas,minor,725793.0,1484737671
+1110,Guadalupe,Guadalupe,25.6775,-100.2597,Mexico,MX,MEX,Nuevo León,minor,691931.0,1484002410
+1124,Acapulco de Juárez,Acapulco de Juarez,16.8636,-99.8825,Mexico,MX,MEX,Guerrero,minor,687608.0,1484463183
+1133,Torreón,Torreon,25.5394,-103.4486,Mexico,MX,MEX,Coahuila de Zaragoza,minor,679288.0,1484215762
+1162,Durango,Durango,24.0167,-104.6667,Mexico,MX,MEX,Durango,admin,654876.0,1484854616
+1179,Villahermosa,Villahermosa,17.9892,-92.9281,Mexico,MX,MEX,Tabasco,admin,640359.0,1484460894
+1208,Chimalhuacán,Chimalhuacan,19.4167,-98.9,Mexico,MX,MEX,México,minor,614453.0,1484504936
+1249,Tuxtla,Tuxtla,16.7528,-93.1167,Mexico,MX,MEX,Chiapas,admin,598710.0,1484832519
+1279,Tlaquepaque,Tlaquepaque,20.6167,-103.3167,Mexico,MX,MEX,Jalisco,minor,575942.0,1484087945
+1316,Veracruz,Veracruz,19.1903,-96.1533,Mexico,MX,MEX,Veracruz,minor,552156.0,1484992153
+1357,Xalapa,Xalapa,19.54,-96.9275,Mexico,MX,MEX,Veracruz,admin,525147.0,1484334948
+1362,Ensenada,Ensenada,31.8578,-116.6058,Mexico,MX,MEX,Baja California,minor,522768.0,1484714297
+1365,Ciudad Apodaca,Ciudad Apodaca,25.7833,-100.1833,Mexico,MX,MEX,Nuevo León,minor,523370.0,1484855080
+1369,Heroica Matamoros,Heroica Matamoros,25.8797,-97.5042,Mexico,MX,MEX,Tamaulipas,minor,520367.0,1484614906
+1383,Cuautitlán Izcalli,Cuautitlan Izcalli,19.65,-99.25,Mexico,MX,MEX,México,minor,511675.0,1484282338
+1412,Mazatlán,Mazatlan,23.22,-106.42,Mexico,MX,MEX,Sinaloa,minor,502547.0,1484841466
+1418,Mazatán,Mazatan,29.0167,-110.1333,Mexico,MX,MEX,Sonora,minor,500000.0,1484350756
+1431,Ixtapaluca,Ixtapaluca,19.3186,-98.8822,Mexico,MX,MEX,México,minor,495563.0,1484452937
+1438,Ciudad López Mateos,Ciudad Lopez Mateos,19.55,-99.2833,Mexico,MX,MEX,México,minor,489937.0,1484363879
+1440,Tultitlán de Mariano Escobedo,Tultitlan de Mariano Escobedo,19.645,-99.1694,Mexico,MX,MEX,México,minor,486998.0,1484562374
+1459,San Nicolás de los Garza,San Nicolas de los Garza,25.75,-100.2833,Mexico,MX,MEX,Nuevo León,minor,476761.0,1484264138
+1494,Celaya,Celaya,20.5222,-100.8122,Mexico,MX,MEX,Guanajuato,minor,468469.0,1484979555
+1650,Ciudad Obregón,Ciudad Obregon,27.4939,-109.9389,Mexico,MX,MEX,Sonora,minor,405000.0,1484887986
+1708,Tonalá,Tonala,20.6167,-103.2333,Mexico,MX,MEX,Jalisco,minor,374258.0,1484750897
+1728,Irapuato,Irapuato,20.6667,-101.35,Mexico,MX,MEX,Guanajuato,minor,380941.0,1484625454
+1755,Nuevo Laredo,Nuevo Laredo,27.4861,-99.5069,Mexico,MX,MEX,Tamaulipas,minor,373725.0,1484597234
+1769,Cuernavaca,Cuernavaca,18.9186,-99.2342,Mexico,MX,MEX,Morelos,admin,366321.0,1484926471
+1770,Nicolás Romero,Nicolas Romero,19.5833,-99.3667,Mexico,MX,MEX,México,minor,366602.0,1484589606
+1780,Tecámac,Tecamac,19.7131,-98.9683,Mexico,MX,MEX,México,minor,364579.0,1484363321
+1781,Ciudad General Escobedo,Ciudad General Escobedo,25.7933,-100.1583,Mexico,MX,MEX,Nuevo León,minor,363436.0,1484345554
+1807,Minatitlán,Minatitlan,17.9833,-94.55,Mexico,MX,MEX,Veracruz,minor,356020.0,1484735713
+1879,Tepic,Tepic,21.5083,-104.8931,Mexico,MX,MEX,Nayarit,admin,332863.0,1484433877
+1932,Gómez Palacio,Gomez Palacio,25.5611,-103.4983,Mexico,MX,MEX,Durango,minor,327985.0,1484092318
+1968,Uruapan,Uruapan,19.4208,-102.0628,Mexico,MX,MEX,Michoacán de Ocampo,minor,315350.0,1484051478
+1975,Tapachula,Tapachula,14.9,-92.2667,Mexico,MX,MEX,Chiapas,minor,320451.0,1484997178
+1985,Coatzacoalcos,Coatzacoalcos,18.15,-94.4333,Mexico,MX,MEX,Veracruz,minor,319187.0,1484016854
+1988,Tampico,Tampico,22.2553,-97.8686,Mexico,MX,MEX,Tamaulipas,minor,314418.0,1484060031
+2024,Chalco,Chalco,19.2647,-98.8975,Mexico,MX,MEX,México,minor,310130.0,1484834149
+2045,Ciudad Victoria,Ciudad Victoria,23.7333,-99.1333,Mexico,MX,MEX,Tamaulipas,admin,305155.0,1484616519
+2055,Oaxaca,Oaxaca,17.0833,-96.75,Mexico,MX,MEX,Oaxaca,admin,300050.0,1484301467
+2150,Coacalco,Coacalco,19.6333,-99.0931,Mexico,MX,MEX,México,minor,278064.0,1484929782
+2197,Pachuca,Pachuca,20.1,-98.75,Mexico,MX,MEX,Hidalgo,admin,277375.0,1484575026
+2209,Tehuacán,Tehuacan,18.4617,-97.3928,Mexico,MX,MEX,Puebla,minor,274906.0,1484817336
+2257,Salamanca,Salamanca,20.5703,-101.1972,Mexico,MX,MEX,Guanajuato,minor,260759.0,1484741627
+2304,Ciudad Benito Juárez,Ciudad Benito Juarez,25.65,-100.0833,Mexico,MX,MEX,Nuevo León,minor,260683.0,1484140727
+2314,Ciudad Santa Catarina,Ciudad Santa Catarina,25.6833,-100.45,Mexico,MX,MEX,Nuevo León,minor,259896.0,1484858068
+2315,Los Mochis,Los Mochis,25.7835,-108.9937,Mexico,MX,MEX,Sinaloa,minor,256613.0,1484443585
+2317,Texcoco,Texcoco,19.52,-98.88,Mexico,MX,MEX,México,minor,259308.0,1484653265
+2326,Playa del Carmen,Playa del Carmen,20.6275,-87.0811,Mexico,MX,MEX,Quintana Roo,minor,252087.0,1484559458
+2344,La Paz,La Paz,24.1422,-110.3108,Mexico,MX,MEX,Baja California Sur,admin,244219.0,1484005187
+2447,San Juan del Río,San Juan del Rio,20.3833,-99.9833,Mexico,MX,MEX,Querétaro,minor,241699.0,1484890205
+2516,Monclova,Monclova,26.9103,-101.4222,Mexico,MX,MEX,Coahuila de Zaragoza,minor,231107.0,1484281759
+2564,Guadalupe,Guadalupe,22.7528,-102.5078,Mexico,MX,MEX,Zacatecas,minor,215000.0,1484781342
+2568,Puerto Vallarta,Puerto Vallarta,20.6667,-105.2667,Mexico,MX,MEX,Jalisco,minor,221200.0,1484408906
+2577,Buenavista,Buenavista,19.6083,-99.1694,Mexico,MX,MEX,México,,206081.0,1484774061
+2584,Heroica Nogales,Heroica Nogales,31.3186,-110.9458,Mexico,MX,MEX,Sonora,minor,220292.0,1484364591
+2594,Campeche,Campeche,19.85,-90.5306,Mexico,MX,MEX,Campeche,admin,220389.0,1484431512
+2614,Soledad de Graciano Sánchez,Soledad de Graciano Sanchez,22.1833,-100.9333,Mexico,MX,MEX,San Luis Potosí,minor,215968.0,1484610487
+2638,Córdoba,Cordoba,18.8942,-96.9347,Mexico,MX,MEX,Veracruz,minor,218153.0,1484179679
+2639,Ciudad Acuña,Ciudad Acuna,29.3242,-100.9317,Mexico,MX,MEX,Coahuila de Zaragoza,minor,216099.0,1484828397
+2693,Ciudad Madero,Ciudad Madero,22.25,-97.8333,Mexico,MX,MEX,Tamaulipas,minor,209175.0,1484185237
+2708,Metepec,Metepec,19.2511,-99.6047,Mexico,MX,MEX,Morelos,minor,206005.0,1484782768
+2785,Poza Rica de Hidalgo,Poza Rica de Hidalgo,20.5333,-97.45,Mexico,MX,MEX,Veracruz,minor,200119.0,1484808798
+2810,San Pablo de las Salinas,San Pablo de las Salinas,19.6656,-99.0917,Mexico,MX,MEX,México,,189453.0,1484379698
+2847,Chilpancingo,Chilpancingo,17.55,-99.5,Mexico,MX,MEX,Guerrero,admin,187251.0,1484290575
+2880,San Luis Río Colorado,San Luis Rio Colorado,32.4767,-114.7625,Mexico,MX,MEX,Sonora,minor,192739.0,1484573106
+2890,Cholula de Rivadabia,Cholula de Rivadabia,19.0633,-98.3064,Mexico,MX,MEX,Puebla,,193554.0,1484237822
+2997,Manzanillo,Manzanillo,19.0522,-104.3158,Mexico,MX,MEX,Colima,minor,184541.0,1484223913
+3088,Chicoloapan,Chicoloapan,19.4167,-98.9,Mexico,MX,MEX,México,minor,175053.0,1484980825
+3098,Ciudad Valles,Ciudad Valles,21.9833,-99.0167,Mexico,MX,MEX,San Luis Potosí,minor,176935.0,1484904610
+3110,Cuautla,Cuautla,18.8167,-98.95,Mexico,MX,MEX,Morelos,minor,175208.0,1484359683
+3116,Ciudad del Carmen,Ciudad del Carmen,18.6333,-91.8333,Mexico,MX,MEX,Campeche,minor,169466.0,1484192447
+3137,Comitán,Comitan,16.2511,-92.1342,Mexico,MX,MEX,Chiapas,minor,170000.0,1484955658
+3148,Lagos de Moreno,Lagos de Moreno,21.3564,-101.9292,Mexico,MX,MEX,Jalisco,minor,164981.0,1484759605
+3182,Guanajuato,Guanajuato,21.0178,-101.2567,Mexico,MX,MEX,Guanajuato,admin,171709.0,1484185068
+3191,Cuauhtémoc,Cuauhtemoc,28.405,-106.8667,Mexico,MX,MEX,Chihuahua,minor,168482.0,1484365643
+3294,Piedras Negras,Piedras Negras,28.7,-100.5231,Mexico,MX,MEX,Coahuila de Zaragoza,minor,163595.0,1484000400
+3319,San Martin Texmelucan de Labastida,San Martin Texmelucan de Labastida,19.2833,-98.4333,Mexico,MX,MEX,Puebla,minor,152051.0,1484481265
+3387,San Cristóbal,San Cristobal,16.7367,-92.6383,Mexico,MX,MEX,Chiapas,minor,158027.0,1484451215
+3401,Navojoa,Navojoa,27.0813,-109.4461,Mexico,MX,MEX,Sonora,minor,157729.0,1484166303
+3412,Jiutepec,Jiutepec,18.8833,-99.1667,Mexico,MX,MEX,Morelos,minor,153704.0,1484001709
+3419,Chetumal,Chetumal,18.5036,-88.3053,Mexico,MX,MEX,Quintana Roo,admin,151243.0,1484338031
+3461,Silao,Silao,20.9478,-101.4281,Mexico,MX,MEX,Guanajuato,minor,147123.0,1484276023
+3494,Papantla de Olarte,Papantla de Olarte,20.4478,-97.32,Mexico,MX,MEX,Veracruz,minor,152863.0,1484844355
+3509,Tulancingo,Tulancingo,20.0833,-98.3667,Mexico,MX,MEX,Hidalgo,minor,151582.0,1484419416
+3535,Zamora,Zamora,19.9833,-102.2833,Mexico,MX,MEX,Michoacán de Ocampo,,141627.0,1484229977
+3568,Delicias,Delicias,28.1931,-105.4717,Mexico,MX,MEX,Chihuahua,minor,148045.0,1484405772
+3577,Kanasín,Kanasin,20.9344,-89.5578,Mexico,MX,MEX,Yucatán,minor,139753.0,1484390572
+3588,Dolores Hidalgo Cuna de la Independencia Nacional,Dolores Hidalgo Cuna de la Independencia Nacional,21.1516,-100.9369,Mexico,MX,MEX,Guanajuato,minor,148173.0,1484115665
+3632,García,Garcia,25.8167,-100.5833,Mexico,MX,MEX,Nuevo León,minor,145867.0,1484753599
+3662,Tuxtepec,Tuxtepec,18.1,-96.1167,Mexico,MX,MEX,Oaxaca,,144555.0,1484448356
+3681,Túxpam de Rodríguez Cano,Tuxpam de Rodriguez Cano,20.95,-97.4,Mexico,MX,MEX,Veracruz,minor,143362.0,1484316468
+3721,Colima,Colima,19.2433,-103.7247,Mexico,MX,MEX,Colima,admin,137383.0,1484585697
+3726,Tepatitlán de Morelos,Tepatitlan de Morelos,20.817,-102.733,Mexico,MX,MEX,Jalisco,minor,141322.0,1484777621
+3729,Valle de Santiago,Valle de Santiago,20.3928,-101.1969,Mexico,MX,MEX,Guanajuato,minor,141058.0,1484060538
+3769,San Miguel de Allende,San Miguel de Allende,20.9142,-100.7436,Mexico,MX,MEX,Guanajuato,minor,139297.0,1484007926
+3777,Zacatecas,Zacatecas,22.7736,-102.5736,Mexico,MX,MEX,Zacatecas,admin,138152.0,1484118312
+3790,Boca del Rio,Boca del Rio,19.1056,-96.1078,Mexico,MX,MEX,Veracruz,minor,138058.0,1484658980
+3815,Santa María Texmelucan,Santa Maria Texmelucan,19.2833,-98.4333,Mexico,MX,MEX,Puebla,,135500.0,1484127851
+3838,Zinacantepec,Zinacantepec,19.2833,-99.7333,Mexico,MX,MEX,México,minor,136167.0,1484976252
+3883,Heroica Guaymas,Heroica Guaymas,27.9183,-110.8989,Mexico,MX,MEX,Sonora,minor,134153.0,1484689704
+3885,Apatzingan de la Constitucion,Apatzingan de la Constitucion,19.0886,-102.3508,Mexico,MX,MEX,Michoacán de Ocampo,,128250.0,1484693242
+4059,Miramar,Miramar,22.3375,-97.8694,Mexico,MX,MEX,Tamaulipas,,118614.0,1484353090
+4060,Ixtlahuaca,Ixtlahuaca,19.5689,-99.7669,Mexico,MX,MEX,México,minor,126505.0,1484837068
+4103,Orizaba,Orizaba,18.85,-97.1,Mexico,MX,MEX,Veracruz,minor,117273.0,1484766767
+4104,Ciudad de Atlixco,Ciudad de Atlixco,18.9,-98.45,Mexico,MX,MEX,Puebla,minor,125000.0,1484268457
+4145,San Pedro Garza García,San Pedro Garza Garcia,25.6667,-100.3,Mexico,MX,MEX,Nuevo León,minor,122009.0,1484228590
+4151,Villa de Álvarez,Villa de Alvarez,19.25,-103.7333,Mexico,MX,MEX,Colima,minor,117600.0,1484653806
+4175,Ciudad Hidalgo,Ciudad Hidalgo,19.6923,-100.5574,Mexico,MX,MEX,Michoacán de Ocampo,minor,122619.0,1484580926
+4223,Chilapa de Álvarez,Chilapa de Alvarez,17.5944,-99.1778,Mexico,MX,MEX,Guerrero,minor,120790.0,1484562441
+4301,Cuautitlán,Cuautitlan,19.6833,-99.1833,Mexico,MX,MEX,México,minor,110385.0,1484256075
+4304,Martínez de la Torre,Martinez de la Torre,20.0667,-97.05,Mexico,MX,MEX,Veracruz,minor,110415.0,1484150240
+4306,Tecomán,Tecoman,18.9089,-103.8747,Mexico,MX,MEX,Colima,minor,112726.0,1484348795
+4342,Temixco,Temixco,18.85,-99.2333,Mexico,MX,MEX,Morelos,minor,116143.0,1484273506
+4373,San Antonio Enchisi,San Antonio Enchisi,19.7072,-99.7867,Mexico,MX,MEX,México,,110560.0,1484770456
+4381,Parral,Parral,26.9333,-105.6667,Mexico,MX,MEX,Chihuahua,minor,109510.0,1484607603
+4384,Huejutla de Reyes,Huejutla de Reyes,21.1333,-98.4167,Mexico,MX,MEX,Hidalgo,,115786.0,1484746079
+4416,Las Delicias,Las Delicias,28.2,-105.5,Mexico,MX,MEX,Chihuahua,,114783.0,1484513329
+4442,San Francisco del Rincón,San Francisco del Rincon,21.0228,-101.86,Mexico,MX,MEX,Guanajuato,minor,113570.0,1484674455
+4508,Ciudad Mante,Ciudad Mante,22.7333,-98.95,Mexico,MX,MEX,Tamaulipas,minor,112061.0,1484536173
+4520,Escuintla,Escuintla,15.3194,-92.6583,Mexico,MX,MEX,Chiapas,minor,107638.0,1484508510
+4558,Fresnillo,Fresnillo,23.175,-102.8675,Mexico,MX,MEX,Zacatecas,minor,110892.0,1484014035
+4573,Iguala de la Independencia,Iguala de la Independencia,18.35,-99.5333,Mexico,MX,MEX,Guerrero,minor,110390.0,1484280781
+4644,Huauchinango,Huauchinango,20.1767,-98.0528,Mexico,MX,MEX,Puebla,minor,97753.0,1484856743
+4693,La Piedad,La Piedad,20.3333,-102.0167,Mexico,MX,MEX,Michoacán de Ocampo,minor,99837.0,1484779296
+4706,San Felipe,San Felipe,21.4833,-101.2167,Mexico,MX,MEX,Guanajuato,minor,106952.0,1484279509
+4752,Lerma,Lerma,19.2847,-99.5119,Mexico,MX,MEX,México,minor,105578.0,1484402392
+4753,Ciudad Río Bravo,Ciudad Rio Bravo,25.9861,-98.0889,Mexico,MX,MEX,Tamaulipas,minor,101481.0,1484549731
+4786,Zihuatanejo,Zihuatanejo,17.6444,-101.5511,Mexico,MX,MEX,Guerrero,minor,104609.0,1484489217
+4803,Tula de Allende,Tula de Allende,20.05,-99.35,Mexico,MX,MEX,Hidalgo,,103919.0,1484845374
+4879,San Felipe del Progreso,San Felipe del Progreso,19.7125,-99.9511,Mexico,MX,MEX,México,minor,100201.0,1484781559
+4884,Coatepec,Coatepec,19.4553,-96.9586,Mexico,MX,MEX,Veracruz,minor,92127.0,1484934939
+4895,Tizayuca,Tizayuca,19.8333,-98.9833,Mexico,MX,MEX,Morelos,minor,100563.0,1484244950
+4909,San Luis de la Paz,San Luis de la Paz,21.3,-100.5167,Mexico,MX,MEX,Guanajuato,minor,101370.0,1484137795
+4924,Jilotepec,Jilotepec,19.9519,-99.5328,Mexico,MX,MEX,México,minor,100808.0,1484789785
+4984,Tenancingo,Tenancingo,18.9608,-99.5906,Mexico,MX,MEX,México,minor,90946.0,1484006247
+5033,Tultepec,Tultepec,19.685,-99.1281,Mexico,MX,MEX,México,minor,91808.0,1484818856
+5038,Ciudad Lázaro Cárdenas,Ciudad Lazaro Cardenas,17.9561,-102.1922,Mexico,MX,MEX,Michoacán de Ocampo,,79200.0,1484804575
+5078,Cadereyta Jiménez,Cadereyta Jimenez,25.6,-100.0,Mexico,MX,MEX,Nuevo León,minor,86445.0,1484839099
+5090,Acayucan,Acayucan,17.9422,-94.9103,Mexico,MX,MEX,Veracruz,minor,83817.0,1484349924
+5110,Apizaco,Apizaco,19.4167,-98.1333,Mexico,MX,MEX,Tlaxcala,minor,81565.0,1484021647
+5113,Tala,Tala,20.6525,-103.7028,Mexico,MX,MEX,Jalisco,minor,80365.0,1484003075
+5115,Fuentes del Valle,Fuentes del Valle,19.6325,-99.1386,Mexico,MX,MEX,México,,74087.0,1484020604
+5124,Salina Cruz,Salina Cruz,16.1671,-95.2,Mexico,MX,MEX,Oaxaca,,81063.0,1484364230
+5127,Jalpa de Méndez,Jalpa de Mendez,18.1764,-93.0631,Mexico,MX,MEX,Tabasco,minor,83356.0,1484768624
+5133,Nacajuca,Nacajuca,18.1692,-93.0197,Mexico,MX,MEX,Tabasco,minor,83356.0,1484698021
+5134,Cárdenas,Cardenas,17.983,-93.367,Mexico,MX,MEX,Tabasco,minor,79875.0,1484824578
+5151,Ciudad Lerdo,Ciudad Lerdo,25.55,-103.5167,Mexico,MX,MEX,Durango,minor,79669.0,1484980436
+5163,Tacámbaro de Codallos,Tacambaro de Codallos,19.2356,-101.4569,Mexico,MX,MEX,Michoacán de Ocampo,minor,76661.0,1484508699
+5165,Cunduacán,Cunduacan,18.0667,-93.1667,Mexico,MX,MEX,Tabasco,minor,81392.0,1484076708
+5172,Cozumel,Cozumel,20.5104,-86.9493,Mexico,MX,MEX,Quintana Roo,minor,77236.0,1484935305
+5177,Cabo San Lucas,Cabo San Lucas,22.8897,-109.9156,Mexico,MX,MEX,Baja California Sur,,81111.0,1484694325
+5205,Zacatlán,Zacatlan,19.9319,-97.96,Mexico,MX,MEX,Puebla,minor,76296.0,1484132726
+5225,Juchitán de Zaragoza,Juchitan de Zaragoza,16.4333,-95.0194,Mexico,MX,MEX,Oaxaca,minor,74825.0,1484386317
+5265,Tejupilco,Tejupilco,18.9058,-100.1528,Mexico,MX,MEX,México,minor,71077.0,1484506998
+5307,Tamazunchale,Tamazunchale,21.2667,-98.7833,Mexico,MX,MEX,San Luis Potosí,minor,72685.0,1484802864
+5314,Jacona de Plancarte,Jacona de Plancarte,19.95,-102.3167,Mexico,MX,MEX,México,,69744.0,1484202328
+5325,Guamúchil,Guamuchil,25.4639,-108.0794,Mexico,MX,MEX,Sinaloa,minor,72500.0,1484709566
+5336,Guasave,Guasave,25.5744,-108.4706,Mexico,MX,MEX,Sinaloa,minor,71196.0,1484450749
+5346,Rioverde,Rioverde,21.93,-99.98,Mexico,MX,MEX,San Luis Potosí,minor,69613.0,1484341437
+5352,Matehuala,Matehuala,23.6528,-100.6444,Mexico,MX,MEX,San Luis Potosí,minor,67717.0,1484682498
+5376,Frontera,Frontera,26.926,-101.449,Mexico,MX,MEX,Coahuila de Zaragoza,minor,70160.0,1484811972
+5428,Misantla,Misantla,19.9333,-96.85,Mexico,MX,MEX,Veracruz,minor,64249.0,1484744150
+5434,Valle Hermoso,Valle Hermoso,25.6736,-97.8144,Mexico,MX,MEX,Tamaulipas,minor,68573.0,1484479299
+5435,Jiquílpan de Juárez,Jiquilpan de Juarez,19.9942,-102.7172,Mexico,MX,MEX,México,minor,65000.0,1484915765
+5447,Colonia del Sol,Colonia del Sol,22.9125,-109.9208,Mexico,MX,MEX,Baja California Sur,,64055.0,1484445555
+5466,Huatusco,Huatusco,19.1489,-96.9661,Mexico,MX,MEX,Veracruz,minor,60674.0,1484463389
+5504,Tecate,Tecate,32.5667,-116.6331,Mexico,MX,MEX,Baja California,minor,64764.0,1484547809
+5515,Valle de Bravo,Valle de Bravo,19.1925,-100.1306,Mexico,MX,MEX,México,minor,61559.0,1484105173
+5517,Amozoc,Amozoc,19.0333,-98.05,Mexico,MX,MEX,Puebla,minor,60517.0,1484015487
+5521,Linares,Linares,24.8597,-99.5679,Mexico,MX,MEX,Nuevo León,minor,63104.0,1484504671
+5526,Sabinas,Sabinas,27.86,-101.12,Mexico,MX,MEX,Coahuila de Zaragoza,minor,63522.0,1484526560
+5528,Teoloyucan,Teoloyucan,19.7442,-99.1811,Mexico,MX,MEX,México,minor,63115.0,1484003827
+5543,Acámbaro,Acambaro,20.0361,-100.7314,Mexico,MX,MEX,Guanajuato,minor,57972.0,1484524073
+5562,Altamira,Altamira,22.3375,-97.8694,Mexico,MX,MEX,Tamaulipas,minor,59536.0,1484764524
+5565,Cortazar,Cortazar,20.483,-100.933,Mexico,MX,MEX,Guanajuato,minor,57748.0,1484238779
+5584,Cosamaloapan,Cosamaloapan,18.3667,-95.8,Mexico,MX,MEX,Veracruz,minor,57147.0,1484307969
+5594,Sombrerete,Sombrerete,23.6333,-103.6397,Mexico,MX,MEX,Zacatecas,minor,58201.0,1484007324
+5690,San Pedro,San Pedro,25.7589,-102.9844,Mexico,MX,MEX,Coahuila de Zaragoza,minor,53688.0,1484673086
+5696,Temascalcingo,Temascalcingo,19.9147,-100.0036,Mexico,MX,MEX,México,minor,58169.0,1484038182
+5704,Tezonapa,Tezonapa,18.6058,-96.6875,Mexico,MX,MEX,Veracruz,minor,56956.0,1484617215
+5706,Etchojoa,Etchojoa,26.8667,-109.65,Mexico,MX,MEX,Sonora,minor,56129.0,1484867357
+5711,Romita,Romita,20.8708,-101.5169,Mexico,MX,MEX,Guanajuato,minor,51825.0,1484697777
+5716,San José Iturbide,San Jose Iturbide,21.0,-100.3833,Mexico,MX,MEX,Guanajuato,minor,54661.0,1484954448
+5724,Actopan,Actopan,20.267,-98.933,Mexico,MX,MEX,Hidalgo,,56429.0,1484903562
+5735,San Buenaventura,San Buenaventura,19.2641,-99.6746,Mexico,MX,MEX,México,,48037.0,1484313229
+5763,Huamantla,Huamantla,19.3133,-97.9228,Mexico,MX,MEX,Tlaxcala,minor,51996.0,1484180362
+5781,Nuevo Casas Grandes,Nuevo Casas Grandes,30.4167,-107.9167,Mexico,MX,MEX,Chihuahua,minor,55553.0,1484004002
+5785,Zumpango,Zumpango,19.7969,-99.0992,Mexico,MX,MEX,México,minor,50742.0,1484625824
+5798,Acatzingo,Acatzingo,18.9817,-97.7822,Mexico,MX,MEX,Puebla,minor,52078.0,1484022961
+5837,Matamoros,Matamoros,25.533,-103.25,Mexico,MX,MEX,Coahuila de Zaragoza,minor,48511.0,1484930279
+5842,Francisco I. Madero,Francisco I. Madero,25.7753,-103.2731,Mexico,MX,MEX,Coahuila de Zaragoza,minor,50084.0,1484764993
+5851,Villagrán,Villagran,20.517,-100.983,Mexico,MX,MEX,Guanajuato,minor,45941.0,1484237393
+5859,Chiapa de Corzo,Chiapa de Corzo,16.7083,-93.0169,Mexico,MX,MEX,Chiapas,minor,45077.0,1484314420
+5897,Santiago Teyahualco,Santiago Teyahualco,19.6667,-99.1333,Mexico,MX,MEX,México,,47547.0,1484381311
+5917,Valladolid,Valladolid,20.6894,-88.2017,Mexico,MX,MEX,Yucatán,,48973.0,1484332013
+5940,Ocosingo,Ocosingo,16.9072,-92.0961,Mexico,MX,MEX,Chiapas,minor,41878.0,1484937914
+5943,Ramos Arizpe,Ramos Arizpe,25.55,-100.9667,Mexico,MX,MEX,Coahuila de Zaragoza,minor,48228.0,1484685820
+5956,Tizimín,Tizimin,21.1425,-88.1647,Mexico,MX,MEX,Yucatán,minor,46971.0,1484254957
+5965,Cuetzalan,Cuetzalan,20.0333,-97.5167,Mexico,MX,MEX,Puebla,minor,47983.0,1484831454
+5966,Loreto,Loreto,22.2667,-101.9833,Mexico,MX,MEX,Zacatecas,minor,43411.0,1484384276
+6003,Tlalmanalco,Tlalmanalco,19.2044,-98.8025,Mexico,MX,MEX,México,minor,46130.0,1484054902
+6047,Moroleón,Moroleon,20.1333,-101.2,Mexico,MX,MEX,Guanajuato,minor,41909.0,1484802402
+6056,Tlapa de Comonfort,Tlapa de Comonfort,17.5461,-98.5764,Mexico,MX,MEX,Guerrero,minor,37975.0,1484110723
+6062,Puerto Escondido,Puerto Escondido,15.8619,-97.0672,Mexico,MX,MEX,Oaxaca,,45000.0,1484644846
+6074,Parras de la Fuente,Parras de la Fuente,25.4403,-102.1792,Mexico,MX,MEX,Coahuila de Zaragoza,minor,45423.0,1484273682
+6075,Emiliano Zapata,Emiliano Zapata,18.8667,-99.15,Mexico,MX,MEX,Morelos,minor,39702.0,1484666092
+6099,Empalme,Empalme,27.9617,-110.8125,Mexico,MX,MEX,Sonora,minor,42516.0,1484366250
+6110,Villa de Zaachila,Villa de Zaachila,16.9508,-96.7492,Mexico,MX,MEX,Oaxaca,minor,43279.0,1484472329
+6122,Izúcar de Matamoros,Izucar de Matamoros,18.6,-98.4667,Mexico,MX,MEX,Puebla,minor,41042.0,1484858520
+6167,Jáltipan de Morelos,Jaltipan de Morelos,17.9703,-94.7144,Mexico,MX,MEX,Veracruz,minor,41644.0,1484054405
+6177,Coyotepec,Coyotepec,19.7756,-99.2056,Mexico,MX,MEX,Morelos,minor,41810.0,1484352296
+6219,Paracho de Verduzco,Paracho de Verduzco,19.65,-102.0667,Mexico,MX,MEX,Michoacán de Ocampo,,37464.0,1484536308
+6225,Playa Vicente,Playa Vicente,17.8333,-95.8167,Mexico,MX,MEX,Veracruz,minor,39205.0,1484068720
+6228,Uman,Uman,20.8833,-89.75,Mexico,MX,MEX,Yucatán,,39611.0,1484009408
+6232,San Diego de la Unión,San Diego de la Union,21.4656,-100.8736,Mexico,MX,MEX,Guanajuato,minor,39663.0,1484000829
+6255,Perote,Perote,19.562,-97.242,Mexico,MX,MEX,Veracruz,minor,37516.0,1484668149
+6260,Juan Rodríguez Clara,Juan Rodriguez Clara,18.0,-95.4,Mexico,MX,MEX,Veracruz,minor,38895.0,1484000401
+6276,La Barca,La Barca,20.2903,-102.5456,Mexico,MX,MEX,Jalisco,minor,35345.0,1484900173
+6292,Tonalá,Tonala,16.0894,-93.7514,Mexico,MX,MEX,Chiapas,minor,35322.0,1484944309
+6312,Xico,Xico,19.417,-97.0,Mexico,MX,MEX,Veracruz,minor,38198.0,1484011085
+6316,Nueva Rosita,Nueva Rosita,27.939,-101.218,Mexico,MX,MEX,Coahuila de Zaragoza,,36642.0,1484540557
+6325,Salvatierra,Salvatierra,20.2156,-100.8961,Mexico,MX,MEX,Guanajuato,minor,34066.0,1484878589
+6328,Zacatelco,Zacatelco,19.2167,-98.2333,Mexico,MX,MEX,Tlaxcala,minor,38466.0,1484460521
+6355,Sayula de Alemán,Sayula de Aleman,17.8833,-94.95,Mexico,MX,MEX,Veracruz,minor,32721.0,1484073387
+6369,Mariano Escobedo,Mariano Escobedo,18.9167,-97.1333,Mexico,MX,MEX,Veracruz,minor,37285.0,1484215926
+6420,Pánuco,Panuco,22.05,-98.1833,Mexico,MX,MEX,Veracruz,minor,33122.0,1484059135
+6421,Nueva Italia de Ruiz,Nueva Italia de Ruiz,19.0194,-102.1089,Mexico,MX,MEX,Michoacán de Ocampo,,32467.0,1484876293
+6435,Miahuatlán de Porfirio Díaz,Miahuatlan de Porfirio Diaz,16.3283,-96.5961,Mexico,MX,MEX,Oaxaca,minor,35517.0,1484776246
+6446,Zinacantán,Zinacantan,16.7597,-92.7222,Mexico,MX,MEX,Chiapas,minor,36489.0,1484308293
+6467,Jiménez,Jimenez,27.13,-104.9067,Mexico,MX,MEX,Chihuahua,minor,34281.0,1484452730
+6468,Tuxpan,Tuxpan,21.8667,-105.45,Mexico,MX,MEX,Nayarit,minor,34079.0,1484274950
+6475,Macuspana,Macuspana,17.7667,-92.6,Mexico,MX,MEX,Tabasco,minor,30661.0,1484086926
+6481,Tomatlán,Tomatlan,19.9333,-105.2333,Mexico,MX,MEX,Jalisco,minor,35824.0,1484507470
+6498,Escuinapa,Escuinapa,22.9822,-105.7031,Mexico,MX,MEX,Sinaloa,minor,30790.0,1484295544
+6511,Nanchital de Lázaro Cárdenas del Río,Nanchital de Lazaro Cardenas del Rio,18.0667,-94.4167,Mexico,MX,MEX,Veracruz,minor,30039.0,1484990539
+6514,Soteapan,Soteapan,18.2333,-94.8667,Mexico,MX,MEX,Veracruz,minor,35155.0,1484716801
+6515,Santa María Atzompa,Santa Maria Atzompa,17.0794,-96.7869,Mexico,MX,MEX,Oaxaca,,34115.0,1484411990
+6526,Tenosique,Tenosique,17.4756,-91.4225,Mexico,MX,MEX,Tabasco,minor,31392.0,1484303350
+6528,Putla Villa de Guerrero,Putla Villa de Guerrero,17.0321,-97.9293,Mexico,MX,MEX,Oaxaca,minor,32640.0,1484503444
+6532,Santa Isabel,Santa Isabel,32.6314,-115.5756,Mexico,MX,MEX,Baja California,,33604.0,1484050315
+6539,Ticul,Ticul,20.3953,-89.5339,Mexico,MX,MEX,Yucatán,,32796.0,1484056090
+6541,Calpulalpan,Calpulalpan,19.5869,-98.5683,Mexico,MX,MEX,Hidalgo,minor,33263.0,1484814346
+6549,Paso de Ovejas,Paso de Ovejas,19.285,-96.44,Mexico,MX,MEX,Veracruz,minor,33392.0,1484005936
+6552,Abasolo,Abasolo,20.4511,-101.5289,Mexico,MX,MEX,Guanajuato,minor,27389.0,1484064616
+6553,Paso del Macho,Paso del Macho,18.9667,-96.7167,Mexico,MX,MEX,Veracruz,minor,31890.0,1484203573
+6565,Amecameca de Juárez,Amecameca de Juarez,19.1238,-98.7665,Mexico,MX,MEX,México,minor,31687.0,1484353804
+6570,Ometepec,Ometepec,16.6833,-98.4167,Mexico,MX,MEX,Guerrero,minor,30271.0,1484936909
+6582,San Juan Evangelista,San Juan Evangelista,17.8833,-95.1333,Mexico,MX,MEX,Veracruz,minor,33929.0,1484667360
+6604,Ixtapan de la Sal,Ixtapan de la Sal,18.8333,-99.6833,Mexico,MX,MEX,México,minor,30073.0,1484821151
+6606,Tancítaro,Tancitaro,19.3378,-102.363,Mexico,MX,MEX,Michoacán de Ocampo,,31100.0,1484944433
+6617,Villanueva,Villanueva,22.3536,-102.8831,Mexico,MX,MEX,Zacatecas,minor,32835.0,1484244113
+6619,Champotón,Champoton,19.35,-90.7167,Mexico,MX,MEX,Campeche,minor,30881.0,1484959684
+6639,Catemaco,Catemaco,18.4167,-95.1167,Mexico,MX,MEX,Veracruz,minor,27615.0,1484469922
+6650,San Salvador El Seco,San Salvador El Seco,19.1333,-97.65,Mexico,MX,MEX,Puebla,,30303.0,1484262709
+6658,Ciudad Sabinas Hidalgo,Ciudad Sabinas Hidalgo,26.5,-100.1833,Mexico,MX,MEX,Nuevo León,minor,32047.0,1484159329
+6668,Huatabampo,Huatabampo,26.8304,-109.63,Mexico,MX,MEX,Sonora,minor,30426.0,1484335657
+6670,Escárcega,Escarcega,18.6067,-90.7344,Mexico,MX,MEX,Campeche,minor,29477.0,1484800970
+6676,Cananea,Cananea,30.9819,-110.3006,Mexico,MX,MEX,Sonora,minor,31560.0,1484752107
+6704,Ciudad Sahagun,Ciudad Sahagun,19.7714,-98.5803,Mexico,MX,MEX,Hidalgo,,28609.0,1484112463
+6732,Rincón de Romos,Rincon de Romos,22.2333,-102.3167,Mexico,MX,MEX,Aguascalientes,minor,27988.0,1484371427
+6742,Zumpango del Río,Zumpango del Rio,17.65,-99.5,Mexico,MX,MEX,Guerrero,minor,24719.0,1484750477
+6759,Soledad de Doblado,Soledad de Doblado,19.0447,-96.4233,Mexico,MX,MEX,Veracruz,minor,27770.0,1484007805
+6772,Otumba,Otumba,19.6969,-98.7547,Mexico,MX,MEX,México,minor,29873.0,1484001484
+6788,Álamo,Alamo,20.9167,-97.675,Mexico,MX,MEX,Veracruz,minor,25159.0,1484161565
+6800,Cuitzeo del Porvenir,Cuitzeo del Porvenir,19.9686,-101.1394,Mexico,MX,MEX,Michoacán de Ocampo,minor,28227.0,1484718007
+6802,Navolato,Navolato,24.7656,-107.7019,Mexico,MX,MEX,Sinaloa,minor,28676.0,1484515879
+6807,El Salto,El Salto,23.7823,-105.3585,Mexico,MX,MEX,Durango,minor,24241.0,1484463833
+6826,San Fernando,San Fernando,24.8504,-98.16,Mexico,MX,MEX,Tamaulipas,minor,29171.0,1484830415
+6830,Contla,Contla,19.3333,-98.1667,Mexico,MX,MEX,Tlaxcala,minor,27610.0,1484059318
+6854,Tuxpan,Tuxpan,19.5661,-100.4625,Mexico,MX,MEX,Michoacán de Ocampo,minor,27371.0,1484359180
+6876,Xalisco,Xalisco,21.4481,-104.9,Mexico,MX,MEX,Nayarit,minor,21899.0,1484321343
+6899,Jamay,Jamay,20.2944,-102.7097,Mexico,MX,MEX,Jalisco,minor,24753.0,1484510036
+6912,Los Reyes de Juárez,Los Reyes de Juarez,18.9267,-97.7983,Mexico,MX,MEX,Puebla,minor,27454.0,1484937929
+6914,Ojinaga,Ojinaga,29.5644,-104.4164,Mexico,MX,MEX,Chihuahua,minor,28040.0,1484761843
+6948,Frontera,Frontera,18.5336,-92.6469,Mexico,MX,MEX,Tabasco,minor,22795.0,1484000527
+6958,Nogales,Nogales,18.8167,-97.1667,Mexico,MX,MEX,Veracruz,minor,21113.0,1484829832
+6960,Venustiano Carranza,Venustiano Carranza,20.1158,-102.6542,Mexico,MX,MEX,Michoacán de Ocampo,minor,24708.0,1484358550
+6968,Ixhuatlancillo,Ixhuatlancillo,18.9,-97.15,Mexico,MX,MEX,Veracruz,minor,24896.0,1484287458
+6976,Tulum,Tulum,20.2119,-87.4658,Mexico,MX,MEX,Quintana Roo,minor,18233.0,1484002889
+6982,Paracuaro,Paracuaro,19.1464,-102.2194,Mexico,MX,MEX,Michoacán de Ocampo,,26789.0,1484022148
+6988,Miahuatlán,Miahuatlan,18.5667,-97.4333,Mexico,MX,MEX,Puebla,minor,25228.0,1484649521
+6996,Hunucmá,Hunucma,21.0153,-89.8744,Mexico,MX,MEX,Yucatán,minor,24910.0,1484800428
+7008,Rafael Delgado,Rafael Delgado,18.8167,-97.0667,Mexico,MX,MEX,Veracruz,minor,23112.0,1484016423
+7033,Tixtla de Guerrero,Tixtla de Guerrero,17.5667,-99.4,Mexico,MX,MEX,Guerrero,minor,21720.0,1484176714
+7043,Aldama,Aldama,28.8386,-105.9111,Mexico,MX,MEX,Chihuahua,minor,24761.0,1484197521
+7044,Altepexi,Altepexi,18.3676,-97.3004,Mexico,MX,MEX,Puebla,minor,21100.0,1484498863
+7052,Ocatlán,Ocatlan,19.3167,-98.2283,Mexico,MX,MEX,Tlaxcala,,22082.0,1484715262
+7070,Tantoyuca,Tantoyuca,21.35,-98.2333,Mexico,MX,MEX,Veracruz,minor,23893.0,1484205572
+7078,Ciudad Altamirano,Ciudad Altamirano,18.3583,-100.6667,Mexico,MX,MEX,Guerrero,minor,24533.0,1484274706
+7082,Magdalena de Kino,Magdalena de Kino,30.6167,-111.05,Mexico,MX,MEX,Sonora,minor,23359.0,1484799240
+7096,Cerro Azul,Cerro Azul,21.2,-97.7331,Mexico,MX,MEX,Veracruz,minor,23573.0,1484720981
+7102,Xoxocotla,Xoxocotla,18.685,-99.2439,Mexico,MX,MEX,Morelos,,21074.0,1484012470
+7114,Chapala,Chapala,20.2933,-103.1897,Mexico,MX,MEX,Jalisco,minor,21596.0,1484011650
+7120,Atlatlahucan,Atlatlahucan,18.935,-98.9,Mexico,MX,MEX,Morelos,minor,22079.0,1484784884
+7128,Carlos A. Carrillo,Carlos A. Carrillo,18.3667,-95.75,Mexico,MX,MEX,Veracruz,minor,24565.0,1484904757
+7129,Meoqui,Meoqui,28.2722,-105.4819,Mexico,MX,MEX,Chihuahua,minor,22574.0,1484867296
+7133,Cherán,Cheran,19.6833,-101.95,Mexico,MX,MEX,Michoacán de Ocampo,minor,19081.0,1484573730
+7134,Ocampo,Ocampo,21.65,-101.5,Mexico,MX,MEX,Guanajuato,minor,23500.0,1484510581
+7144,Cazones de Herrera,Cazones de Herrera,20.7,-97.3,Mexico,MX,MEX,Veracruz,minor,23675.0,1484665627
+7164,Oxkutzkab,Oxkutzkab,20.3028,-89.4183,Mexico,MX,MEX,Yucatán,,23096.0,1484480343
+7166,Texistepec,Texistepec,17.9,-94.8167,Mexico,MX,MEX,Veracruz,minor,20887.0,1484059063
+7169,Malinalco,Malinalco,18.9483,-99.4947,Mexico,MX,MEX,México,minor,22970.0,1484454332
+7176,Heroica Ciudad de Tlaxiaco,Heroica Ciudad de Tlaxiaco,17.2077,-97.6798,Mexico,MX,MEX,Oaxaca,minor,21391.0,1484201826
+7180,Castaños,Castanos,26.7833,-101.4167,Mexico,MX,MEX,Coahuila de Zaragoza,minor,22401.0,1484472740
+7192,Atoyac de Álvarez,Atoyac de Alvarez,17.2,-100.4333,Mexico,MX,MEX,Guerrero,minor,20515.0,1484657833
+7197,San Juan Zitlaltepec,San Juan Zitlaltepec,19.7167,-99.05,Mexico,MX,MEX,Morelos,,19600.0,1484882196
+7248,Santiago Ixcuintla,Santiago Ixcuintla,21.811,-105.2079,Mexico,MX,MEX,Nayarit,minor,18365.0,1484248235
+7257,Chocamán,Chocaman,19.0167,-97.0333,Mexico,MX,MEX,Veracruz,minor,21102.0,1484659925
+7261,Tlacolula de Matamoros,Tlacolula de Matamoros,16.9542,-96.4792,Mexico,MX,MEX,Oaxaca,minor,22545.0,1484076523
+7267,Tequixquiac,Tequixquiac,19.9097,-99.1417,Mexico,MX,MEX,Morelos,minor,22676.0,1484908675
+7275,Reyes Acozac,Reyes Acozac,19.7667,-98.9833,Mexico,MX,MEX,Morelos,,20478.0,1484003541
+7278,Degollado,Degollado,20.4667,-102.15,Mexico,MX,MEX,Jalisco,minor,21226.0,1484086425
+7289,Chiconcuac,Chiconcuac,19.55,-98.9,Mexico,MX,MEX,México,minor,19656.0,1484345092
+7302,Cotija de la Paz,Cotija de la Paz,19.81,-102.7047,Mexico,MX,MEX,México,minor,19018.0,1484490839
+7329,Motul,Motul,21.1667,-89.4667,Mexico,MX,MEX,Yucatán,,21508.0,1484505595
+7379,Peto,Peto,20.1256,-88.9214,Mexico,MX,MEX,Yucatán,,19821.0,1484013411
+7382,Loreto,Loreto,26.0128,-111.3433,Mexico,MX,MEX,Baja California Sur,minor,20385.0,1484876942
+7388,Ciudad Miguel Alemán,Ciudad Miguel Aleman,26.4003,-99.0253,Mexico,MX,MEX,Tamaulipas,minor,19998.0,1484636817
+7396,Hidalgotitlán,Hidalgotitlan,17.7833,-94.6333,Mexico,MX,MEX,Veracruz,minor,19587.0,1484749313
+7410,Zaragoza,Zaragoza,19.7728,-97.5567,Mexico,MX,MEX,Puebla,,16173.0,1484817172
+7417,Zimatlán de Álvarez,Zimatlan de Alvarez,16.8667,-96.7833,Mexico,MX,MEX,Oaxaca,minor,19849.0,1484989287
+7439,Mecayapan,Mecayapan,18.2167,-94.8333,Mexico,MX,MEX,Veracruz,minor,17312.0,1484664655
+7448,Tepatlaxco,Tepatlaxco,19.0667,-97.9667,Mexico,MX,MEX,Puebla,minor,17472.0,1484624680
+7474,Fortín de las Flores,Fortin de las Flores,18.9,-97.0,Mexico,MX,MEX,Veracruz,minor,18965.0,1484333240
+7509,Acatlán de Osorio,Acatlan de Osorio,18.2086,-98.0575,Mexico,MX,MEX,Puebla,,18879.0,1484340141
+7527,Ayutla de los Libres,Ayutla de los Libres,16.9,-99.2167,Mexico,MX,MEX,Guerrero,minor,15370.0,1484235149
+7538,Tatahuicapan,Tatahuicapan,18.25,-94.7667,Mexico,MX,MEX,Veracruz,minor,15614.0,1484402622
+7568,Pajapan,Pajapan,18.2667,-94.6833,Mexico,MX,MEX,Veracruz,minor,17480.0,1484768670
+7579,Técpan de Galeana,Tecpan de Galeana,17.25,-100.6833,Mexico,MX,MEX,Guerrero,minor,14638.0,1484708548
+7581,Chemax,Chemax,20.655,-87.9372,Mexico,MX,MEX,Yucatán,,14885.0,1484867017
+7582,El Rosario,El Rosario,22.9922,-105.8572,Mexico,MX,MEX,Sinaloa,minor,16002.0,1484373649
+7590,El Dorado,El Dorado,24.3228,-107.363,Mexico,MX,MEX,Sinaloa,,17365.0,1484719986
+7594,Palau,Palau,27.9167,-101.4167,Mexico,MX,MEX,Coahuila de Zaragoza,,16133.0,1484142037
+7663,Ciudad de Huitzuco,Ciudad de Huitzuco,18.3,-99.35,Mexico,MX,MEX,Guerrero,minor,16025.0,1484912284
+7664,La Cruz,La Cruz,23.9214,-106.8919,Mexico,MX,MEX,Sinaloa,minor,15657.0,1484243519
+7665,Tlaxcala,Tlaxcala,19.3191,-98.1998,Mexico,MX,MEX,Tlaxcala,admin,14692.0,1484359502
+7668,Tecuala,Tecuala,22.4004,-105.46,Mexico,MX,MEX,Nayarit,minor,14921.0,1484955369
+7673,Ciudad Guadalupe Victoria,Ciudad Guadalupe Victoria,24.4497,-104.1225,Mexico,MX,MEX,Durango,minor,16506.0,1484654052
+7683,Santa Catarina Juquila,Santa Catarina Juquila,16.2364,-97.2919,Mexico,MX,MEX,Oaxaca,,15987.0,1484108848
+7688,Santiago Tulantepec,Santiago Tulantepec,20.0397,-98.3575,Mexico,MX,MEX,Hidalgo,minor,16078.0,1484221851
+7691,Rodolfo Sánchez Taboada,Rodolfo Sanchez Taboada,31.7958,-116.5911,Mexico,MX,MEX,Baja California,,15038.0,1484409365
+7697,Ciudad Hidalgo,Ciudad Hidalgo,14.6792,-92.1497,Mexico,MX,MEX,Chiapas,minor,14606.0,1484360693
+7698,Cárdenas,Cardenas,22.0103,-99.6522,Mexico,MX,MEX,San Luis Potosí,minor,15331.0,1484956696
+7718,Tepoztlán,Tepoztlan,18.9853,-99.0997,Mexico,MX,MEX,Morelos,minor,14130.0,1484948191
+7736,Apaxco de Ocampo,Apaxco de Ocampo,19.9733,-99.17,Mexico,MX,MEX,Hidalgo,minor,13836.0,1484505240
+7741,Grajales,Grajales,19.25,-97.7833,Mexico,MX,MEX,Puebla,minor,14159.0,1484035729
+7755,Puréparo de Echaíz,Pureparo de Echaiz,19.9,-102.0,Mexico,MX,MEX,Michoacán de Ocampo,,15255.0,1484222410
+7762,Tlaltetela,Tlaltetela,19.3167,-96.9,Mexico,MX,MEX,Veracruz,minor,15818.0,1484184075
+7768,La Crucecita,La Crucecita,15.7753,-96.1425,Mexico,MX,MEX,Oaxaca,,13044.0,1484030886
+7775,Juchique de Ferrer,Juchique de Ferrer,19.8333,-96.7,Mexico,MX,MEX,Veracruz,minor,16360.0,1484992524
+7779,Vicente Guerrero,Vicente Guerrero,23.75,-103.9833,Mexico,MX,MEX,Durango,minor,15982.0,1484862775
+7795,Cerritos,Cerritos,22.4275,-100.2783,Mexico,MX,MEX,San Luis Potosí,minor,14804.0,1484001904
+7801,Tingüindín,Tinguindin,19.7333,-102.483,Mexico,MX,MEX,Michoacán de Ocampo,,14532.0,1484737878
+7802,Oteapan,Oteapan,18.0,-94.6667,Mexico,MX,MEX,Veracruz,minor,16222.0,1484584805
+7805,Huixcolotla,Huixcolotla,18.9219,-97.7708,Mexico,MX,MEX,Puebla,minor,14810.0,1484332923
+7806,Izamal,Izamal,20.9314,-89.0178,Mexico,MX,MEX,Yucatán,,15101.0,1484567751
+7811,Coquimatlán,Coquimatlan,19.2038,-103.8086,Mexico,MX,MEX,Colima,minor,13358.0,1484193381
+7824,Madera,Madera,29.19,-108.1414,Mexico,MX,MEX,Chihuahua,minor,15447.0,1484958144
+7870,Guerrero Negro,Guerrero Negro,27.9589,-114.0561,Mexico,MX,MEX,Baja California,,14316.0,1484879768
+7873,Santa Rosalía,Santa Rosalia,27.3389,-112.2669,Mexico,MX,MEX,Baja California Sur,minor,14160.0,1484950775
+7874,Valparaíso,Valparaiso,22.7667,-103.5667,Mexico,MX,MEX,Zacatecas,minor,12919.0,1484885454
+7899,Villa Unión,Villa Union,23.1883,-106.2158,Mexico,MX,MEX,Sinaloa,,13404.0,1484310975
+7902,Huitzilan,Huitzilan,19.9667,-97.6833,Mexico,MX,MEX,Puebla,minor,15096.0,1484786185
+7918,Guachochi,Guachochi,26.8194,-107.07,Mexico,MX,MEX,Chihuahua,minor,14513.0,1484533430
+7920,Juan Aldama,Juan Aldama,24.291,-103.394,Mexico,MX,MEX,Zacatecas,minor,14162.0,1484898373
+7923,Ezequiel Montes,Ezequiel Montes,20.6667,-99.8833,Mexico,MX,MEX,Querétaro,minor,14053.0,1484350732
+7926,Balancán,Balancan,17.8,-91.53,Mexico,MX,MEX,Tabasco,minor,11895.0,1484783192
+7931,Miahuatlán,Miahuatlan,18.2833,-97.2833,Mexico,MX,MEX,Puebla,minor,13159.0,1484451722
+7954,Calkiní,Calkini,20.3667,-90.05,Mexico,MX,MEX,Campeche,minor,14934.0,1484329915
+7970,Tempoal de Sánchez,Tempoal de Sanchez,21.5167,-98.3833,Mexico,MX,MEX,Veracruz,minor,12237.0,1484011037
+7987,San Nicolás de los Ranchos,San Nicolas de los Ranchos,19.0667,-98.4833,Mexico,MX,MEX,Puebla,minor,11734.0,1484875886
+7997,Vicente Guerrero,Vicente Guerrero,30.7264,-115.9903,Mexico,MX,MEX,Baja California,,12829.0,1484159343
+8045,Santa Cruz Amilpas,Santa Cruz Amilpas,17.0667,-96.6833,Mexico,MX,MEX,Oaxaca,,12814.0,1484665188
+8052,San Miguel Xoxtla,San Miguel Xoxtla,19.1833,-98.3,Mexico,MX,MEX,Puebla,,12341.0,1484989109
+8056,Aldama,Aldama,22.9194,-98.0736,Mexico,MX,MEX,Tamaulipas,minor,13661.0,1484835121
+8058,Mexicaltzingo,Mexicaltzingo,19.2092,-99.5858,Mexico,MX,MEX,México,minor,10161.0,1484468778
+8075,Ángel R. Cabada,Angel R. Cabada,18.5969,-95.4453,Mexico,MX,MEX,Veracruz,minor,11689.0,1484667573
+8083,Ascensión,Ascension,31.0928,-107.9964,Mexico,MX,MEX,Chihuahua,minor,13456.0,1484659928
+8121,Sonoita,Sonoita,31.8614,-112.8544,Mexico,MX,MEX,Sonora,minor,12849.0,1484032951
+8135,Anenecuilco,Anenecuilco,18.7781,-98.9861,Mexico,MX,MEX,Morelos,,10773.0,1484003918
+8138,Santa María Jalapa del Marqués,Santa Maria Jalapa del Marques,16.4401,-95.4434,Mexico,MX,MEX,Oaxaca,minor,13148.0,1484628971
+8142,El Fuerte,El Fuerte,26.4214,-108.62,Mexico,MX,MEX,Sinaloa,minor,12566.0,1484950387
+8145,Isla Mujeres,Isla Mujeres,21.2084,-86.7115,Mexico,MX,MEX,Quintana Roo,minor,12491.0,1484856745
+8147,La Magdalena Chichicaspa,La Magdalena Chichicaspa,19.4181,-99.3228,Mexico,MX,MEX,México,,12193.0,1484790302
+8155,Santa María Huazolotitlán,Santa Maria Huazolotitlan,16.3014,-97.9125,Mexico,MX,MEX,Oaxaca,minor,11400.0,1484964628
+8162,Cuencamé de Ceniceros,Cuencame de Ceniceros,24.8667,-103.7,Mexico,MX,MEX,Durango,minor,9848.0,1484919654
+8169,San Isidro Buen Suceso,San Isidro Buen Suceso,19.1528,-98.1069,Mexico,MX,MEX,Tlaxcala,,7688.0,1484003997
+8180,Saucillo,Saucillo,28.0333,-105.2833,Mexico,MX,MEX,Chihuahua,minor,11004.0,1484590798
+8192,Dzitbalché,Dzitbalche,20.3167,-90.05,Mexico,MX,MEX,Campeche,,11686.0,1484603562
+8201,Chiautla de Tapia,Chiautla de Tapia,18.3,-98.6039,Mexico,MX,MEX,Puebla,,11776.0,1484573116
+8202,San Pedro Jicayán,San Pedro Jicayan,16.4167,-97.9833,Mexico,MX,MEX,Oaxaca,minor,12387.0,1484151830
+8223,Jaltenango,Jaltenango,15.8725,-92.725,Mexico,MX,MEX,Chiapas,minor,10427.0,1484260963
+8225,Tierra Colorada,Tierra Colorada,17.1656,-99.5264,Mexico,MX,MEX,Guerrero,minor,10502.0,1484516715
+8232,Villa Unión,Villa Union,23.9667,-104.0333,Mexico,MX,MEX,Durango,minor,10753.0,1484796365
+8236,Rayón,Rayon,19.1481,-99.58,Mexico,MX,MEX,México,minor,8590.0,1484649015
+8249,Bacalar,Bacalar,18.6769,-88.3953,Mexico,MX,MEX,Quintana Roo,,11084.0,1484206678
+8250,Muna,Muna,20.48,-89.72,Mexico,MX,MEX,Yucatán,,11469.0,1484692677
+8260,San Pedro Ixcatlán,San Pedro Ixcatlan,18.15,-96.5,Mexico,MX,MEX,Oaxaca,,11653.0,1484497758
+8264,Coalcomán de Vázquez Pallares,Coalcoman de Vazquez Pallares,18.7771,-103.1596,Mexico,MX,MEX,Michoacán de Ocampo,minor,10715.0,1484699271
+8265,Nuevo Progreso,Nuevo Progreso,26.0561,-97.9522,Mexico,MX,MEX,Tamaulipas,,10178.0,1484755225
+8279,Coacoatzintla,Coacoatzintla,19.65,-96.9333,Mexico,MX,MEX,Veracruz,minor,10482.0,1484309288
+8290,Chichihualco,Chichihualco,17.655,-99.674,Mexico,MX,MEX,Guerrero,minor,10690.0,1484534707
+8302,Altamirano,Altamirano,16.7361,-92.0389,Mexico,MX,MEX,Chiapas,minor,9200.0,1484175446
+8304,Lerma,Lerma,19.8,-90.6,Mexico,MX,MEX,Campeche,,8281.0,1484035396
+8308,Canatlán,Canatlan,24.52,-104.78,Mexico,MX,MEX,Durango,minor,10342.0,1484221814
+8320,San Patricio,San Patricio,19.2,-104.6833,Mexico,MX,MEX,Jalisco,,7569.0,1484499776
+8323,Las Veredas,Las Veredas,23.15,-109.7,Mexico,MX,MEX,Baja California Sur,,10478.0,1484096349
+8324,González,Gonzalez,22.8281,-98.4306,Mexico,MX,MEX,Tamaulipas,minor,11212.0,1484835501
+8339,San Luis de La Loma,San Luis de La Loma,17.2714,-100.8911,Mexico,MX,MEX,Guerrero,,11090.0,1484748421
+8341,Akil,Akil,20.2656,-89.3478,Mexico,MX,MEX,Yucatán,,10176.0,1484515773
+8361,Nuevo Ideal,Nuevo Ideal,24.8875,-105.0728,Mexico,MX,MEX,Durango,minor,10876.0,1484407989
+8370,Platón Sánchez,Platon Sanchez,21.2833,-98.3667,Mexico,MX,MEX,Veracruz,minor,10009.0,1484193492
+8380,Tlacotalpan,Tlacotalpan,18.6167,-95.6667,Mexico,MX,MEX,Veracruz,minor,8853.0,1484457323
+8386,San Juanito,San Juanito,27.97,-107.6003,Mexico,MX,MEX,Chihuahua,,10535.0,1484053518
+8389,Tixkokob,Tixkokob,21.0022,-89.3936,Mexico,MX,MEX,Yucatán,,10968.0,1484306905
+8390,Santa Ana,Santa Ana,30.5406,-111.1205,Mexico,MX,MEX,Sonora,minor,10593.0,1484002576
+8392,Acanceh,Acanceh,20.8133,-89.4524,Mexico,MX,MEX,Yucatán,minor,10968.0,1484170180
+8398,Tetela del Volcán,Tetela del Volcan,18.8931,-98.7297,Mexico,MX,MEX,Morelos,minor,10199.0,1484343325
+8405,Pajacuarán,Pajacuaran,20.1178,-102.5667,Mexico,MX,MEX,Michoacán de Ocampo,minor,10014.0,1484044014
+8408,La Huacana,La Huacana,18.9625,-101.8069,Mexico,MX,MEX,Michoacán de Ocampo,minor,9374.0,1484078900
+8416,San Ignacio Cohuirimpo,San Ignacio Cohuirimpo,27.05,-109.4167,Mexico,MX,MEX,Sonora,,10606.0,1484235510
+8425,Cuatro Ciénegas de Carranza,Cuatro Cienegas de Carranza,26.9861,-102.0664,Mexico,MX,MEX,Coahuila de Zaragoza,minor,10309.0,1484012996
+8432,Tacotalpa,Tacotalpa,17.5931,-92.8258,Mexico,MX,MEX,Tabasco,minor,8071.0,1484934308
+8435,Candelaria,Candelaria,18.1844,-91.0461,Mexico,MX,MEX,Campeche,minor,9812.0,1484925669
+8451,Tlahualilo de Zaragoza,Tlahualilo de Zaragoza,26.1167,-103.45,Mexico,MX,MEX,Durango,minor,9517.0,1484368402
+8458,Ahuacatlán,Ahuacatlan,21.0536,-104.4869,Mexico,MX,MEX,Nayarit,minor,8819.0,1484972990
+8476,Ciudad Tula,Ciudad Tula,23.0,-99.72,Mexico,MX,MEX,Tamaulipas,minor,10043.0,1484516323
+8494,Cuapiaxtla de Madero,Cuapiaxtla de Madero,18.9167,-97.8167,Mexico,MX,MEX,Puebla,minor,10101.0,1484036948
+8497,Tlalixtac de Cabrera,Tlalixtac de Cabrera,17.0667,-96.65,Mexico,MX,MEX,Oaxaca,minor,10208.0,1484878072
+8501,Ayapango,Ayapango,19.1264,-98.8028,Mexico,MX,MEX,México,minor,8864.0,1484009067
+8508,Xicoténcatl,Xicotencatl,22.9958,-98.9447,Mexico,MX,MEX,Tamaulipas,minor,9593.0,1484154416
+8516,Choix,Choix,26.7061,-108.3219,Mexico,MX,MEX,Sinaloa,minor,9306.0,1484806011
+8518,Tzucacab,Tzucacab,20.0708,-89.0506,Mexico,MX,MEX,Yucatán,,9967.0,1484877569
+8519,Anáhuac,Anahuac,28.48,-106.7442,Mexico,MX,MEX,Chihuahua,,9952.0,1484106283
+8523,San Gregorio Atzompa,San Gregorio Atzompa,19.0224,-98.3445,Mexico,MX,MEX,Puebla,minor,9671.0,1484057992
+8524,Tekit,Tekit,20.5322,-89.3314,Mexico,MX,MEX,Yucatán,,9834.0,1484351882
+8538,Amatlán de los Reyes,Amatlan de los Reyes,18.8457,-96.9149,Mexico,MX,MEX,Veracruz,minor,9123.0,1484683104
+8547,San José el Viejo,San Jose el Viejo,23.1226,-109.712,Mexico,MX,MEX,Baja California Sur,,7222.0,1484016340
+8567,Coahuitlán,Coahuitlan,20.2667,-97.7167,Mexico,MX,MEX,Veracruz,,8566.0,1484959001
+8573,Higuera de Zaragoza,Higuera de Zaragoza,25.95,-109.2833,Mexico,MX,MEX,Sinaloa,,8976.0,1484471294
+8577,Rafael Lucio,Rafael Lucio,19.5922,-96.9819,Mexico,MX,MEX,Veracruz,minor,8068.0,1484892055
+8586,La Junta,La Junta,28.4778,-107.3317,Mexico,MX,MEX,Chihuahua,,8930.0,1484913185
+8588,Cuauhtémoc,Cuauhtemoc,19.3281,-103.6028,Mexico,MX,MEX,Colima,minor,7513.0,1484009228
+8601,Halachó,Halacho,20.4764,-90.0819,Mexico,MX,MEX,Yucatán,minor,9412.0,1484161200
+8606,Concordia,Concordia,23.2883,-106.0675,Mexico,MX,MEX,Sinaloa,minor,8328.0,1484012803
+8617,Zacapoaxtla,Zacapoaxtla,19.8833,-97.5833,Mexico,MX,MEX,Puebla,,8062.0,1484761233
+8644,San Juan Ixcaquixtla,San Juan Ixcaquixtla,18.45,-97.8167,Mexico,MX,MEX,Puebla,,8752.0,1484614314
+8647,Tataltepec de Valdés,Tataltepec de Valdes,16.3064,-97.5461,Mexico,MX,MEX,Oaxaca,minor,8869.0,1484294949
+8651,Tepeojuma,Tepeojuma,18.7167,-98.45,Mexico,MX,MEX,Puebla,minor,8492.0,1484240728
+8660,Cocorit,Cocorit,27.5833,-109.9667,Mexico,MX,MEX,Sonora,,7953.0,1484738451
+8669,Ahumada,Ahumada,30.6186,-106.5122,Mexico,MX,MEX,Chihuahua,minor,8575.0,1484004336
+8687,El Higo,El Higo,21.7667,-98.45,Mexico,MX,MEX,Veracruz,minor,7844.0,1484087998
+8693,Guadalupe Yancuictlalpan,Guadalupe Yancuictlalpan,19.1831,-99.4583,Mexico,MX,MEX,Morelos,,6385.0,1484186132
+8698,Kantunilkín,Kantunilkin,21.1,-87.4833,Mexico,MX,MEX,Quintana Roo,minor,7150.0,1484008816
+8701,Ayotoxco de Guerrero,Ayotoxco de Guerrero,20.1,-97.4,Mexico,MX,MEX,Puebla,minor,8558.0,1484789379
+8746,Buctzotz,Buctzotz,21.2017,-88.7928,Mexico,MX,MEX,Yucatán,,7515.0,1484723761
+8763,San Francisco del Mar,San Francisco del Mar,16.3394,-94.515,Mexico,MX,MEX,Oaxaca,,7650.0,1484190269
+8767,Bahía Kino,Bahia Kino,28.9833,-111.9333,Mexico,MX,MEX,Sonora,,6050.0,1484776218
+8769,Altar,Altar,30.7136,-111.8353,Mexico,MX,MEX,Sonora,minor,7927.0,1484018181
+8774,Tamazulapam Villa del Progreso,Tamazulapam Villa del Progreso,17.675,-97.5714,Mexico,MX,MEX,Oaxaca,,7707.0,1484013492
+8787,Celestún,Celestun,20.8583,-90.4,Mexico,MX,MEX,Yucatán,minor,6269.0,1484819687
+8788,Huiloapan,Huiloapan,18.8167,-97.15,Mexico,MX,MEX,Veracruz,minor,7221.0,1484217254
+8790,Hopelchén,Hopelchen,19.7444,-89.8453,Mexico,MX,MEX,Campeche,minor,7295.0,1484431471
+8841,Ojo Caliente,Ojo Caliente,21.8772,-102.6756,Mexico,MX,MEX,Aguascalientes,,6914.0,1484383643
+8850,Temascal,Temascal,18.2394,-96.4031,Mexico,MX,MEX,Oaxaca,,6566.0,1484505986
+8887,San Pedro Amuzgos,San Pedro Amuzgos,16.65,-98.1,Mexico,MX,MEX,Oaxaca,,6664.0,1484272000
+8911,Temozon,Temozon,20.8042,-88.2028,Mexico,MX,MEX,Yucatán,,6553.0,1484009522
+8931,Leona Vicario,Leona Vicario,20.9922,-87.2028,Mexico,MX,MEX,Quintana Roo,,6517.0,1484013873
+8941,Bécal,Becal,20.4414,-90.0275,Mexico,MX,MEX,Campeche,,6511.0,1484400934
+8960,Xochitlan Todos Santos,Xochitlan Todos Santos,18.7007,-97.7766,Mexico,MX,MEX,Puebla,,6336.0,1484837691
+8961,San Antonino Castillo Velasco,San Antonino Castillo Velasco,16.8031,-96.6839,Mexico,MX,MEX,Oaxaca,minor,6009.0,1484401368
+8988,Puerto San Carlos,Puerto San Carlos,24.7894,-112.1083,Mexico,MX,MEX,Baja California Sur,,5538.0,1484585914
+8995,Tayoltita,Tayoltita,24.0833,-105.9333,Mexico,MX,MEX,Durango,minor,5124.0,1484925741
+9000,Teabo,Teabo,20.3997,-89.2844,Mexico,MX,MEX,Yucatán,,6115.0,1484546249
+9013,Piste,Piste,20.6981,-88.5886,Mexico,MX,MEX,Yucatán,,5528.0,1484346814
+9017,Algodones,Algodones,32.7153,-114.7289,Mexico,MX,MEX,Baja California,,5474.0,1484797126
+9019,Guadalupe y Calvo,Guadalupe y Calvo,26.095,-106.9644,Mexico,MX,MEX,Chihuahua,minor,5816.0,1484245253
+9027,Calderitas,Calderitas,18.5544,-88.2583,Mexico,MX,MEX,Quintana Roo,,5326.0,1484192062
+9029,Panindícuaro,Panindicuaro,19.9828,-101.7606,Mexico,MX,MEX,Michoacán de Ocampo,minor,5565.0,1484235185
+9035,Panabá,Panaba,21.2964,-88.2706,Mexico,MX,MEX,Yucatán,minor,5232.0,1484205103
+9050,Palo Alto,Palo Alto,21.9167,-101.9667,Mexico,MX,MEX,Aguascalientes,minor,5399.0,1484615349
+9052,Soledad Etla,Soledad Etla,17.1667,-96.8167,Mexico,MX,MEX,Oaxaca,,5591.0,1484003932
+9071,Angostura,Angostura,25.3653,-108.1622,Mexico,MX,MEX,Sinaloa,minor,5086.0,1484677856
+9080,Nombre de Dios,Nombre de Dios,23.85,-104.2333,Mexico,MX,MEX,Durango,minor,5302.0,1484278010
+9088,Esperanza,Esperanza,27.58,-109.9298,Mexico,MX,MEX,Sonora,,3836.0,1484729183
+9104,Frontera Corozal,Frontera Corozal,16.8211,-90.8903,Mexico,MX,MEX,Chiapas,,5184.0,1484185978
+9110,X-Cán,X-Can,20.8583,-87.6681,Mexico,MX,MEX,Yucatán,,5191.0,1484190103
+9117,Chicxulub Puerto,Chicxulub Puerto,21.2939,-89.6083,Mexico,MX,MEX,Yucatán,,5052.0,1484967062
+9188,Ciudad Guzmán,Ciudad Guzman,19.7,-103.4667,Mexico,MX,MEX,Jalisco,minor,97.0,1484316056
+9361,Tecax,Tecax,20.2019,-89.2881,Mexico,MX,MEX,Yucatán,,50.789,1484782521
+10335,Taxco de Alarcón,Taxco de Alarcon,18.5564,-99.605,Mexico,MX,MEX,Guerrero,minor,98854.0,1484987082
+10430,San José del Cabo,San Jose del Cabo,23.0614,-109.7081,Mexico,MX,MEX,Baja California Sur,minor,93069.0,1484157742
+10447,Santa Cruz Xoxocotlán,Santa Cruz Xoxocotlan,17.0264,-96.7333,Mexico,MX,MEX,Oaxaca,,93188.0,1484706021
+10475,Teziutlan,Teziutlan,19.8178,-97.3667,Mexico,MX,MEX,Puebla,,92170.0,1484709570
+10540,Playas de Rosarito,Playas de Rosarito,32.35,-117.05,Mexico,MX,MEX,Baja California,minor,90668.0,1484522993
+10666,Paraíso,Paraiso,18.3961,-93.2128,Mexico,MX,MEX,Tabasco,minor,86632.0,1484393519
+10674,Santa Rosa Jauregui,Santa Rosa Jauregui,20.7418,-100.4473,Mexico,MX,MEX,Querétaro,,86376.0,1484681374
+10679,Guasavito,Guasavito,25.5655,-108.4718,Mexico,MX,MEX,Sinaloa,,86361.0,1484662260
+10879,Tepeji del Río de Ocampo,Tepeji del Rio de Ocampo,19.9039,-99.3414,Mexico,MX,MEX,Hidalgo,,80612.0,1484352351
+10916,Pátzcuaro,Patzcuaro,19.5164,-101.6097,Mexico,MX,MEX,Michoacán de Ocampo,minor,79868.0,1484039505
+10953,Agua Prieta,Agua Prieta,31.3258,-109.5489,Mexico,MX,MEX,Sonora,minor,79138.0,1484381848
+10958,Sahuayo de Morelos,Sahuayo de Morelos,20.0575,-102.7239,Mexico,MX,MEX,Michoacán de Ocampo,,78477.0,1484554120
+10990,Temoaya,Temoaya,19.4686,-99.5933,Mexico,MX,MEX,Morelos,minor,77714.0,1484890875
+11000,Villa Victoria,Villa Victoria,19.4333,-100.0,Mexico,MX,MEX,México,minor,77819.0,1484528358
+11010,Ciudad de Huajuapam de León,Ciudad de Huajuapam de Leon,17.8039,-97.7758,Mexico,MX,MEX,Oaxaca,minor,77547.0,1484375272
+11130,Valle Alto,Valle Alto,25.5667,-100.25,Mexico,MX,MEX,Nuevo León,,75000.0,1484080034
+11196,Ixmiquilpan,Ixmiquilpan,20.4861,-99.2589,Mexico,MX,MEX,Hidalgo,minor,73903.0,1484683374
+11397,San Juan de los Lagos,San Juan de los Lagos,21.2458,-102.3308,Mexico,MX,MEX,Jalisco,minor,69725.0,1484319370
+11441,Purísima de Bustos,Purisima de Bustos,21.0333,-101.8667,Mexico,MX,MEX,Guanajuato,minor,68795.0,1484104201
+11461,Zapotlanejo,Zapotlanejo,20.6228,-103.0689,Mexico,MX,MEX,Jalisco,minor,68519.0,1484013669
+11497,Tepotzotlán,Tepotzotlan,19.7161,-99.2236,Mexico,MX,MEX,México,minor,67724.0,1484890297
+11502,Comonfort,Comonfort,20.7167,-100.7667,Mexico,MX,MEX,Guanajuato,minor,67642.0,1484359235
+11513,Santa Catarina Otzolotepec,Santa Catarina Otzolotepec,18.5667,-97.25,Mexico,MX,MEX,Puebla,,67611.0,1484006128
+11621,Juventino Rosas,Juventino Rosas,20.65,-101.0,Mexico,MX,MEX,Guanajuato,minor,65479.0,1484008596
+11680,Santo Domingo Tehuantepec,Santo Domingo Tehuantepec,16.3184,-95.2478,Mexico,MX,MEX,Oaxaca,minor,64639.0,1484904308
+11689,Apaseo el Alto,Apaseo el Alto,20.45,-100.6167,Mexico,MX,MEX,Guanajuato,minor,64443.0,1484638153
+11695,Santiago Tianguistenco,Santiago Tianguistenco,19.1797,-99.4706,Mexico,MX,MEX,México,minor,64365.0,1484113134
+11753,San Juan de Sabinas,San Juan de Sabinas,27.9167,-101.3,Mexico,MX,MEX,Coahuila de Zaragoza,minor,63522.0,1484962977
+11843,Ocoyoacac,Ocoyoacac,19.2739,-99.4606,Mexico,MX,MEX,Morelos,minor,61805.0,1484479100
+11856,Puerto Peñasco,Puerto Penasco,31.3167,-113.5369,Mexico,MX,MEX,Sonora,minor,62177.0,1484567937
+11882,Heroica Caborca,Heroica Caborca,30.7167,-112.15,Mexico,MX,MEX,Sonora,minor,59922.0,1484993432
+11948,Montemorelos,Montemorelos,25.1872,-99.8267,Mexico,MX,MEX,Nuevo León,minor,60829.0,1484813948
+11961,Autlán de Navarro,Autlan de Navarro,19.7667,-104.3667,Mexico,MX,MEX,Jalisco,minor,60572.0,1484240559
+12023,Uriangato,Uriangato,20.1333,-101.1667,Mexico,MX,MEX,Guanajuato,minor,59305.0,1484679933
+12025,Huehuetoca,Huehuetoca,19.8342,-99.2033,Mexico,MX,MEX,México,minor,59721.0,1484000089
+12107,Tlaltenango de Sánchez Román,Tlaltenango de Sanchez Roman,21.7815,-103.3059,Mexico,MX,MEX,Zacatecas,minor,58560.0,1484361545
+12186,Ciudad Cuauhtémoc,Ciudad Cuauhtemoc,22.1833,-97.8333,Mexico,MX,MEX,Veracruz,minor,57646.0,1484666501
+12203,Jerez de García Salinas,Jerez de Garcia Salinas,22.6481,-102.9903,Mexico,MX,MEX,Zacatecas,minor,57610.0,1484361423
+12220,Santiago Tuxtla,Santiago Tuxtla,18.4654,-95.3,Mexico,MX,MEX,Veracruz,minor,57466.0,1484009696
+12275,Acambay,Acambay,19.9539,-99.8431,Mexico,MX,MEX,México,minor,56847.0,1484667611
+12297,Amealco,Amealco,20.1881,-100.1439,Mexico,MX,MEX,Querétaro,minor,56457.0,1484505085
+12369,Jocotitlán,Jocotitlan,19.7072,-99.7867,Mexico,MX,MEX,México,minor,55403.0,1484167307
+12422,Tequisquiapan,Tequisquiapan,20.5206,-99.8958,Mexico,MX,MEX,Querétaro,minor,54929.0,1484303338
+12486,Ixhuatlán de Madero,Ixhuatlan de Madero,20.6833,-98.0167,Mexico,MX,MEX,Veracruz,minor,54132.0,1484817314
+12497,Progreso,Progreso,21.28,-89.67,Mexico,MX,MEX,Yucatán,minor,53958.0,1484340626
+12543,Encarnación de Díaz,Encarnacion de Diaz,21.5167,-102.2333,Mexico,MX,MEX,Jalisco,minor,53555.0,1484206173
+12549,Pijijiapan,Pijijiapan,15.6867,-93.2092,Mexico,MX,MEX,Chiapas,minor,53525.0,1484994799
+12616,San José Villa de Allende,San Jose Villa de Allende,19.3747,-100.1475,Mexico,MX,MEX,México,minor,52641.0,1484492033
+12686,Berriozábal,Berriozabal,16.7993,-93.2725,Mexico,MX,MEX,Chiapas,minor,51722.0,1484051098
+12791,Santa Lucía del Camino,Santa Lucia del Camino,17.0667,-96.6833,Mexico,MX,MEX,Oaxaca,,49459.0,1484226980
+12865,Tepeapulco,Tepeapulco,19.7856,-98.5517,Mexico,MX,MEX,Hidalgo,minor,49850.0,1484457950
+12899,Guacharachi,Guacharachi,27.15,-107.3167,Mexico,MX,MEX,Chihuahua,,49689.0,1484013438
+13030,San Pedro Mixtepec,San Pedro Mixtepec,16.0,-97.1169,Mexico,MX,MEX,Oaxaca,minor,48336.0,1484546885
+13093,Mapastepec,Mapastepec,15.4198,-92.9492,Mexico,MX,MEX,Chiapas,minor,47932.0,1484386885
+13160,Santa Ana Chiautempan,Santa Ana Chiautempan,19.3167,-98.1833,Mexico,MX,MEX,Tlaxcala,minor,46776.0,1484567035
+13206,Calimaya,Calimaya,19.1608,-99.6172,Mexico,MX,MEX,México,minor,47033.0,1484137559
+13241,San Francisco de los Romo,San Francisco de los Romo,22.0833,-102.2667,Mexico,MX,MEX,Aguascalientes,minor,46454.0,1484352122
+13263,Jocotepec,Jocotepec,20.1667,-103.2833,Mexico,MX,MEX,Jalisco,minor,46521.0,1484245726
+13345,Ciudad Constitución,Ciudad Constitucion,25.0322,-111.6703,Mexico,MX,MEX,Baja California Sur,minor,45888.0,1484811681
+13378,Cuautepec de Hinojosa,Cuautepec de Hinojosa,20.15,-98.4333,Mexico,MX,MEX,Hidalgo,minor,45527.0,1484413126
+13415,Actopan,Actopan,19.5036,-96.6192,Mexico,MX,MEX,Veracruz,minor,43388.0,1484594634
+13440,Tres Valles,Tres Valles,18.2367,-96.1369,Mexico,MX,MEX,Veracruz,minor,44978.0,1484297361
+13511,Petatlán,Petatlan,17.5383,-101.2739,Mexico,MX,MEX,Guerrero,minor,44485.0,1484714363
+13522,Simojovel de Allende,Simojovel de Allende,17.15,-92.7167,Mexico,MX,MEX,Chiapas,minor,44295.0,1484425686
+13577,Zongolica,Zongolica,18.6642,-97.0011,Mexico,MX,MEX,Veracruz,minor,43871.0,1484604711
+13623,Nuevo México,Nuevo Mexico,20.75,-103.433,Mexico,MX,MEX,Jalisco,,42246.0,1484386312
+13651,Pedro Celestino Negrete,Pedro Celestino Negrete,24.726,-102.984,Mexico,MX,MEX,Durango,,43447.0,1484247270
+13657,Hueyapan de Ocampo,Hueyapan de Ocampo,18.15,-95.15,Mexico,MX,MEX,Veracruz,minor,43309.0,1484670918
+13692,Jesús María,Jesus Maria,21.9667,-102.35,Mexico,MX,MEX,Aguascalientes,minor,43012.0,1484096692
+13715,Atenco,Atenco,19.5167,-98.9167,Mexico,MX,MEX,México,minor,42739.0,1484838122
+13717,Tepalcatepec,Tepalcatepec,19.1833,-102.85,Mexico,MX,MEX,Michoacán de Ocampo,minor,42879.0,1484817788
+13848,Tequila,Tequila,20.8794,-103.8356,Mexico,MX,MEX,Jalisco,minor,42009.0,1484763049
+14144,Camargo,Camargo,27.667,-105.167,Mexico,MX,MEX,Chihuahua,minor,40221.0,1484013592
+14156,Pénjamo,Penjamo,20.4311,-101.7222,Mexico,MX,MEX,Guanajuato,minor,40076.0,1484131107
+14205,Yecapixtla,Yecapixtla,18.8833,-98.865,Mexico,MX,MEX,Morelos,minor,39859.0,1484433908
+14213,Matías Romero,Matias Romero,16.8798,-95.0391,Mexico,MX,MEX,Oaxaca,,39828.0,1484296757
+14256,Villa del Carbón,Villa del Carbon,19.7272,-99.5417,Mexico,MX,MEX,México,minor,39587.0,1484004677
+14290,Tlalixcoyan,Tlalixcoyan,18.8031,-96.0611,Mexico,MX,MEX,Veracruz,minor,37857.0,1484527678
+14296,Apan,Apan,19.7,-98.4333,Mexico,MX,MEX,Hidalgo,minor,39247.0,1484086106
+14371,Galeana,Galeana,24.8333,-100.0667,Mexico,MX,MEX,Nuevo León,minor,38930.0,1484336701
+14382,Melchor Ocampo,Melchor Ocampo,19.7083,-99.1444,Mexico,MX,MEX,México,minor,37706.0,1484243108
+14432,San Felipe Orizatlán,San Felipe Orizatlan,21.1719,-98.6064,Mexico,MX,MEX,Hidalgo,,38472.0,1484942420
+14474,Ciudad Manuel Doblado,Ciudad Manuel Doblado,20.7303,-101.9533,Mexico,MX,MEX,Guanajuato,minor,38309.0,1484254805
+14515,Yajalón,Yajalon,17.1852,-92.3272,Mexico,MX,MEX,Chiapas,minor,37833.0,1484860213
+14520,Mixquiahuala de Juarez,Mixquiahuala de Juarez,20.2311,-99.2131,Mexico,MX,MEX,Hidalgo,,37747.0,1484223912
+14537,Santiago,Santiago,25.4333,-100.1333,Mexico,MX,MEX,Nuevo León,minor,37886.0,1484043921
+14614,San Blas,San Blas,21.5397,-105.2856,Mexico,MX,MEX,Nayarit,minor,37478.0,1484142814
+14615,Compostela,Compostela,21.2389,-104.9,Mexico,MX,MEX,Nayarit,minor,37478.0,1484966833
+14721,Sayula,Sayula,19.8836,-103.5972,Mexico,MX,MEX,Jalisco,minor,36778.0,1484178547
+14846,Zacatepec,Zacatepec,18.6833,-99.1833,Mexico,MX,MEX,Morelos,minor,36159.0,1484549065
+15009,Tamuín,Tamuin,22.0,-98.7833,Mexico,MX,MEX,San Luis Potosí,minor,35446.0,1484269723
+15054,Siltepec,Siltepec,15.55,-92.3333,Mexico,MX,MEX,Chiapas,minor,35192.0,1484306246
+15090,Bochil,Bochil,16.9953,-92.8903,Mexico,MX,MEX,Chiapas,minor,34997.0,1484171114
+15101,Acaxochitlán,Acaxochitlan,20.1667,-98.2,Mexico,MX,MEX,Hidalgo,minor,34892.0,1484005465
+15210,Zimapan,Zimapan,20.7333,-99.3833,Mexico,MX,MEX,Hidalgo,,34476.0,1484785009
+15476,Temascalapa,Temascalapa,19.8,-98.9,Mexico,MX,MEX,Hidalgo,minor,33063.0,1484792221
+15562,Coatepec Harinas,Coatepec Harinas,18.9,-99.7167,Mexico,MX,MEX,México,minor,31860.0,1484641903
+15701,Capulhuac,Capulhuac,19.2,-99.4667,Mexico,MX,MEX,México,minor,30838.0,1484829703
+15712,Tuzantán,Tuzantan,15.15,-92.4167,Mexico,MX,MEX,Chiapas,minor,31755.0,1484633156
+15775,Jaral del Progreso,Jaral del Progreso,20.3667,-101.0667,Mexico,MX,MEX,Guanajuato,minor,31780.0,1484182390
+15791,Turicato,Turicato,19.05,-101.4167,Mexico,MX,MEX,Michoacán de Ocampo,minor,31877.0,1484580353
+15795,El Oro de Hidalgo,El Oro de Hidalgo,19.8008,-100.1314,Mexico,MX,MEX,Morelos,minor,31847.0,1484677445
+15820,Temascaltepec de González,Temascaltepec de Gonzalez,19.0433,-100.0414,Mexico,MX,MEX,México,minor,30336.0,1484114407
+15842,Tecozautla,Tecozautla,20.5333,-99.6333,Mexico,MX,MEX,Hidalgo,,31609.0,1484766704
+15995,Atotonilco de Tula,Atotonilco de Tula,20.05,-99.1833,Mexico,MX,MEX,Hidalgo,,31078.0,1484176739
+16046,Amatenango de la Frontera,Amatenango de la Frontera,15.4333,-92.1167,Mexico,MX,MEX,Chiapas,minor,30732.0,1484343885
+16136,Villa Donato Guerra,Villa Donato Guerra,19.3083,-100.1422,Mexico,MX,MEX,México,minor,29621.0,1484701900
+16193,Cihuatlán,Cihuatlan,19.25,-104.5667,Mexico,MX,MEX,Jalisco,minor,30241.0,1484019808
+16301,San Rafael,San Rafael,20.1889,-96.8658,Mexico,MX,MEX,Veracruz,minor,29631.0,1484480100
+16588,Pabellón de Arteaga,Pabellon de Arteaga,22.15,-102.2667,Mexico,MX,MEX,Aguascalientes,minor,28633.0,1484799033
+16612,San Salvador,San Salvador,20.2833,-99.0153,Mexico,MX,MEX,Hidalgo,minor,28637.0,1484680072
+16724,Las Rosas,Las Rosas,16.3556,-92.3672,Mexico,MX,MEX,Chiapas,minor,28261.0,1484866090
+16756,Zacoalco de Torres,Zacoalco de Torres,20.2333,-103.5833,Mexico,MX,MEX,Jalisco,minor,28205.0,1484373793
+16759,Villa Luvianos,Villa Luvianos,18.92,-100.2983,Mexico,MX,MEX,México,minor,28215.0,1484500757
+16791,San Felipe Jalapa de Díaz,San Felipe Jalapa de Diaz,18.0716,-96.5352,Mexico,MX,MEX,Oaxaca,,27979.0,1484014091
+16806,Xochistlahuaca,Xochistlahuaca,16.7914,-98.2419,Mexico,MX,MEX,Guerrero,minor,28089.0,1484003499
+16843,Nochistlán de Mejía,Nochistlan de Mejia,21.3642,-102.8464,Mexico,MX,MEX,Zacatecas,minor,27932.0,1484761642
+16859,Tlalpujahua de Rayón,Tlalpujahua de Rayon,19.805,-100.1744,Mexico,MX,MEX,México,minor,27788.0,1484026388
+16877,Salinas Victoria,Salinas Victoria,25.9667,-100.3,Mexico,MX,MEX,Nuevo León,minor,27848.0,1484014927
+16878,Atlautla,Atlautla,19.0,-98.7167,Mexico,MX,MEX,México,minor,27663.0,1484312852
+16894,Tehuipango,Tehuipango,18.5167,-97.05,Mexico,MX,MEX,Veracruz,minor,26322.0,1484975485
+16905,Ozumba,Ozumba,19.0392,-98.7936,Mexico,MX,MEX,México,minor,27207.0,1484458348
+16906,San Martín Hidalgo,San Martin Hidalgo,20.435,-103.9286,Mexico,MX,MEX,Jalisco,minor,27777.0,1484808441
+16939,San Juan Guichicovi,San Juan Guichicovi,16.9667,-95.0833,Mexico,MX,MEX,Oaxaca,,27646.0,1484056048
+17029,Zempoala,Zempoala,19.9167,-98.6667,Mexico,MX,MEX,Hidalgo,minor,27333.0,1484524155
+17040,Huaquechula,Huaquechula,18.7667,-98.55,Mexico,MX,MEX,Puebla,minor,26114.0,1484461466
+17058,Atitalaquia,Atitalaquia,20.0583,-99.2208,Mexico,MX,MEX,Hidalgo,,26904.0,1484827281
+17065,Tepehuacán de Guerrero,Tepehuacan de Guerrero,21.0131,-98.8442,Mexico,MX,MEX,Hidalgo,,27240.0,1484592101
+17102,San Agustín Tlaxiaca,San Agustin Tlaxiaca,20.1144,-98.8867,Mexico,MX,MEX,Hidalgo,,27118.0,1484185265
+17105,Xalatlaco,Xalatlaco,19.1811,-99.4164,Mexico,MX,MEX,México,minor,26865.0,1484277337
+17138,Tlaxcoapan,Tlaxcoapan,20.0953,-99.22,Mexico,MX,MEX,Hidalgo,,26758.0,1484883241
+17147,Sabanilla,Sabanilla,17.2833,-92.55,Mexico,MX,MEX,Chiapas,minor,26921.0,1484304523
+17152,Amatepec,Amatepec,18.65,-100.15,Mexico,MX,MEX,México,minor,27026.0,1484058749
+17204,Jaltenco,Jaltenco,19.7511,-99.0931,Mexico,MX,MEX,México,minor,26359.0,1484504076
+17367,Ocuilan de Arteaga,Ocuilan de Arteaga,19.0,-99.4,Mexico,MX,MEX,México,minor,26332.0,1484570544
+17492,Santiago Papasquiaro,Santiago Papasquiaro,25.0439,-105.4192,Mexico,MX,MEX,Durango,minor,26121.0,1484176278
+17501,Zacualtipán,Zacualtipan,20.65,-98.65,Mexico,MX,MEX,Hidalgo,,25987.0,1484806928
+17558,Álamos,Alamos,27.0275,-108.94,Mexico,MX,MEX,Sonora,minor,24493.0,1484052656
+17570,Cuajinicuilapa,Cuajinicuilapa,16.4717,-98.4153,Mexico,MX,MEX,Guerrero,minor,25922.0,1484450188
+17606,Huejotzingo,Huejotzingo,19.1594,-98.4073,Mexico,MX,MEX,Puebla,minor,25684.0,1484474577
+17626,Felipe Carrillo Puerto,Felipe Carrillo Puerto,19.5786,-88.0453,Mexico,MX,MEX,Quintana Roo,minor,25744.0,1484914299
+17636,Cuerámaro,Cueramaro,20.6258,-101.6739,Mexico,MX,MEX,Guanajuato,minor,25610.0,1484743958
+17645,Tepetlaoxtoc,Tepetlaoxtoc,19.5731,-98.8203,Mexico,MX,MEX,México,minor,25523.0,1484140193
+17779,Pinal de Amoles,Pinal de Amoles,21.1342,-99.4586,Mexico,MX,MEX,Querétaro,minor,25325.0,1484630305
+17838,Santa María Tonameca,Santa Maria Tonameca,15.7458,-96.5472,Mexico,MX,MEX,Oaxaca,minor,25130.0,1484998049
+17874,Doctor Mora,Doctor Mora,21.1425,-100.3192,Mexico,MX,MEX,Guanajuato,minor,24976.0,1484329164
+17890,Sultepec,Sultepec,18.8667,-99.95,Mexico,MX,MEX,México,minor,24986.0,1484381977
+17947,Aquila,Aquila,18.5833,-103.5167,Mexico,MX,MEX,Michoacán de Ocampo,,24864.0,1484143629
+18050,La Huerta,La Huerta,19.4833,-104.65,Mexico,MX,MEX,Jalisco,minor,24563.0,1484366583
+18068,San Agustín Loxicha,San Agustin Loxicha,16.0167,-96.6167,Mexico,MX,MEX,Oaxaca,,24467.0,1484509506
+18177,Tecolutla,Tecolutla,20.4797,-97.01,Mexico,MX,MEX,Veracruz,minor,24258.0,1484719991
+18279,Nava,Nava,28.4214,-100.7675,Mexico,MX,MEX,Coahuila de Zaragoza,minor,22192.0,1484120104
+18325,Tlacolula,Tlacolula,20.0,-97.0,Mexico,MX,MEX,Veracruz,,23865.0,1484055571
+18337,San Miguel Ocotenco,San Miguel Ocotenco,18.9833,-97.45,Mexico,MX,MEX,Puebla,,23824.0,1484616570
+18338,Ciudad Serdán,Ciudad Serdan,18.9833,-97.45,Mexico,MX,MEX,Puebla,minor,23824.0,1484943496
+18430,San Juan Cotzocón,San Juan Cotzocon,17.1667,-95.7833,Mexico,MX,MEX,Oaxaca,,23686.0,1484942065
+18438,Juchitepec,Juchitepec,19.0997,-98.8792,Mexico,MX,MEX,México,minor,23497.0,1484007934
+18450,Soledad Atzompa,Soledad Atzompa,18.755,-97.1522,Mexico,MX,MEX,Veracruz,minor,23130.0,1484642759
+18512,Ahualulco de Mercado,Ahualulco de Mercado,20.6992,-103.9556,Mexico,MX,MEX,Jalisco,minor,23362.0,1484137273
+18609,Tototlán,Tototlan,20.5333,-102.7833,Mexico,MX,MEX,Jalisco,minor,23171.0,1484885208
+18643,Tamiahua,Tamiahua,21.2794,-97.4469,Mexico,MX,MEX,Veracruz,minor,23120.0,1484634319
+18675,Cuilapan de Guerrero,Cuilapan de Guerrero,16.9972,-96.7817,Mexico,MX,MEX,Oaxaca,minor,21597.0,1484534441
+18828,San Miguel de Papasquiaro,San Miguel de Papasquiaro,24.8304,-105.34,Mexico,MX,MEX,Durango,,22750.0,1484521716
+18862,Magdalena,Magdalena,20.9092,-103.9803,Mexico,MX,MEX,Jalisco,minor,22643.0,1484476169
+18897,Yahualica de González Gallo,Yahualica de Gonzalez Gallo,21.1781,-102.886,Mexico,MX,MEX,Jalisco,minor,22586.0,1484271707
+18900,Tecali,Tecali,18.9011,-97.97,Mexico,MX,MEX,Puebla,minor,21992.0,1484035847
+18908,Huautla,Huautla,21.0308,-98.285,Mexico,MX,MEX,Hidalgo,,22521.0,1484208664
+18912,Puente Nacional,Puente Nacional,19.3333,-96.4833,Mexico,MX,MEX,Veracruz,minor,22454.0,1484974086
+18950,Santa Ana Nextlalpan,Santa Ana Nextlalpan,19.7167,-99.0667,Mexico,MX,MEX,México,minor,22507.0,1484696225
+18984,Acatlán,Acatlan,20.4242,-103.6014,Mexico,MX,MEX,Jalisco,minor,22261.0,1484516807
+18999,Yahualica,Yahualica,20.9531,-98.38,Mexico,MX,MEX,Hidalgo,,22228.0,1484980764
+19002,Alvarado,Alvarado,18.7811,-95.7572,Mexico,MX,MEX,Veracruz,minor,22330.0,1484208918
+19023,Tepexi de Rodríguez,Tepexi de Rodriguez,18.5797,-97.9267,Mexico,MX,MEX,Puebla,,20598.0,1484944836
+19070,Chapa de Mota,Chapa de Mota,19.8144,-99.5269,Mexico,MX,MEX,México,minor,21746.0,1484616953
+19150,Jalpan,Jalpan,21.2167,-99.4725,Mexico,MX,MEX,Querétaro,minor,22025.0,1484214957
+19166,Axapusco,Axapusco,19.7194,-98.7972,Mexico,MX,MEX,México,minor,21915.0,1484580584
+19241,Ocotlán de Morelos,Ocotlan de Morelos,16.7914,-96.675,Mexico,MX,MEX,Oaxaca,minor,21676.0,1484002311
+19253,San Martín de las Pirámides,San Martin de las Piramides,19.7333,-98.8167,Mexico,MX,MEX,México,minor,21511.0,1484000182
+19335,La Resolana,La Resolana,19.6031,-104.4362,Mexico,MX,MEX,Jalisco,minor,21584.0,1484556709
+19355,Acatic,Acatic,20.7803,-102.91,Mexico,MX,MEX,Jalisco,minor,21530.0,1484373854
+19494,Santa María Chilchotla,Santa Maria Chilchotla,18.2333,-96.8167,Mexico,MX,MEX,Oaxaca,minor,20328.0,1484011437
+19629,Senguio,Senguio,19.7539,-100.3377,Mexico,MX,MEX,Michoacán de Ocampo,minor,19146.0,1484696811
+19632,Tepezalá,Tepezala,22.2167,-102.1667,Mexico,MX,MEX,Aguascalientes,minor,20926.0,1484547139
+19680,Comala,Comala,19.3208,-103.7603,Mexico,MX,MEX,Colima,minor,20888.0,1484287042
+19721,Viesca,Viesca,25.35,-102.8,Mexico,MX,MEX,Coahuila de Zaragoza,minor,19328.0,1484294846
+19749,Allende,Allende,28.3333,-100.8333,Mexico,MX,MEX,Coahuila de Zaragoza,minor,20694.0,1484737223
+19770,Chachahuantla,Chachahuantla,20.2756,-98.1503,Mexico,MX,MEX,Hidalgo,,20619.0,1484829941
+19814,Chapulhuacán,Chapulhuacan,21.1547,-98.9039,Mexico,MX,MEX,Hidalgo,,20577.0,1484747290
+19846,San Felipe,San Felipe,31.0275,-114.8353,Mexico,MX,MEX,Baja California,,19204.0,1484794463
+19879,Colonia General Felipe Ángeles,Colonia General Felipe Angeles,23.9167,-104.6,Mexico,MX,MEX,Durango,,20511.0,1484647102
+19996,Villa Hidalgo,Villa Hidalgo,21.6667,-102.6,Mexico,MX,MEX,Jalisco,minor,20257.0,1484702656
+20038,Cruz Grande,Cruz Grande,16.7333,-99.1333,Mexico,MX,MEX,Guerrero,minor,20175.0,1484074616
+20086,Metztitlán,Metztitlan,20.6,-98.7667,Mexico,MX,MEX,Hidalgo,,20123.0,1484604938
+20105,Naranjos,Naranjos,21.3472,-97.6833,Mexico,MX,MEX,Veracruz,minor,20073.0,1484227797
+20167,El Arenal,El Arenal,20.7754,-103.6935,Mexico,MX,MEX,Jalisco,minor,19900.0,1484970184
+20216,Comapa,Comapa,19.1667,-96.8666,Mexico,MX,MEX,Veracruz,minor,19859.0,1484768761
+20255,Huanímaro,Huanimaro,20.3675,-101.4969,Mexico,MX,MEX,Guanajuato,minor,19693.0,1484325445
+20265,Lerdo de Tejada,Lerdo de Tejada,18.638,-95.5085,Mexico,MX,MEX,Veracruz,minor,19606.0,1484800186
+20310,Calvillo,Calvillo,21.85,-102.7167,Mexico,MX,MEX,Aguascalientes,minor,19742.0,1484468847
+20434,Tapalpa,Tapalpa,19.9445,-103.7585,Mexico,MX,MEX,Jalisco,minor,19506.0,1484280338
+20449,Amatán,Amatan,17.3715,-92.818,Mexico,MX,MEX,Chiapas,minor,19348.0,1484881501
+20614,Jamiltepec,Jamiltepec,16.2783,-97.82,Mexico,MX,MEX,Oaxaca,minor,19201.0,1484035155
+20629,Huehuetla,Huehuetla,20.1039,-97.6251,Mexico,MX,MEX,Puebla,minor,18803.0,1484001118
+20671,Santa Ana Jilotzingo,Santa Ana Jilotzingo,19.5333,-99.4,Mexico,MX,MEX,México,minor,19013.0,1484669477
+20689,Ixtlahuacán del Río,Ixtlahuacan del Rio,20.8667,-103.25,Mexico,MX,MEX,Jalisco,minor,19070.0,1484528814
+20706,Tlalnelhuayocan,Tlalnelhuayocan,19.5667,-96.9667,Mexico,MX,MEX,Veracruz,minor,18715.0,1484053667
+20713,Cuquío,Cuquio,20.9275,-103.0239,Mexico,MX,MEX,Jalisco,minor,17980.0,1484426156
+20762,Atlapexco,Atlapexco,21.0042,-98.5056,Mexico,MX,MEX,Hidalgo,,18769.0,1484002302
+20807,Landa de Matamoros,Landa de Matamoros,21.1819,-99.3203,Mexico,MX,MEX,Querétaro,minor,18905.0,1484782726
+20862,Victoria,Victoria,21.2122,-100.2144,Mexico,MX,MEX,Guanajuato,minor,17764.0,1484434699
+20895,Tepetlixpa,Tepetlixpa,19.0006,-98.8178,Mexico,MX,MEX,México,minor,18327.0,1484018861
+20945,Filomeno Mata,Filomeno Mata,20.2,-97.7,Mexico,MX,MEX,Veracruz,minor,18367.0,1484846261
+21002,Santa Cruz Zenzontepec,Santa Cruz Zenzontepec,16.5333,-97.5,Mexico,MX,MEX,Oaxaca,,18512.0,1484403131
+21004,Moloacán,Moloacan,17.9833,-94.35,Mexico,MX,MEX,Veracruz,minor,17504.0,1484009613
+21008,Asunción Nochixtlán,Asuncion Nochixtlan,17.4592,-97.2261,Mexico,MX,MEX,Oaxaca,minor,18525.0,1484302009
+21019,San Blas Atempa,San Blas Atempa,16.3167,-95.2167,Mexico,MX,MEX,Oaxaca,minor,18406.0,1484548529
+21072,San José Tenango,San Jose Tenango,18.15,-96.7333,Mexico,MX,MEX,Oaxaca,minor,18316.0,1484844323
+21100,Acatlán,Acatlan,20.1444,-98.4383,Mexico,MX,MEX,Hidalgo,minor,17914.0,1484652472
+21163,Xochiatipan de Castillo,Xochiatipan de Castillo,20.8333,-98.285,Mexico,MX,MEX,Hidalgo,,18157.0,1484688256
+21236,Cuautitlán,Cuautitlan,19.4333,-104.3,Mexico,MX,MEX,Jalisco,minor,18138.0,1484216677
+21364,Zapotlán del Rey,Zapotlan del Rey,20.4674,-102.9248,Mexico,MX,MEX,Jalisco,minor,17893.0,1484897349
+21368,Unión de San Antonio,Union de San Antonio,21.1272,-102.0061,Mexico,MX,MEX,Jalisco,minor,17915.0,1484001030
+21399,San Bartolo Tutotepec,San Bartolo Tutotepec,20.4,-98.2,Mexico,MX,MEX,Hidalgo,minor,17837.0,1484290508
+21526,Tlahuelilpan,Tlahuelilpan,20.1297,-99.2286,Mexico,MX,MEX,Hidalgo,,17153.0,1484009996
+21533,Santos Reyes Nopala,Santos Reyes Nopala,16.1,-97.15,Mexico,MX,MEX,Oaxaca,,17583.0,1484003311
+21558,Totutla,Totutla,19.2167,-96.9667,Mexico,MX,MEX,Veracruz,minor,17428.0,1484089486
+21656,Ziracuaretiro,Ziracuaretiro,19.4189,-101.9088,Mexico,MX,MEX,Michoacán de Ocampo,,17394.0,1484827641
+21775,Pisaflores,Pisaflores,21.1933,-99.005,Mexico,MX,MEX,Hidalgo,,17214.0,1484698691
+21786,Cosautlán,Cosautlan,19.3333,-96.9833,Mexico,MX,MEX,Veracruz,minor,16353.0,1484430709
+21832,Calnali,Calnali,20.9,-98.5833,Mexico,MX,MEX,Hidalgo,,17163.0,1484014196
+21901,Ignacio de la Llave,Ignacio de la Llave,18.6618,-95.9721,Mexico,MX,MEX,Veracruz,minor,17105.0,1484700629
+21906,Ajacuba,Ajacuba,20.0833,-99.1167,Mexico,MX,MEX,Hidalgo,,17055.0,1484132188
+22008,San Juan Lalana,San Juan Lalana,17.4667,-95.8833,Mexico,MX,MEX,Oaxaca,,16972.0,1484819599
+22009,Peñamiller,Penamiller,21.0519,-99.815,Mexico,MX,MEX,Querétaro,minor,17007.0,1484158047
+22017,Guadalupe Victoria,Guadalupe Victoria,19.2833,-97.3333,Mexico,MX,MEX,Puebla,,16923.0,1484527511
+22028,Jilotepec,Jilotepec,19.6113,-96.9224,Mexico,MX,MEX,Veracruz,minor,16682.0,1484009524
+22040,San Jacinto Amilpas,San Jacinto Amilpas,17.1,-96.7667,Mexico,MX,MEX,Oaxaca,,15720.0,1484813830
+22079,Alfajayucan,Alfajayucan,20.4,-99.35,Mexico,MX,MEX,Hidalgo,,16859.0,1484991912
+22082,Chalchihuitán,Chalchihuitan,16.9667,-92.65,Mexico,MX,MEX,Chiapas,,16803.0,1484099582
+22116,Chinampa de Gorostiza,Chinampa de Gorostiza,21.3667,-97.7333,Mexico,MX,MEX,Veracruz,minor,16741.0,1484006654
+22252,Santa María Petapa,Santa Maria Petapa,16.8167,-95.1167,Mexico,MX,MEX,Oaxaca,,16518.0,1484501021
+22261,Zapotlán de Juárez,Zapotlan de Juarez,19.9667,-98.85,Mexico,MX,MEX,Hidalgo,minor,16493.0,1484756389
+22710,San Julián,San Julian,21.0167,-102.1667,Mexico,MX,MEX,Jalisco,minor,15890.0,1484367855
+22736,Chiconquiaco,Chiconquiaco,19.75,-96.8167,Mexico,MX,MEX,Veracruz,minor,14394.0,1484230887
+22738,Cardonal,Cardonal,20.6167,-99.1167,Mexico,MX,MEX,Hidalgo,,15876.0,1484936605
+22781,Tenango de Doria,Tenango de Doria,20.3356,-98.2267,Mexico,MX,MEX,Hidalgo,minor,15793.0,1484595420
+22789,Ixhuatlán del Sureste,Ixhuatlan del Sureste,18.017,-94.38,Mexico,MX,MEX,Veracruz,minor,15800.0,1484815291
+23044,Tasquillo,Tasquillo,20.6167,-99.25,Mexico,MX,MEX,Hidalgo,,15429.0,1484659098
+23092,Churumuco de Morelos,Churumuco de Morelos,18.6167,-101.6333,Mexico,MX,MEX,Michoacán de Ocampo,minor,15455.0,1484004930
+23131,Amatitán,Amatitan,20.8333,-103.7167,Mexico,MX,MEX,Jalisco,minor,15344.0,1484634445
+23193,Chilcuautla,Chilcuautla,20.3333,-99.2333,Mexico,MX,MEX,Hidalgo,minor,15284.0,1484513510
+23310,Huasca de Ocampo,Huasca de Ocampo,20.2028,-98.5758,Mexico,MX,MEX,Hidalgo,minor,15201.0,1484063344
+23326,San Pedro Tapanatepec,San Pedro Tapanatepec,16.3667,-94.2,Mexico,MX,MEX,Oaxaca,,15152.0,1484844084
+23337,Cadereyta,Cadereyta,20.7,-99.8167,Mexico,MX,MEX,Querétaro,minor,13347.0,1484014263
+23345,El Arenal,El Arenal,20.2167,-98.9167,Mexico,MX,MEX,Hidalgo,,15037.0,1484425146
+23353,Nopala de Villagran,Nopala de Villagran,20.2528,-99.6433,Mexico,MX,MEX,Hidalgo,,15099.0,1484987808
+23433,Tierra Blanca,Tierra Blanca,21.1011,-100.1578,Mexico,MX,MEX,Guanajuato,minor,14515.0,1484181207
+23621,Tepetzintla,Tepetzintla,21.1647,-97.8528,Mexico,MX,MEX,Veracruz,minor,14736.0,1484385901
+23721,Zontecomatlán de López y Fuentes,Zontecomatlan de Lopez y Fuentes,20.7667,-98.3333,Mexico,MX,MEX,Veracruz,minor,14620.0,1484226245
+23822,Tlayacapan,Tlayacapan,18.9556,-98.9811,Mexico,MX,MEX,Morelos,minor,14467.0,1484386110
+23830,Maxcanú,Maxcanu,20.5833,-89.9833,Mexico,MX,MEX,Yucatán,minor,12621.0,1484052886
+23870,Progreso,Progreso,32.5842,-115.5842,Mexico,MX,MEX,Baja California,,12557.0,1484104363
+23953,San Andrés Timilpan,San Andres Timilpan,19.8667,-99.7333,Mexico,MX,MEX,México,minor,14335.0,1484996853
+23998,Ciénega de Flores,Cienega de Flores,25.95,-100.1833,Mexico,MX,MEX,Nuevo León,minor,14268.0,1484782533
+24018,El Barrio de la Soledad,El Barrio de la Soledad,16.8,-95.1167,Mexico,MX,MEX,Oaxaca,,14277.0,1484814019
+24059,Almoloya de Alquisiras,Almoloya de Alquisiras,18.85,-99.85,Mexico,MX,MEX,México,minor,14196.0,1484855096
+24062,Santiago Ixtayutla,Santiago Ixtayutla,16.5667,-97.65,Mexico,MX,MEX,Oaxaca,,13041.0,1484640868
+24093,El Porvenir de Velasco Suárez,El Porvenir de Velasco Suarez,15.4556,-92.2794,Mexico,MX,MEX,Chiapas,minor,14121.0,1484841642
+24226,Santiago de Anaya,Santiago de Anaya,20.3844,-98.9647,Mexico,MX,MEX,Hidalgo,,14066.0,1484062040
+24320,Acala,Acala,16.5533,-92.8069,Mexico,MX,MEX,Chiapas,minor,13889.0,1484788928
+24356,Polotitlán de la Ilustración,Polotitlan de la Ilustracion,20.2231,-99.8147,Mexico,MX,MEX,México,minor,13851.0,1484418357
+24444,Zacualpan,Zacualpan,18.7197,-99.78,Mexico,MX,MEX,México,minor,13800.0,1484694794
+24561,San Pedro Pochutla,San Pedro Pochutla,15.7463,-96.4652,Mexico,MX,MEX,Oaxaca,minor,13685.0,1484815091
+24622,Ixcatepec,Ixcatepec,21.2333,-98.0,Mexico,MX,MEX,Veracruz,,13591.0,1484476969
+24702,Tianguistengo,Tianguistengo,20.7278,-98.6289,Mexico,MX,MEX,Hidalgo,,13478.0,1484089008
+24731,Eloxochitlán,Eloxochitlan,18.5088,-96.9227,Mexico,MX,MEX,Puebla,,12520.0,1484796183
+24736,Ilamatlán,Ilamatlan,20.7833,-98.45,Mexico,MX,MEX,Veracruz,minor,13474.0,1484806313
+24866,Espita,Espita,21.0128,-88.3047,Mexico,MX,MEX,Yucatán,minor,11551.0,1484433962
+24961,Tocumbo,Tocumbo,19.7,-102.5333,Mexico,MX,MEX,Michoacán de Ocampo,,11994.0,1484812169
+24980,Cocotitlán,Cocotitlan,19.2167,-98.85,Mexico,MX,MEX,México,minor,12142.0,1484387908
+25082,Mazatlán Villa de Flores,Mazatlan Villa de Flores,18.0167,-96.9167,Mexico,MX,MEX,Oaxaca,minor,13097.0,1484893255
+25091,Singuilucan,Singuilucan,19.9675,-98.5178,Mexico,MX,MEX,Hidalgo,minor,13143.0,1484024966
+25172,Ciudad Insurgentes,Ciudad Insurgentes,25.2617,-111.7744,Mexico,MX,MEX,Baja California Sur,,11503.0,1484354076
+25280,Tapilula,Tapilula,17.25,-93.0167,Mexico,MX,MEX,Chiapas,minor,12887.0,1484306142
+25297,Maravilla Tenejapa,Maravilla Tenejapa,16.1333,-91.2833,Mexico,MX,MEX,Chiapas,minor,12945.0,1484598932
+25484,Olintla,Olintla,20.1,-97.6833,Mexico,MX,MEX,Puebla,,11517.0,1484975870
+25514,Santiago Amoltepec,Santiago Amoltepec,16.6167,-97.5,Mexico,MX,MEX,Oaxaca,,12683.0,1484936827
+25602,Tepetzintla,Tepetzintla,19.9667,-97.8333,Mexico,MX,MEX,Puebla,minor,11622.0,1484778629
+25629,Emiliano Zapata,Emiliano Zapata,19.65,-98.55,Mexico,MX,MEX,Hidalgo,minor,12309.0,1484053015
+25708,Santa Ana Maya,Santa Ana Maya,20.0,-101.0167,Mexico,MX,MEX,Michoacán de Ocampo,minor,12466.0,1484004080
+25711,Mecatlán,Mecatlan,20.2135,-97.6574,Mexico,MX,MEX,Veracruz,minor,12332.0,1484471160
+25777,Tezoatlán de Segura y Luna,Tezoatlan de Segura y Luna,17.65,-97.8167,Mexico,MX,MEX,Oaxaca,minor,11034.0,1484633645
+25823,Arroyo Seco,Arroyo Seco,21.5472,-99.6883,Mexico,MX,MEX,Querétaro,minor,12493.0,1484500576
+25914,Cuichapa,Cuichapa,18.7667,-96.8667,Mexico,MX,MEX,Veracruz,minor,12238.0,1484015677
+26017,Teotlaltzingo,Teotlaltzingo,19.2322,-98.5017,Mexico,MX,MEX,Puebla,,10456.0,1484592594
+26020,Mixtla de Altamirano,Mixtla de Altamirano,18.6,-97.0,Mexico,MX,MEX,Veracruz,minor,11646.0,1484655126
+26052,Tzintzuntzán,Tzintzuntzan,19.6283,-101.5789,Mexico,MX,MEX,Michoacán de Ocampo,minor,12259.0,1484799786
+26074,Citlaltépec,Citlaltepec,21.3435,-97.892,Mexico,MX,MEX,Veracruz,minor,12109.0,1484014771
+26128,Mineral del Monte,Mineral del Monte,20.1333,-98.6667,Mexico,MX,MEX,Hidalgo,minor,11944.0,1484360018
+26250,San Carlos Yautepec,San Carlos Yautepec,16.5,-96.1,Mexico,MX,MEX,Oaxaca,minor,12101.0,1484274293
+26257,Xichú,Xichu,21.2997,-100.0553,Mexico,MX,MEX,Guanajuato,minor,11323.0,1484008759
+26272,Jacala,Jacala,21.0053,-99.1719,Mexico,MX,MEX,Hidalgo,,12057.0,1484527650
+26389,Tlacolulan,Tlacolulan,19.6667,-97.0,Mexico,MX,MEX,Veracruz,minor,11431.0,1484260116
+26496,Villa Aldama,Villa Aldama,19.65,-97.2333,Mexico,MX,MEX,Veracruz,minor,11760.0,1484465521
+26510,Santa Cruz Itundujia,Santa Cruz Itundujia,16.8667,-97.65,Mexico,MX,MEX,Oaxaca,,11616.0,1484802157
+26516,Ojuelos de Jalisco,Ojuelos de Jalisco,21.8642,-101.5933,Mexico,MX,MEX,Jalisco,minor,11881.0,1484896796
+26534,Nacozari Viejo,Nacozari Viejo,30.42,-109.65,Mexico,MX,MEX,Sonora,,11872.0,1484108383
+26543,Abasolo,Abasolo,24.0559,-98.3733,Mexico,MX,MEX,Tamaulipas,minor,11862.0,1484491384
+26575,Tolcayuca,Tolcayuca,19.95,-98.9167,Mexico,MX,MEX,Morelos,minor,11746.0,1484403443
+26673,José María Morelos,Jose Maria Morelos,19.75,-88.7,Mexico,MX,MEX,Quintana Roo,minor,11750.0,1484872600
+26789,Huandacareo,Huandacareo,19.9906,-101.275,Mexico,MX,MEX,Michoacán de Ocampo,minor,11592.0,1484155611
+26879,Temamatla,Temamatla,19.2028,-98.87,Mexico,MX,MEX,México,minor,11206.0,1484069603
+26899,Epazoyucan,Epazoyucan,20.0177,-98.6361,Mexico,MX,MEX,Hidalgo,minor,11522.0,1484543443
+27041,Acuítzio del Canje,Acuitzio del Canje,19.5,-101.3333,Mexico,MX,MEX,Michoacán de Ocampo,minor,11425.0,1484190004
+27129,Chapantongo,Chapantongo,20.2833,-99.4,Mexico,MX,MEX,Hidalgo,,11389.0,1484970395
+27275,Imuris,Imuris,30.7667,-110.8333,Mexico,MX,MEX,Sonora,minor,9921.0,1484234881
+27335,Joquicingo,Joquicingo,19.0556,-99.5467,Mexico,MX,MEX,México,minor,11042.0,1484561507
+27336,Mineral de Angangueo,Mineral de Angangueo,19.6178,-100.2856,Mexico,MX,MEX,Michoacán de Ocampo,minor,11120.0,1484121857
+27397,Jamapa,Jamapa,19.04,-96.24,Mexico,MX,MEX,Veracruz,minor,9772.0,1484467927
+27571,San Nicolas Buenos Aires,San Nicolas Buenos Aires,19.1433,-97.4767,Mexico,MX,MEX,Puebla,,9972.0,1484819352
+27572,Tepetlán,Tepetlan,19.6667,-96.8,Mexico,MX,MEX,Veracruz,minor,9668.0,1484555085
+27671,Texcatepec,Texcatepec,20.5833,-98.3667,Mexico,MX,MEX,Veracruz,minor,10934.0,1484575888
+27818,Tenango del Aire,Tenango del Aire,19.1575,-98.8581,Mexico,MX,MEX,México,minor,10578.0,1484285163
+27831,San Juanito de Escobedo,San Juanito de Escobedo,20.8,-104.0,Mexico,MX,MEX,Jalisco,minor,9433.0,1484130165
+27931,Soyaniquilpan,Soyaniquilpan,19.9892,-99.4361,Mexico,MX,MEX,México,minor,10719.0,1484895616
+27933,Tecoh,Tecoh,20.7419,-89.4744,Mexico,MX,MEX,Yucatán,,9134.0,1484904738
+27945,Tezontepec,Tezontepec,19.8833,-98.8167,Mexico,MX,MEX,Hidalgo,minor,10723.0,1484120923
+27963,Totolapan,Totolapan,18.9869,-98.9197,Mexico,MX,MEX,Morelos,minor,10790.0,1484963370
+27995,Tlachichilco,Tlachichilco,20.6217,-98.1994,Mexico,MX,MEX,Veracruz,minor,10729.0,1484876244
+28020,Santa Catarina Ayotzingo,Santa Catarina Ayotzingo,19.2647,-98.8975,Mexico,MX,MEX,México,,10702.0,1484300687
+28055,San Pablo Huixtepec,San Pablo Huixtepec,16.8167,-96.7833,Mexico,MX,MEX,Oaxaca,minor,9313.0,1484156599
+28070,Villa Purificación,Villa Purificacion,19.7858,-104.7078,Mexico,MX,MEX,Jalisco,minor,10704.0,1484448303
+28116,Almoloya,Almoloya,19.7,-98.4,Mexico,MX,MEX,Hidalgo,minor,10638.0,1484494575
+28174,Lázaro Cárdenas,Lazaro Cardenas,28.3897,-105.6236,Mexico,MX,MEX,Chihuahua,,8704.0,1484739082
+28188,Santiago Suchilquitongo,Santiago Suchilquitongo,17.25,-96.8833,Mexico,MX,MEX,Oaxaca,minor,10397.0,1484773312
+28392,Jaltocan,Jaltocan,21.1333,-98.5383,Mexico,MX,MEX,Hidalgo,,10265.0,1484352270
+28458,Coroneo,Coroneo,20.1333,-100.3333,Mexico,MX,MEX,Guanajuato,minor,10347.0,1484498281
+28460,Molango,Molango,20.7844,-98.7175,Mexico,MX,MEX,Hidalgo,,10385.0,1484340479
+28597,Teocuitatlán de Corona,Teocuitatlan de Corona,20.0918,-103.3785,Mexico,MX,MEX,Jalisco,minor,10317.0,1484087600
+28624,Chavinda,Chavinda,20.0167,-102.45,Mexico,MX,MEX,Michoacán de Ocampo,minor,10258.0,1484159886
+28682,Hecelchakán,Hecelchakan,20.1667,-90.1333,Mexico,MX,MEX,Campeche,minor,10285.0,1484700920
+28729,Santa Isabel Cholula,Santa Isabel Cholula,19.0,-98.3667,Mexico,MX,MEX,Puebla,minor,9236.0,1484043974
+28847,Almoloya del Río,Almoloya del Rio,19.1586,-99.4886,Mexico,MX,MEX,Morelos,minor,8939.0,1484000708
+28864,Seyé,Seye,20.8372,-89.3719,Mexico,MX,MEX,Yucatán,minor,8369.0,1484902665
+28900,La Misión,La Mision,21.1,-99.1333,Mexico,MX,MEX,Hidalgo,,10096.0,1484006779
+29015,San Agustín de las Juntas,San Agustin de las Juntas,17.0,-96.7167,Mexico,MX,MEX,Oaxaca,,9342.0,1484607979
+29067,San Pedro Huamelula,San Pedro Huamelula,16.0167,-95.6667,Mexico,MX,MEX,Oaxaca,minor,10014.0,1484802560
+29068,Santa María Ajoloapan,Santa Maria Ajoloapan,19.9692,-99.0353,Mexico,MX,MEX,Morelos,,9185.0,1484494406
+29077,Coycoyan de las Flores,Coycoyan de las Flores,17.2713,-98.2741,Mexico,MX,MEX,Guerrero,,9936.0,1484976767
+29155,Santa Cruz Atizapán,Santa Cruz Atizapan,19.1756,-99.4886,Mexico,MX,MEX,México,minor,8909.0,1484011710
+29160,Cuicatlan,Cuicatlan,17.7255,-96.9222,Mexico,MX,MEX,Oaxaca,,9945.0,1484474019
+29175,Monte Escobedo,Monte Escobedo,22.3,-103.5667,Mexico,MX,MEX,Zacatecas,minor,8929.0,1484046726
+29176,Amatenango del Valle,Amatenango del Valle,16.5333,-92.4333,Mexico,MX,MEX,Chiapas,minor,9913.0,1484632903
+29222,Jilotlán de los Dolores,Jilotlan de los Dolores,19.3708,-103.0197,Mexico,MX,MEX,Jalisco,minor,9917.0,1484298923
+29227,Arteaga,Arteaga,25.4453,-100.8467,Mexico,MX,MEX,Coahuila de Zaragoza,minor,8446.0,1484966010
+29417,Hostotipaquillo,Hostotipaquillo,21.0588,-104.0508,Mexico,MX,MEX,Jalisco,minor,9761.0,1484387476
+29455,Nopaltepec,Nopaltepec,19.7819,-98.7125,Mexico,MX,MEX,Morelos,minor,8182.0,1484979836
+29477,Huaniqueo de Morales,Huaniqueo de Morales,19.8946,-101.5122,Mexico,MX,MEX,México,minor,8093.0,1484424905
+29531,Tzitzio,Tzitzio,19.4449,-100.9085,Mexico,MX,MEX,Michoacán de Ocampo,minor,8966.0,1484231858
+29639,San Pedro Ixtlahuaca,San Pedro Ixtlahuaca,17.05,-96.8167,Mexico,MX,MEX,Oaxaca,,8561.0,1484203625
+29677,Lototla,Lototla,20.8392,-98.7178,Mexico,MX,MEX,Hidalgo,,9541.0,1484853725
+29747,Ecatzingo,Ecatzingo,18.95,-98.75,Mexico,MX,MEX,México,minor,9369.0,1484003696
+29793,Zacualpan de Amilpas,Zacualpan de Amilpas,18.7836,-98.7594,Mexico,MX,MEX,Morelos,minor,9370.0,1484800291
+29808,Puerto Morelos,Puerto Morelos,20.8536,-86.8753,Mexico,MX,MEX,Quintana Roo,,9188.0,1484801229
+29818,Carácuaro,Caracuaro,18.9851,-101.0416,Mexico,MX,MEX,Michoacán de Ocampo,,9485.0,1484202131
+29945,Tenabo,Tenabo,20.0333,-90.2167,Mexico,MX,MEX,Campeche,minor,7543.0,1484006331
+30150,Tlahuiltepa,Tlahuiltepa,20.9233,-98.9497,Mexico,MX,MEX,Hidalgo,,9264.0,1484500392
+30170,Santa María del Tule,Santa Maria del Tule,17.0465,-96.6363,Mexico,MX,MEX,Oaxaca,minor,8918.0,1484488353
+30289,Santo Domingo Petapa,Santo Domingo Petapa,16.8167,-95.1333,Mexico,MX,MEX,Oaxaca,,9157.0,1484805593
+30366,Villa Chalcatongo de Hidalgo,Villa Chalcatongo de Hidalgo,17.0322,-97.5709,Mexico,MX,MEX,Oaxaca,,9066.0,1484341732
+30462,Villa Morelos,Villa Morelos,20.0033,-101.4144,Mexico,MX,MEX,México,,7806.0,1484528995
+30509,Guerrero,Guerrero,28.5478,-107.4856,Mexico,MX,MEX,Chihuahua,minor,7751.0,1484042029
+30613,San Francisco Ixhuatan,San Francisco Ixhuatan,16.3514,-94.4836,Mexico,MX,MEX,Oaxaca,,8980.0,1484223318
+30640,Tepechitlán,Tepechitlan,21.6667,-103.3333,Mexico,MX,MEX,Zacatecas,minor,8972.0,1484570912
+30661,Santo Tomás de los Plátanos,Santo Tomas de los Platanos,19.1817,-100.2589,Mexico,MX,MEX,México,minor,8888.0,1484531949
+30671,San Pablo Villa de Mitla,San Pablo Villa de Mitla,16.917,-96.4,Mexico,MX,MEX,Oaxaca,minor,7547.0,1484844758
+30708,Tepetitlan,Tepetitlan,20.1842,-99.3808,Mexico,MX,MEX,Hidalgo,,8893.0,1484277299
+30772,San José de Gracia,San Jose de Gracia,22.15,-102.4167,Mexico,MX,MEX,Aguascalientes,minor,8896.0,1484004442
+30800,Santa María Xadani,Santa Maria Xadani,16.3667,-95.0167,Mexico,MX,MEX,Oaxaca,minor,8795.0,1484494009
+30817,San Joaquín,San Joaquin,20.9833,-99.5,Mexico,MX,MEX,Querétaro,minor,8865.0,1484855056
+30828,Ciudad Cerralvo,Ciudad Cerralvo,26.0899,-99.6147,Mexico,MX,MEX,Nuevo León,minor,7169.0,1484627083
+30889,Valle de Guadalupe,Valle de Guadalupe,21.0,-102.6167,Mexico,MX,MEX,Jalisco,minor,6924.0,1484945952
+30982,Santa Bárbara,Santa Barbara,26.8133,-105.8203,Mexico,MX,MEX,Chihuahua,minor,8765.0,1484698134
+31123,Tlanalapa,Tlanalapa,19.8167,-98.6,Mexico,MX,MEX,Hidalgo,minor,8662.0,1484762044
+31208,El Espinal,El Espinal,16.4906,-95.0444,Mexico,MX,MEX,Oaxaca,minor,8575.0,1484603133
+31283,Santa Eulalia,Santa Eulalia,28.5939,-105.8878,Mexico,MX,MEX,Chihuahua,minor,7135.0,1484258446
+31474,Conkal,Conkal,21.0733,-89.5208,Mexico,MX,MEX,Yucatán,minor,7173.0,1484022909
+31483,Agua Blanca Iturbide,Agua Blanca Iturbide,20.35,-98.35,Mexico,MX,MEX,Hidalgo,,8443.0,1484459690
+31586,Cacalchen,Cacalchen,20.9822,-89.2278,Mexico,MX,MEX,Yucatán,,6787.0,1484727616
+31599,San Pablo Huitzo,San Pablo Huitzo,17.2764,-96.8825,Mexico,MX,MEX,Oaxaca,minor,7024.0,1484216451
+31657,Tumbiscatío de Ruiz,Tumbiscatio de Ruiz,18.5167,-102.383,Mexico,MX,MEX,Michoacán de Ocampo,minor,6947.0,1484002890
+31751,San Miguel del Puerto,San Miguel del Puerto,15.9167,-96.1667,Mexico,MX,MEX,Oaxaca,minor,8362.0,1484006289
+31761,San Sebastián Tecomaxtlahuaca,San Sebastian Tecomaxtlahuaca,17.35,-98.0333,Mexico,MX,MEX,Oaxaca,,8352.0,1484000691
+31779,Santiago Yosondúa,Santiago Yosondua,16.8833,-97.5667,Mexico,MX,MEX,Oaxaca,,8330.0,1484004709
+31822,Texmelucan,Texmelucan,16.5833,-97.2,Mexico,MX,MEX,Oaxaca,minor,8323.0,1484809234
+32136,Albarradas,Albarradas,17.0667,-96.2,Mexico,MX,MEX,Oaxaca,minor,7965.0,1484117496
+32186,Dzidzantun,Dzidzantun,21.2472,-89.0417,Mexico,MX,MEX,Yucatán,,8119.0,1484105150
+32188,San Miguel Quetzaltepec,San Miguel Quetzaltepec,16.9667,-95.8167,Mexico,MX,MEX,Oaxaca,,8119.0,1484987691
+32194,Todos Santos,Todos Santos,23.4486,-110.2233,Mexico,MX,MEX,Baja California Sur,,6485.0,1484568659
+32239,Cosalá,Cosala,24.4125,-106.6917,Mexico,MX,MEX,Sinaloa,minor,6577.0,1484038292
+32303,Solosuchiapa,Solosuchiapa,17.4,-93.0167,Mexico,MX,MEX,Chiapas,minor,8082.0,1484146814
+32501,Topolobampo,Topolobampo,25.6056,-109.05,Mexico,MX,MEX,Sinaloa,,6361.0,1484652048
+32572,Mineral del Chico,Mineral del Chico,20.2031,-98.7478,Mexico,MX,MEX,Hidalgo,,7980.0,1484095242
+32604,San Felipe Tejalapan,San Felipe Tejalapan,17.1111,-96.8542,Mexico,MX,MEX,Oaxaca,,7862.0,1484085457
+32612,Kinchil,Kinchil,20.9161,-89.9469,Mexico,MX,MEX,Yucatán,,6307.0,1484602892
+32628,Tonila,Tonila,19.4261,-103.5319,Mexico,MX,MEX,Jalisco,minor,7919.0,1484042798
+32756,Tenampa,Tenampa,19.25,-96.8833,Mexico,MX,MEX,Veracruz,minor,6677.0,1484165307
+32789,Temax,Temax,21.1511,-88.9403,Mexico,MX,MEX,Yucatán,,6239.0,1484369863
+32858,Mazapa,Mazapa,15.3833,-92.1833,Mexico,MX,MEX,Chiapas,minor,7769.0,1484432395
+32939,Santa María del Oro,Santa Maria del Oro,25.9333,-105.3667,Mexico,MX,MEX,Durango,minor,5878.0,1484044585
+33094,Montecristo,Montecristo,15.7,-92.6,Mexico,MX,MEX,Chiapas,minor,7682.0,1484263289
+33154,Chapultenango,Chapultenango,17.3333,-93.1333,Mexico,MX,MEX,Chiapas,minor,7644.0,1484412113
+33257,Villa Díaz Ordaz,Villa Diaz Ordaz,16.9981,-96.4314,Mexico,MX,MEX,Oaxaca,minor,6646.0,1484683191
+33281,Tecuanipan,Tecuanipan,19.0167,-98.4,Mexico,MX,MEX,Puebla,,6265.0,1484136923
+33291,Sahuaripa,Sahuaripa,29.05,-109.2333,Mexico,MX,MEX,Sonora,minor,5792.0,1484110174
+33309,Dzilam González,Dzilam Gonzalez,21.28,-88.9292,Mexico,MX,MEX,Yucatán,minor,5875.0,1484123404
+33349,Omitlán de Juárez,Omitlan de Juarez,20.1697,-98.6478,Mexico,MX,MEX,Hidalgo,minor,7529.0,1484135531
+33490,Teteles de Avila Castillo,Teteles de Avila Castillo,19.85,-97.45,Mexico,MX,MEX,Puebla,,5869.0,1484315177
+33533,El Centenario,El Centenario,24.1025,-110.4144,Mexico,MX,MEX,Baja California Sur,,6068.0,1484810855
+33630,Francisco León,Francisco Leon,17.3167,-93.25,Mexico,MX,MEX,Chiapas,,7430.0,1484006273
+33824,Homun,Homun,20.7386,-89.285,Mexico,MX,MEX,Yucatán,,6146.0,1484015198
+33858,San Diego de Alejandría,San Diego de Alejandria,20.8667,-101.9,Mexico,MX,MEX,Jalisco,minor,7349.0,1484200582
+33863,Mapimí,Mapimi,25.8331,-103.8478,Mexico,MX,MEX,Durango,minor,5623.0,1484156937
+33923,San Antonino Monteverde,San Antonino Monteverde,17.5322,-97.7208,Mexico,MX,MEX,Oaxaca,minor,7305.0,1484292294
+33974,Zapotitlán,Zapotitlan,20.0028,-97.6917,Mexico,MX,MEX,Puebla,,5469.0,1484694135
+34034,Rosales,Rosales,28.2,-105.55,Mexico,MX,MEX,Chihuahua,minor,5570.0,1484613026
+34148,Colipa,Colipa,19.9167,-96.7,Mexico,MX,MEX,Veracruz,minor,5718.0,1484745507
+34188,Tomatlán,Tomatlan,19.0293,-97.0095,Mexico,MX,MEX,Veracruz,minor,6869.0,1484373420
+34216,Tlalnepantla,Tlalnepantla,19.01,-99.0,Mexico,MX,MEX,Morelos,minor,7166.0,1484624789
+34219,Zacualpan,Zacualpan,20.4333,-98.35,Mexico,MX,MEX,Veracruz,minor,7194.0,1484262868
+34229,Chichimila,Chichimila,20.6308,-88.2172,Mexico,MX,MEX,Yucatán,,5528.0,1484055870
+34294,La Grandeza,La Grandeza,15.5333,-92.2333,Mexico,MX,MEX,Chiapas,minor,7057.0,1484377004
+34319,Santiago,Santiago,18.45,-95.8333,Mexico,MX,MEX,Veracruz,,5790.0,1484197612
+34364,Huautepec,Huautepec,18.1,-96.7833,Mexico,MX,MEX,Oaxaca,minor,6299.0,1484778510
+34407,Ayotzintepec,Ayotzintepec,17.6667,-96.1333,Mexico,MX,MEX,Oaxaca,,7102.0,1484190501
+34477,Colonia Venustiano Carranza,Colonia Venustiano Carranza,32.2275,-115.1703,Mexico,MX,MEX,Baja California,,6098.0,1484353279
+34507,Tlilapan,Tlilapan,18.8,-97.1,Mexico,MX,MEX,Veracruz,minor,5258.0,1484649434
+34608,Tlapanaloya,Tlapanaloya,19.9358,-99.1019,Mexico,MX,MEX,Morelos,,6466.0,1484594369
+34634,Sotuta,Sotuta,20.5968,-89.0082,Mexico,MX,MEX,Yucatán,minor,5548.0,1484594318
+34689,Pinotepa de Don Luis,Pinotepa de Don Luis,16.4333,-97.9667,Mexico,MX,MEX,Oaxaca,minor,6893.0,1484213887
+34702,Tenamaxtlán,Tenamaxtlan,20.2167,-104.167,Mexico,MX,MEX,Jalisco,minor,7005.0,1484313387
+34706,Tuzamapan,Tuzamapan,20.0833,-97.5667,Mexico,MX,MEX,Puebla,minor,6314.0,1484168032
+34775,Xochicoatlán,Xochicoatlan,20.7767,-98.68,Mexico,MX,MEX,Hidalgo,,6954.0,1484144977
+34790,Tixpehual,Tixpehual,20.9778,-89.4417,Mexico,MX,MEX,Yucatán,minor,5690.0,1484001217
+34861,San Buenaventura,San Buenaventura,29.8333,-107.4667,Mexico,MX,MEX,Chihuahua,minor,6957.0,1484524609
+34879,Texhuacán,Texhuacan,18.6167,-97.0333,Mexico,MX,MEX,Veracruz,minor,5284.0,1484361370
+34884,Ixtenco,Ixtenco,19.2514,-97.8942,Mexico,MX,MEX,Tlaxcala,minor,6791.0,1484538100
+34898,Samahil,Samahil,20.8858,-89.8894,Mexico,MX,MEX,Yucatán,,5631.0,1484246428
+34941,San José del Progreso,San Jose del Progreso,16.6833,-96.6833,Mexico,MX,MEX,Oaxaca,,6822.0,1484119700
+35031,Santiago Yaveo,Santiago Yaveo,17.3333,-95.7,Mexico,MX,MEX,Oaxaca,,6885.0,1484451563
+35199,Ocampo,Ocampo,22.8444,-99.3358,Mexico,MX,MEX,Tamaulipas,minor,5095.0,1484097897
+35224,Puerto Aventuras,Puerto Aventuras,20.5117,-87.2342,Mexico,MX,MEX,Quintana Roo,,5979.0,1484598759
+35393,Santiago Maravatío,Santiago Maravatio,20.1667,-101.0,Mexico,MX,MEX,Guanajuato,minor,6670.0,1484400248
+35454,Tuxcueca,Tuxcueca,20.1553,-103.1847,Mexico,MX,MEX,Jalisco,minor,6702.0,1484512877
+35487,San Juan Mixtepec,San Juan Mixtepec,17.3,-97.8333,Mexico,MX,MEX,Oaxaca,minor,6680.0,1484992412
+35500,Santa Lucía Monte Verde,Santa Lucia Monte Verde,16.95,-97.6667,Mexico,MX,MEX,Oaxaca,,6398.0,1484105891
+35613,Tatatila,Tatatila,19.7,-97.1167,Mexico,MX,MEX,Veracruz,minor,5767.0,1484958731
+35665,La Moncada,La Moncada,20.2667,-100.8,Mexico,MX,MEX,Guanajuato,,5100.0,1484000155
+35693,Creel,Creel,27.7522,-107.6347,Mexico,MX,MEX,Chihuahua,,5026.0,1484888276
+35794,Tetecala,Tetecala,18.7167,-99.3833,Mexico,MX,MEX,Morelos,minor,6473.0,1484463800
+36013,Silacayoápam,Silacayoapam,17.5,-98.1333,Mexico,MX,MEX,Oaxaca,minor,6495.0,1484018467
+36125,Gómez Farías,Gomez Farias,29.3583,-107.7361,Mexico,MX,MEX,Chihuahua,minor,5330.0,1484446758
+36257,Ixtapan del Oro,Ixtapan del Oro,19.2614,-100.2628,Mexico,MX,MEX,México,minor,6349.0,1484137881
+36301,Naco,Naco,31.3269,-109.9478,Mexico,MX,MEX,Sonora,minor,6401.0,1484213843
+36355,Santa María Yucuhiti,Santa Maria Yucuhiti,17.0167,-97.7667,Mexico,MX,MEX,Oaxaca,minor,6048.0,1484319057
+36395,Atengo,Atengo,20.2167,-104.0833,Mexico,MX,MEX,Jalisco,minor,5475.0,1484101476
+36544,Peñón Blanco,Penon Blanco,24.7833,-104.0333,Mexico,MX,MEX,Durango,minor,5271.0,1484011380
+36847,Nicolás Flores,Nicolas Flores,20.7669,-99.1514,Mexico,MX,MEX,Hidalgo,,6202.0,1484734938
+37113,Chiquilistlán,Chiquilistlan,20.0856,-103.8939,Mexico,MX,MEX,Jalisco,minor,6102.0,1484227601
+37123,Ixcateopan de Cuauhtémoc,Ixcateopan de Cuauhtemoc,18.5,-99.7933,Mexico,MX,MEX,Guerrero,minor,6104.0,1484181453
+37140,San Antonio Cañada,San Antonio Canada,18.5,-97.2833,Mexico,MX,MEX,Puebla,,5590.0,1484952027
+37152,Concepción de Buenos Aires,Concepcion de Buenos Aires,19.8667,-103.15,Mexico,MX,MEX,Jalisco,minor,6088.0,1484188633
+37229,Santa Catarina,Santa Catarina,21.1406,-100.0619,Mexico,MX,MEX,Guanajuato,minor,5120.0,1484243935
+37293,Magdalena Tequisistlán,Magdalena Tequisistlan,16.3992,-95.6033,Mexico,MX,MEX,Oaxaca,minor,6038.0,1484137889
+37391,Los Reyes,Los Reyes,18.6743,-97.0385,Mexico,MX,MEX,Veracruz,minor,5830.0,1484478891
+37531,San Miguel Panixtlahuaca,San Miguel Panixtlahuaca,16.2597,-97.3781,Mexico,MX,MEX,Oaxaca,minor,5930.0,1484082675
+37753,San Juan Ñumí,San Juan Numi,17.4,-97.7,Mexico,MX,MEX,Oaxaca,minor,5747.0,1484409961
+37893,Tancoco,Tancoco,21.2861,-97.7906,Mexico,MX,MEX,Veracruz,minor,5792.0,1484503829
+38221,San Andrés Huayápam,San Andres Huayapam,17.1,-96.6667,Mexico,MX,MEX,Oaxaca,minor,5336.0,1484954923
+38413,San Sebastián del Oeste,San Sebastian del Oeste,20.8511,-104.819,Mexico,MX,MEX,Jalisco,minor,5643.0,1484285954
+38423,Huejúcar,Huejucar,22.3591,-103.2108,Mexico,MX,MEX,Jalisco,minor,5633.0,1484409823
+38461,Atarjea,Atarjea,21.2678,-99.7183,Mexico,MX,MEX,Guanajuato,minor,5610.0,1484930304
+38564,Xoxocotla,Xoxocotla,18.65,-97.15,Mexico,MX,MEX,Veracruz,minor,5446.0,1484012471
+38653,San Nicolás Tolentino,San Nicolas Tolentino,22.2489,-100.5525,Mexico,MX,MEX,San Luis Potosí,minor,5547.0,1484584889
+38957,San Simón de Guerrero,San Simon de Guerrero,19.0225,-100.0067,Mexico,MX,MEX,México,minor,5408.0,1484005428
+38981,Valle de Juárez,Valle de Juarez,19.8667,-102.8167,Mexico,MX,MEX,Jalisco,minor,5389.0,1484329666
+39045,Teojomulco,Teojomulco,16.6,-97.2333,Mexico,MX,MEX,Oaxaca,minor,5093.0,1484423494
+39065,El Limón,El Limon,19.75,-104.0167,Mexico,MX,MEX,Jalisco,minor,5379.0,1484400765
+39089,Ixtapangajoya,Ixtapangajoya,17.4972,-93.0017,Mexico,MX,MEX,Chiapas,minor,5384.0,1484393364
+39155,General Bravo,General Bravo,25.8,-99.1667,Mexico,MX,MEX,Nuevo León,minor,5385.0,1484226392
+39189,Totontepec Villa de Morelos,Totontepec Villa de Morelos,17.2567,-96.0269,Mexico,MX,MEX,Oaxaca,minor,5361.0,1484058603
+39190,Acula,Acula,18.5167,-95.7833,Mexico,MX,MEX,Veracruz,minor,5350.0,1484501031
+39387,Lampazos de Naranjo,Lampazos de Naranjo,27.025,-100.5056,Mexico,MX,MEX,Nuevo León,minor,5305.0,1484271462
+39447,Benjamín Hill,Benjamin Hill,30.1667,-111.1,Mexico,MX,MEX,Sonora,minor,5285.0,1484490786
+39646,Santiago Zacatepec,Santiago Zacatepec,17.15,-95.9167,Mexico,MX,MEX,Oaxaca,,5187.0,1484385187
+39707,San Cristóbal Amatlán,San Cristobal Amatlan,16.3167,-96.4,Mexico,MX,MEX,Oaxaca,minor,5148.0,1484229558
+39835,San Dionisio del Mar,San Dionisio del Mar,16.3217,-94.7569,Mexico,MX,MEX,Oaxaca,,5127.0,1484014548
+39974,Jalcomulco,Jalcomulco,19.3333,-96.7667,Mexico,MX,MEX,Veracruz,minor,5006.0,1484823110
+40079,San Jerónimo Coatlán,San Jeronimo Coatlan,16.2333,-96.8667,Mexico,MX,MEX,Oaxaca,minor,5019.0,1484122222
+40168,Nautla,Nautla,20.2167,-96.7833,Mexico,MX,MEX,Veracruz,minor,2890.0,1484174535
+40366,Punta Prieta,Punta Prieta,28.9289,-114.1556,Mexico,MX,MEX,Baja California,,112.0,1484583029
+40428,Coatetelco,Coatetelco,18.7294,-99.3256,Mexico,MX,MEX,Morelos,,9094.0,1484016853
+40429,Ixtapa Zihuatanejo,Ixtapa Zihuatanejo,17.6367,-101.5514,Mexico,MX,MEX,Guerrero,,8992.0,1484980277
+40445,Vícam Pueblo,Vicam Pueblo,27.6422,-110.2897,Mexico,MX,MEX,Sonora,,8578.0,1484237374
+40602,Tamchen,Tamchen,20.8753,-89.9319,Mexico,MX,MEX,Yucatán,,6307.0,1484385687
+40641,General Zaragoza,General Zaragoza,23.8667,-97.8833,Mexico,MX,MEX,Tamaulipas,,5942.0,1484418136
+40718,San Quintín,San Quintin,30.4837,-115.95,Mexico,MX,MEX,Baja California,,5433.0,1484693426
+40761,San Francisco,San Francisco,20.5333,-102.5,Mexico,MX,MEX,Jalisco,,5167.0,1484609468
+40852,Altata,Altata,24.6333,-107.9167,Mexico,MX,MEX,Sinaloa,,2001.0,1484699069
