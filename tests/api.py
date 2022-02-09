@@ -33,63 +33,37 @@ def get_details(restaurant_id):
 
 def get_products():
     payload = {
-        "supported-actions":[
-            "card-content",
-            "catalog-item",
-            "last-restaurants",
-            "merchant",
-            "page",
-            "reorder",
-            "webmiddleware"
-        ],
+        "supported-headers":[],
         "supported-cards":[
             "MERCHANT_LIST",
             "CATALOG_ITEM_LIST",
             "CATALOG_ITEM_LIST_V2",
             "FEATURED_MERCHANT_LIST",
-            "CATALOG_ITEM_CAROUSEL",
-            "BIG_BANNER_CAROUSEL",
-            "IMAGE_BANNER",
-            "MERCHANT_LIST_WITH_ITEMS_CAROUSEL",
-            "SMALL_BANNER_CAROUSEL",
+            # "CATALOG_ITEM_CAROUSEL",
+            # "BIG_BANNER_CAROUSEL",
+            # "IMAGE_BANNER",
+            # "MERCHANT_LIST_WITH_ITEMS_CAROUSEL",
+            # "SMALL_BANNER_CAROUSEL",
             "NEXT_CONTENT",
-            "MERCHANT_CAROUSEL",
-            "MERCHANT_TILE_CAROUSEL",
-            "SIMPLE_MERCHANT_CAROUSEL",
-            "INFO_CARD",
+            # "MERCHANT_CAROUSEL",
+            # "MERCHANT_TILE_CAROUSEL",
+            # "SIMPLE_MERCHANT_CAROUSEL",
+            # "INFO_CARD",
             "MERCHANT_LIST_V2",
-            "ROUND_IMAGE_CAROUSEL",
-            "BANNER_GRID",
-            "MEDIUM_IMAGE_BANNER"
+            # "ROUND_IMAGE_CAROUSEL",
+            # "BANNER_GRID",
+            # "MEDIUM_IMAGE_BANNER"
         ],
-        "supported-headers":[],
+        "supported-actions":["card-content","catalog-item","last-restaurants","merchant","page","reorder","webmiddleware"]
     }
 
     headers = {
-        # "method": "POST",
-        # "path": "/v2/home?latitude=-23.6945238&longitude=-46.5621245&channel=IFOOD&alias=MERCADO_FARMACIA",
-        # "scheme": "https",
-        # "accept": "application/json, text/plain, */*",
-        # "accept-encoding": "gzip, deflate, br",
-        # "accept-language": "pt-BR,pt;q=1",
-        # 'app_version': "9.66.7",
-        # "browser": "Windows",
-        # "cache-control": "no-cache, no-store",
-        # "content-length": "541",
-        # "content-type": "application/json",
-        # "origin": "https://www.ifood.com.br",
-        # "platform": "Desktop",
-        # "referer": "https://www.ifood.com.br/",
-        # "sec-fetch-dest": "empty",
-        # "sec-fetch-mode": "cors",
-        # "sec-fetch-site": "same-site",
-        # "sec-gpc": "1",
-        "user-agent":"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.87 Safari/537.36",
-        # "x-ifood-device-id": "dc808812-58b2-41e6-8c69-755f1221c35e",
-        # "x-ifood-session-id": "9b948a1c-4d55-4788-9cd6-6cc6a034a6ad"
+        "content-type": "application/json",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36",
     }
 
-    data = requests.post("https://marketplace.ifood.com.br/v2/home?latitude=-23.6945238&longitude=-46.5621245&channel=IFOOD&alias=MERCADO_FARMACIA", headers=headers, data=payload)
+    fetch = requests.Session()
+    data = fetch.post("https://marketplace.ifood.com.br/v2/home?latitude=-23.7200517&longitude=-46.6224897&channel=IFOOD&alias=MERCADO_FARMACIA", headers=headers, data=json.dumps(payload))
     
     print(data.status_code)
     # print(data.json())
@@ -97,6 +71,11 @@ def get_products():
     if data.status_code == 200:
         with open('data.json', 'w') as file:
             json.dump(data.json(), file, indent=4)
+    
+    data = data.json()
+    for cards in data["sections"][0]["cards"]:
+            for contents in cards["data"]["contents"]:
+               print(contents["id"])
 
 def main():
     # restaurant_id = get_store_id()

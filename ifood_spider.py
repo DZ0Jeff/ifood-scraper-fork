@@ -1,7 +1,6 @@
 # run the file using scrapy runspider ifood-spider.py -o output.csv
 # inspired by https://github.com/nathan-cruz77/ifood/blob/master/ifood_spider.py
 import json
-from urllib.request import Request
 import scrapy
 import pandas as pd
 
@@ -65,6 +64,35 @@ class IfoodSpider(scrapy.Spider):
         # print(df)
 
         CHANNEL = "IFOOD"
+        payload = {
+            "supported-headers":[],
+            "supported-cards":[
+                "MERCHANT_LIST",
+                "CATALOG_ITEM_LIST",
+                "CATALOG_ITEM_LIST_V2",
+                "FEATURED_MERCHANT_LIST",
+                # "CATALOG_ITEM_CAROUSEL",
+                # "BIG_BANNER_CAROUSEL",
+                # "IMAGE_BANNER",
+                # "MERCHANT_LIST_WITH_ITEMS_CAROUSEL",
+                # "SMALL_BANNER_CAROUSEL",
+                "NEXT_CONTENT",
+                # "MERCHANT_CAROUSEL",
+                # "MERCHANT_TILE_CAROUSEL",
+                # "SIMPLE_MERCHANT_CAROUSEL",
+                # "INFO_CARD",
+                "MERCHANT_LIST_V2",
+                # "ROUND_IMAGE_CAROUSEL",
+                # "BANNER_GRID",
+                # "MEDIUM_IMAGE_BANNER"
+            ],
+            "supported-actions":["card-content","catalog-item","last-restaurants","merchant","page","reorder","webmiddleware"]
+        }
+
+        headers = {
+            "content-type": "application/json",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36",
+        }
         
         for i in range(len(df)):
             lat = df['latitude'].iloc[i]
@@ -79,11 +107,16 @@ class IfoodSpider(scrapy.Spider):
             #     CHANNEL = ""
 
             # todo: debugger the v2 api call with post requests (check headers, format and query params)
+            merchants = False
+            if merchants:
+                BASE_URL = f"https://marketplace.ifood.com.br/v1/merchants?latitude={lat}&longitude={long}&channel={CHANNEL}"
 
-            BASE_URL = f"https://marketplace.ifood.com.br/v2/merchants?latitude={lat}&longitude={long}&channel={CHANNEL}&alias=MERCADO_FARMACIA"
-            # BASE_URL = f"https://marketplace.ifood.com.br/v2/home?latitude=-{lat}&longitude={long}&channel={CHANNEL}&alias=MERCADO_FARMACIA"
+                yield scrapy.Request(f'{BASE_URL}&size=0', callback=self.parse_core, meta={"ibge": ibge, "base_url": BASE_URL})
+            
+            else:
+                BASE_URL = f"https://marketplace.ifood.com.br/v2/home?latitude={lat}&longitude=-{long}&channel=IFOOD&alias=MERCADO_FARMACIA"
 
-            yield scrapy.Request(f'{BASE_URL}&size=0', callback=self.parse_core, meta={"ibge": ibge, "base_url": BASE_URL})
+                yield scrapy.Request(BASE_URL, method="POST", callback=self.parse_page, headers=headers, body=json.dumps(payload), meta={"ibge": ibge, "base_url": BASE_URL, "merchants": merchants})
 
     def parse_core(self, response):
         data = json.loads(response.text)
@@ -98,10 +131,21 @@ class IfoodSpider(scrapy.Spider):
             yield scrapy.Request(f'{response.meta["base_url"]}&size={100}&page={page}', callback=self.parse_page, meta={"ibge": response.meta['ibge']})
 
     def parse_page(self, response):
+        # print('page!')
+        # problem here!
         data = json.loads(response.text)
+        merchants = response.meta["merchants"]
 
-        for items in data['merchants']:
-            yield scrapy.Request(f'https://marketplace.ifood.com.br/v1/merchants/{items["id"]}/extra', callback=self.parse_details, meta={"ibge": response.meta['ibge'], "item": items})
+        if merchants:
+            for items in data['merchants']:
+                yield scrapy.Request(f'https://marketplace.ifood.com.br/v1/merchants/{items["id"]}/extra', callback=self.parse_details, meta={"ibge": response.meta['ibge'], "item": items})
+        
+        else:
+            for cards in data["sections"][0]["cards"]:
+                for contents in cards["data"]["contents"]:
+                    # yield contents["id"]
+                    yield scrapy.Request(f'https://marketplace.ifood.com.br/v1/merchants/{contents["id"]}/extra', callback=self.parse_details, meta={"ibge": response.meta['ibge'], "item": contents})
+
 
     def parse_details(self, response):
         data = json.loads(response.text)

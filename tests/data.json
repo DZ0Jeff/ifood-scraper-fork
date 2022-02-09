@@ -1,0 +1,417 @@
+{
+    "id": "23c26f7a-71f2-4e4e-a9b1-38c81717cdf7",
+    "header": {
+        "title": "Farm\u00e1cia"
+    },
+    "baseImageUrl": "https://static-images.ifood.com.br/image/upload",
+    "sections": [
+        {
+            "id": "9b5850a3-840d-4819-86df-f0df7ff27a04",
+            "cards": [
+                {
+                    "id": "049ca155-23b8-4f6b-920a-bfa1a7a39360",
+                    "cardType": "MERCHANT_LIST_V2",
+                    "data": {
+                        "contents": [
+                            {
+                                "id": "b831b441-8a72-434b-9a5b-e2781fefb357",
+                                "action": "merchant?alias=MERCADO_FARMACIA&channel=IFOOD&identifier=b831b441-8a72-434b-9a5b-e2781fefb357&latitude=-23.7200517&longitude=-46.6224897&name=Farma%20Ponte%20-%20Parque%20Bristol&size=30&slug=sao-paulo-sp%2Ffarma-ponte---parque-bristol-parque-bristol",
+                                "available": true,
+                                "currency": "BRL",
+                                "deliveryInfo": {
+                                    "type": "DELIVERY",
+                                    "fee": 999,
+                                    "timeMinMinutes": 59,
+                                    "timeMaxMinutes": 69,
+                                    "deliveryMode": "DEFAULT"
+                                },
+                                "distance": 9.65,
+                                "imageUrl": ":resolution/logosgde/63e705df-85bb-4408-9883-31119fd40627_FARMA_ISTOL.jpeg",
+                                "isIfoodDelivery": true,
+                                "isNew": false,
+                                "isSuperRestaurant": true,
+                                "mainCategory": "Mercado",
+                                "name": "Farma Ponte - Parque Bristol",
+                                "supportsTracking": true,
+                                "userRating": 4.807889938354492,
+                                "isFavorite": false
+                            },
+                            {
+                                "id": "efb15d21-bab4-4f52-8830-d0327dc437bc",
+                                "action": "merchant?alias=MERCADO_FARMACIA&channel=IFOOD&identifier=efb15d21-bab4-4f52-8830-d0327dc437bc&latitude=-23.7200517&longitude=-46.6224897&name=Drogasil%20-%20Cidade%20Dutra%20-%201687&size=30&slug=sao-paulo-sp%2Fdrogasil---cidade-dutra---1687-c-dutra",
+                                "available": true,
+                                "currency": "BRL",
+                                "deliveryInfo": {
+                                    "type": "DELIVERY",
+                                    "fee": 999,
+                                    "timeMinMinutes": 60,
+                                    "timeMaxMinutes": 70,
+                                    "deliveryMode": "DEFAULT"
+                                },
+                                "distance": 7.95,
+                                "imageUrl": ":resolution/logosgde/efb15d21-bab4-4f52-8830-d0327dc437bc/202112161148_pvik_i.png",
+                                "isIfoodDelivery": true,
+                                "isNew": false,
+                                "isSuperRestaurant": false,
+                                "mainCategory": "Mercado",
+                                "name": "Drogasil - Cidade Dutra - 1687",
+                                "supportsTracking": true,
+                                "userRating": 4.769229888916016,
+                                "isFavorite": false
+                            },
+                            {
+                                "id": "aef71a4c-a670-4b2b-911c-70fa0c8bd175",
+                                "action": "merchant?alias=MERCADO_FARMACIA&channel=IFOOD&identifier=aef71a4c-a670-4b2b-911c-70fa0c8bd175&latitude=-23.7200517&longitude=-46.6224897&name=Farm%C3%A1cias%20Pague%20Menos%20-%20257&size=30&slug=sao-bernardo-do-campo-sp%2Ffarmacias-pague-menos---257-centro",
+                                "available": true,
+                                "currency": "BRL",
+                                "deliveryInfo": {
+                                    "type": "DELIVERY",
+                                    "fee": 999,
+                                    "timeMinMinutes": 73,
+                                    "timeMaxMinutes": 83,
+                                    "deliveryMode": "DEFAULT"
+                                },
+                                "distance": 7.52,
+                                "imageUrl": ":resolution/logosgde/202104231605_aef71a4c-a670-4b2b-911c-70fa0c8bd175.png",
+                                "isIfoodDelivery": true,
+                                "isNew": false,
+                                "isSuperRestaurant": true,
+                                "mainCategory": "Mercado",
+                                "name": "Farm\u00e1cias Pague Menos - 257",
+                                "supportsTracking": true,
+                                "userRating": 4.8574299812316895,
+                                "isFavorite": false
+                            },
+                            {
+                                "id": "fa9410bb-b4ae-44fb-bef2-65ac5b48cf20",
+                                "action": "merchant?alias=MERCADO_FARMACIA&channel=IFOOD&identifier=fa9410bb-b4ae-44fb-bef2-65ac5b48cf20&latitude=-23.7200517&longitude=-46.6224897&name=Drogasil%20-%20Jabaquara%20-%201536&size=30&slug=sao-paulo-sp%2Fdrogasil---jabaquara---1536-jabaquara",
+                                "available": true,
+                                "currency": "BRL",
+                                "deliveryInfo": {
+                                    "type": "DELIVERY",
+                                    "fee": 999,
+                                    "timeMinMinutes": 64,
+                                    "timeMaxMinutes": 74,
+                                    "deliveryMode": "DEFAULT"
+                                },
+                                "distance": 8.73,
+                                "imageUrl": ":resolution/logosgde/fa9410bb-b4ae-44fb-bef2-65ac5b48cf20/202112091116_YD6R_i.png",
+                                "isIfoodDelivery": true,
+                                "isNew": false,
+                                "isSuperRestaurant": false,
+                                "mainCategory": "Mercado",
+                                "name": "Drogasil - Jabaquara - 1536",
+                                "supportsTracking": true,
+                                "userRating": 4.629209995269775,
+                                "isFavorite": false
+                            },
+                            {
+                                "id": "a5ae3f04-b3ea-4bb9-911e-69fcda7cecc8",
+                                "action": "merchant?alias=MERCADO_FARMACIA&channel=IFOOD&identifier=a5ae3f04-b3ea-4bb9-911e-69fcda7cecc8&latitude=-23.7200517&longitude=-46.6224897&name=Drogaria%20S%C3%A3o%20Paulo%20-%20Casa%20Grande&size=30&slug=diadema-sp%2Fdrogaria-sao-paulo---casa-grande-casa-grande",
+                                "available": true,
+                                "currency": "BRL",
+                                "deliveryInfo": {
+                                    "type": "DELIVERY",
+                                    "fee": 649,
+                                    "timeMinMinutes": 47,
+                                    "timeMaxMinutes": 57,
+                                    "deliveryMode": "DEFAULT"
+                                },
+                                "distance": 3.03,
+                                "imageUrl": ":resolution/logosgde/a5ae3f04-b3ea-4bb9-911e-69fcda7cecc8/202111221014_UQwj_i.png",
+                                "isIfoodDelivery": true,
+                                "isNew": false,
+                                "isSuperRestaurant": false,
+                                "mainCategory": "Mercado",
+                                "name": "Drogaria S\u00e3o Paulo - Casa Grande",
+                                "supportsTracking": true,
+                                "userRating": 4.611939907073975,
+                                "isFavorite": false
+                            },
+                            {
+                                "id": "9d31cb3c-93ed-43d9-8a64-0d012580ade4",
+                                "action": "merchant?alias=MERCADO_FARMACIA&channel=IFOOD&identifier=9d31cb3c-93ed-43d9-8a64-0d012580ade4&latitude=-23.7200517&longitude=-46.6224897&name=Droga%20Raia%20-%20Capela%20do%20Socorro%20-%20233&size=30&slug=sao-paulo-sp%2Fdroga-raia---capela-do-socorro---233-prq-brasil",
+                                "available": true,
+                                "currency": "BRL",
+                                "deliveryInfo": {
+                                    "type": "DELIVERY",
+                                    "fee": 999,
+                                    "timeMinMinutes": 60,
+                                    "timeMaxMinutes": 70,
+                                    "deliveryMode": "DEFAULT"
+                                },
+                                "distance": 7.39,
+                                "imageUrl": ":resolution/logosgde/9d31cb3c-93ed-43d9-8a64-0d012580ade4/202112101104_TaGR_i.png",
+                                "isIfoodDelivery": true,
+                                "isNew": false,
+                                "isSuperRestaurant": false,
+                                "mainCategory": "Mercado",
+                                "name": "Droga Raia - Capela do Socorro - 233",
+                                "supportsTracking": true,
+                                "userRating": 4.918369770050049,
+                                "isFavorite": false
+                            },
+                            {
+                                "id": "f02b4ae5-b6a9-4884-8da8-d25ebfd97ee0",
+                                "action": "merchant?alias=MERCADO_FARMACIA&channel=IFOOD&identifier=f02b4ae5-b6a9-4884-8da8-d25ebfd97ee0&latitude=-23.7200517&longitude=-46.6224897&name=Drogaria%20COOP%20-%20S%C3%A3o%20Bernardo%20do%20Campo&size=30&slug=sao-bernardo-do-campo-sp%2Fdrogaria-coop---sao-bernardo-do-campo-bairro-demarchi",
+                                "available": true,
+                                "currency": "BRL",
+                                "deliveryInfo": {
+                                    "type": "DELIVERY",
+                                    "fee": 999,
+                                    "timeMinMinutes": 60,
+                                    "timeMaxMinutes": 70,
+                                    "deliveryMode": "DEFAULT"
+                                },
+                                "distance": 7.33,
+                                "imageUrl": ":resolution/logosgde/f02b4ae5-b6a9-4884-8da8-d25ebfd97ee0/202201261541_5nH6_.jpeg",
+                                "isIfoodDelivery": true,
+                                "isNew": true,
+                                "isSuperRestaurant": false,
+                                "mainCategory": "Mercado",
+                                "name": "Drogaria COOP - S\u00e3o Bernardo do Campo",
+                                "supportsTracking": true,
+                                "userRating": 4.714290142059326,
+                                "isFavorite": false
+                            },
+                            {
+                                "id": "f8e6ba22-a1fe-4bc3-aa49-a6d708d4ec17",
+                                "action": "merchant?alias=MERCADO_FARMACIA&channel=IFOOD&identifier=f8e6ba22-a1fe-4bc3-aa49-a6d708d4ec17&latitude=-23.7200517&longitude=-46.6224897&name=Joanin%20-%20Drog.%2009%20-%20Assun%C3%A7%C3%A3o&size=30&slug=sao-bernardo-do-campo-sp%2Fjoanin---drog-09---assuncao-assuncao",
+                                "available": true,
+                                "currency": "BRL",
+                                "deliveryInfo": {
+                                    "type": "DELIVERY",
+                                    "fee": 999,
+                                    "timeMinMinutes": 40,
+                                    "timeMaxMinutes": 50,
+                                    "deliveryMode": "DEFAULT"
+                                },
+                                "distance": 5.91,
+                                "imageUrl": ":resolution/logosgde/b7e57c55-5c65-4041-88ed-6a64cbe37217_DROGA_UNCAO.png",
+                                "isIfoodDelivery": true,
+                                "isNew": false,
+                                "isSuperRestaurant": false,
+                                "mainCategory": "Mercado",
+                                "name": "Joanin - Drog. 09 - Assun\u00e7\u00e3o",
+                                "supportsTracking": true,
+                                "userRating": 4.870269775390625,
+                                "isFavorite": false
+                            },
+                            {
+                                "id": "49feeee4-e2a5-4959-86c8-84b8df930f97",
+                                "action": "merchant?alias=MERCADO_FARMACIA&channel=IFOOD&identifier=49feeee4-e2a5-4959-86c8-84b8df930f97&latitude=-23.7200517&longitude=-46.6224897&name=Bifarma%20-%20S%C3%A3o%20Bernardo%20do%20Campo%20-%20100&size=30&slug=sao-bernardo-do-campo-sp%2Fbifarma---sao-bernardo-do-campo---100-rudge-ramos",
+                                "available": true,
+                                "currency": "BRL",
+                                "deliveryInfo": {
+                                    "type": "DELIVERY",
+                                    "fee": 999,
+                                    "timeMinMinutes": 64,
+                                    "timeMaxMinutes": 74,
+                                    "deliveryMode": "DEFAULT"
+                                },
+                                "distance": 8.84,
+                                "imageUrl": ":resolution/logosgde/49feeee4-e2a5-4959-86c8-84b8df930f97/202111161301_RfCP_i.png",
+                                "isIfoodDelivery": true,
+                                "isNew": false,
+                                "isSuperRestaurant": false,
+                                "mainCategory": "Mercado",
+                                "name": "Bifarma - S\u00e3o Bernardo do Campo - 100",
+                                "supportsTracking": true,
+                                "userRating": 4.835159778594971,
+                                "isFavorite": false
+                            },
+                            {
+                                "id": "0bfdf97b-c6e2-4801-87a1-6749b5b1032e",
+                                "action": "merchant?alias=MERCADO_FARMACIA&channel=IFOOD&identifier=0bfdf97b-c6e2-4801-87a1-6749b5b1032e&latitude=-23.7200517&longitude=-46.6224897&name=Droga%20Nossa&size=30&slug=sao-paulo-sp%2Fdroga-nossa-saude",
+                                "available": true,
+                                "currency": "BRL",
+                                "deliveryInfo": {
+                                    "type": "DELIVERY",
+                                    "fee": 999,
+                                    "timeMinMinutes": 67,
+                                    "timeMaxMinutes": 77,
+                                    "deliveryMode": "DEFAULT"
+                                },
+                                "distance": 9.77,
+                                "imageUrl": ":resolution/logosgde/0bfdf97b-c6e2-4801-87a1-6749b5b1032e/202111250918_yW9Z_i.png",
+                                "isIfoodDelivery": true,
+                                "isNew": false,
+                                "isSuperRestaurant": false,
+                                "mainCategory": "Mercado",
+                                "name": "Droga Nossa",
+                                "supportsTracking": true,
+                                "userRating": 4.8222198486328125,
+                                "isFavorite": false
+                            },
+                            {
+                                "id": "995ebbd4-7cae-4946-8830-0103d78a9a0f",
+                                "action": "merchant?alias=MERCADO_FARMACIA&channel=IFOOD&identifier=995ebbd4-7cae-4946-8830-0103d78a9a0f&latitude=-23.7200517&longitude=-46.6224897&name=Farma%20Conde%20319&size=30&slug=sao-paulo-sp%2Ffarma-conde-319-cidade-julia",
+                                "available": true,
+                                "currency": "BRL",
+                                "deliveryInfo": {
+                                    "type": "DELIVERY",
+                                    "fee": 699,
+                                    "timeMinMinutes": 47,
+                                    "timeMaxMinutes": 57,
+                                    "deliveryMode": "DEFAULT"
+                                },
+                                "distance": 3.81,
+                                "imageUrl": ":resolution/logosgde/995ebbd4-7cae-4946-8830-0103d78a9a0f/202112011018_SPEW_i.png",
+                                "isIfoodDelivery": true,
+                                "isNew": false,
+                                "isSuperRestaurant": false,
+                                "mainCategory": "Mercado",
+                                "name": "Farma Conde 319",
+                                "supportsTracking": true,
+                                "userRating": 4.698110103607178,
+                                "isFavorite": false
+                            },
+                            {
+                                "id": "375dfa98-40f9-4f9c-b6b8-4bf340dc6e5e",
+                                "action": "merchant?alias=MERCADO_FARMACIA&channel=IFOOD&identifier=375dfa98-40f9-4f9c-b6b8-4bf340dc6e5e&latitude=-23.7200517&longitude=-46.6224897&name=Drogaria%20Nova%20Popular&size=30&slug=sao-paulo-sp%2Fdrogaria-nova-popular-vila-guarani-jabaquara",
+                                "available": true,
+                                "currency": "BRL",
+                                "deliveryInfo": {
+                                    "type": "DELIVERY",
+                                    "fee": 999,
+                                    "timeMinMinutes": 52,
+                                    "timeMaxMinutes": 62,
+                                    "deliveryMode": "DEFAULT"
+                                },
+                                "distance": 9.68,
+                                "imageUrl": ":resolution/logosgde/375dfa98-40f9-4f9c-b6b8-4bf340dc6e5e/202108201649_HWf2_.jpeg",
+                                "isIfoodDelivery": true,
+                                "isNew": false,
+                                "isSuperRestaurant": false,
+                                "mainCategory": "Mercado",
+                                "name": "Drogaria Nova Popular",
+                                "supportsTracking": true,
+                                "userRating": 4.955560207366943,
+                                "isFavorite": false
+                            },
+                            {
+                                "id": "69da0de7-7f51-4da8-ba63-e4a361f6d2c5",
+                                "action": "merchant?alias=MERCADO_FARMACIA&channel=IFOOD&identifier=69da0de7-7f51-4da8-ba63-e4a361f6d2c5&latitude=-23.7200517&longitude=-46.6224897&name=Bifarma%20-%20Jurubatuba%20-%20548&size=30&slug=sao-bernardo-do-campo-sp%2Fbifarma---jurubatuba---548-centro",
+                                "available": true,
+                                "currency": "BRL",
+                                "deliveryInfo": {
+                                    "type": "DELIVERY",
+                                    "fee": 999,
+                                    "timeMinMinutes": 60,
+                                    "timeMaxMinutes": 70,
+                                    "deliveryMode": "DEFAULT"
+                                },
+                                "distance": 7.14,
+                                "imageUrl": ":resolution/logosgde/69da0de7-7f51-4da8-ba63-e4a361f6d2c5/202201261716_pqYc_i.png",
+                                "isIfoodDelivery": true,
+                                "isNew": true,
+                                "isSuperRestaurant": false,
+                                "mainCategory": "Mercado",
+                                "name": "Bifarma - Jurubatuba - 548",
+                                "supportsTracking": true,
+                                "userRating": 5,
+                                "isFavorite": false
+                            },
+                            {
+                                "id": "bf91e81a-52a6-4f92-9a5d-7d187d68c352",
+                                "action": "merchant?alias=MERCADO_FARMACIA&channel=IFOOD&identifier=bf91e81a-52a6-4f92-9a5d-7d187d68c352&latitude=-23.7200517&longitude=-46.6224897&name=Drogaria%20Mix-%20Jardim%20Eliana&size=30&slug=sao-paulo-sp%2Fdrogaria-mix--jardim-eliana-jardim-eliana",
+                                "available": true,
+                                "currency": "BRL",
+                                "deliveryInfo": {
+                                    "type": "DELIVERY",
+                                    "fee": 999,
+                                    "timeMinMinutes": 57,
+                                    "timeMaxMinutes": 67,
+                                    "deliveryMode": "DEFAULT"
+                                },
+                                "distance": 6.02,
+                                "imageUrl": ":resolution/logosgde/bf91e81a-52a6-4f92-9a5d-7d187d68c352/202201111724_dSCP_i.png",
+                                "isIfoodDelivery": true,
+                                "isNew": true,
+                                "isSuperRestaurant": false,
+                                "mainCategory": "Mercado",
+                                "name": "Drogaria Mix- Jardim Eliana",
+                                "supportsTracking": true,
+                                "userRating": 5,
+                                "isFavorite": false
+                            },
+                            {
+                                "id": "93700656-0bf5-4c5a-adfb-1075fe6de8a5",
+                                "action": "merchant?alias=MERCADO_FARMACIA&channel=IFOOD&identifier=93700656-0bf5-4c5a-adfb-1075fe6de8a5&latitude=-23.7200517&longitude=-46.6224897&name=Ultrafarma%20-%20Alvarenga&size=30&slug=sao-paulo-sp%2Fultrafarma---alvarenga-balneario-sao-franscico",
+                                "available": true,
+                                "currency": "BRL",
+                                "deliveryInfo": {
+                                    "type": "DELIVERY",
+                                    "fee": 649,
+                                    "timeMinMinutes": 47,
+                                    "timeMaxMinutes": 57,
+                                    "deliveryMode": "DEFAULT"
+                                },
+                                "distance": 3.49,
+                                "imageUrl": ":resolution/logosgde/93700656-0bf5-4c5a-adfb-1075fe6de8a5/202202031307_iX3T_.jpeg",
+                                "isIfoodDelivery": true,
+                                "isNew": true,
+                                "isSuperRestaurant": false,
+                                "mainCategory": "Mercado",
+                                "name": "Ultrafarma - Alvarenga",
+                                "supportsTracking": true,
+                                "userRating": 5,
+                                "isFavorite": false
+                            },
+                            {
+                                "id": "957345b4-e09e-4d50-b62e-7d6e10e528d9",
+                                "action": "merchant?alias=MERCADO_FARMACIA&channel=IFOOD&identifier=957345b4-e09e-4d50-b62e-7d6e10e528d9&latitude=-23.7200517&longitude=-46.6224897&name=Extrafarma%20585&size=30&slug=sao-paulo-sp%2Fextrafarma-585-jardim-prudencia",
+                                "available": true,
+                                "currency": "BRL",
+                                "deliveryInfo": {
+                                    "type": "DELIVERY",
+                                    "fee": 999,
+                                    "timeMinMinutes": 67,
+                                    "timeMaxMinutes": 77,
+                                    "deliveryMode": "DEFAULT"
+                                },
+                                "distance": 9.21,
+                                "imageUrl": ":resolution/logosgde/957345b4-e09e-4d50-b62e-7d6e10e528d9/202201271806_fcq1_i.png",
+                                "isIfoodDelivery": true,
+                                "isNew": true,
+                                "isSuperRestaurant": false,
+                                "mainCategory": "Mercado",
+                                "name": "Extrafarma 585",
+                                "supportsTracking": true,
+                                "userRating": 0,
+                                "isFavorite": false
+                            },
+                            {
+                                "id": "57bebb66-c1c2-44dd-aecf-71b8e8adb310",
+                                "action": "merchant?alias=MERCADO_FARMACIA&channel=IFOOD&identifier=57bebb66-c1c2-44dd-aecf-71b8e8adb310&latitude=-23.7200517&longitude=-46.6224897&name=Dna%20Farma&size=30&slug=sao-bernardo-do-campo-sp%2Fdna-farma-jardim-independencia",
+                                "available": false,
+                                "currency": "BRL",
+                                "deliveryInfo": {
+                                    "type": "SCHEDULE",
+                                    "fee": 700,
+                                    "nextSchedulingSlotStartTime": "2022-02-10T10:00:00.000-03:00",
+                                    "nextSchedulingSlotEndTime": "2022-02-10T11:00:00.000-03:00"
+                                },
+                                "distance": 4.83,
+                                "imageUrl": ":resolution/logosgde/57bebb66-c1c2-44dd-aecf-71b8e8adb310/202111121521_Upko_i.png",
+                                "isIfoodDelivery": false,
+                                "isNew": false,
+                                "isSuperRestaurant": false,
+                                "mainCategory": "Mercado",
+                                "name": "Dna Farma",
+                                "supportsTracking": false,
+                                "userRating": 4.666669845581055,
+                                "isFavorite": false
+                            }
+                        ],
+                        "header": {
+                            "title": "Farm\u00e1cias perto de voc\u00ea",
+                            "action": "page?identifier=c4c573a0-6ed0-4184-bf5a-c20163e1b62c&title=Farm%C3%A1cias+com+Entrega+Gr%C3%A1tis",
+                            "description": ""
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
