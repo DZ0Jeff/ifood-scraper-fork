@@ -94,8 +94,6 @@ class IfoodSpider(scrapy.Spider):
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
         }
 
-        BASE_URL = f"https://marketplace.ifood.com.br/v2/home?latitude=-23.7200517&longitude=-46.6224897&channel=IFOOD&alias=MERCADO_FARMACIA"
-
         for i in range(len(df)):
             lat = df['latitude'].iloc[i]
             long = df['longitude'].iloc[i]
@@ -172,32 +170,32 @@ class IfoodSpider(scrapy.Spider):
                     detalhes = product["details"] if product["details"] != "" else "Não informado..."
                 
                 except KeyError:
-                    detalhes = "Não Existente..."
+                    raise
 
                 preço = product["unitPrice"] if product["unitPrice"] != "" else "Não informado..."
 
                 cardapio.append(f"Descrição: {descrição}\nDetalhes: {detalhes}\n\nPreço: {preço}\n")
                 filter_list.append({ "descrição": descrição, "detalhes": detalhes, "preço": preço })
         
-        # for menu in filter_list:
-        #     if str(menu["descrição"]).lower() in ["monage Shampoo", "condicionador hidrata com poder"]:
-        
         if not response.meta['merchants']:
-            yield Restaurant({
-                'name': data['name'],
-                'city': data["address"]["city"],
-                'rating': data["userRatingCount"],
-                'price_range': data['priceRange'],
-                'delivery_time': data['deliveryTime'],
-                'category': data['mainCategory']["friendlyName"],
-                'url': "{}{}".format(BASE_IFOOD_URL, data['id']),
-                'tags': Restaurant.parse_list(data['tags']),
-                'minimumOrderValue': data['minimumOrderValue'],
-                'cnpj': data["documents"]["CNPJ"]["value"],
-                'address': f'{data["address"]["streetName"]}-{data["address"]["streetNumber"]}, {data["address"]["district"]}, {data["address"]["city"]}-{data["address"]["state"]}',
-                'ibge': response.meta['ibge'],
-                "menu": cardapio
-            })
+            for menu in filter_list:
+                if "monage Shampoo" in str(menu["descrição"]).lower() or "condicionador hidrata com poder" in str(menu["descrição"]).lower(): #["monage Shampoo", "condicionador hidrata com poder"]:
+                    yield Restaurant({
+                        'name': data['name'],
+                        'city': data["address"]["city"],
+                        'rating': data["userRatingCount"],
+                        'price_range': data['priceRange'],
+                        'delivery_time': data['deliveryTime'],
+                        'category': data['mainCategory']["friendlyName"],
+                        'url': "{}{}".format(BASE_IFOOD_URL, data['id']),
+                        'tags': Restaurant.parse_list(data['tags']),
+                        'minimumOrderValue': data['minimumOrderValue'],
+                        'cnpj': data["documents"]["CNPJ"]["value"],
+                        'address': f'{data["address"]["streetName"]}-{data["address"]["streetNumber"]}, {data["address"]["district"]}, {data["address"]["city"]}-{data["address"]["state"]}',
+                        'ibge': response.meta['ibge'],
+                        "menu": cardapio
+                    })
+                    break
         
         else:
             yield Restaurant({
