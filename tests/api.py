@@ -74,8 +74,9 @@ def get_products():
     
     data = data.json()
     for cards in data["sections"][0]["cards"]:
-            for contents in cards["data"]["contents"]:
-               print(contents["id"])
+        for contents in cards["data"]["contents"]:
+            print(contents["id"])
+
 
 def main():
     # restaurant_id = get_store_id()

@@ -71,20 +71,20 @@ class IfoodSpider(scrapy.Spider):
                 "CATALOG_ITEM_LIST",
                 "CATALOG_ITEM_LIST_V2",
                 "FEATURED_MERCHANT_LIST",
-                # "CATALOG_ITEM_CAROUSEL",
-                # "BIG_BANNER_CAROUSEL",
-                # "IMAGE_BANNER",
-                # "MERCHANT_LIST_WITH_ITEMS_CAROUSEL",
-                # "SMALL_BANNER_CAROUSEL",
+                "CATALOG_ITEM_CAROUSEL",
+                "BIG_BANNER_CAROUSEL",
+                "IMAGE_BANNER",
+                "MERCHANT_LIST_WITH_ITEMS_CAROUSEL",
+                "SMALL_BANNER_CAROUSEL",
                 "NEXT_CONTENT",
-                # "MERCHANT_CAROUSEL",
-                # "MERCHANT_TILE_CAROUSEL",
-                # "SIMPLE_MERCHANT_CAROUSEL",
-                # "INFO_CARD",
+                "MERCHANT_CAROUSEL",
+                "MERCHANT_TILE_CAROUSEL",
+                "SIMPLE_MERCHANT_CAROUSEL",
+                "INFO_CARD",
                 "MERCHANT_LIST_V2",
-                # "ROUND_IMAGE_CAROUSEL",
-                # "BANNER_GRID",
-                # "MEDIUM_IMAGE_BANNER"
+                "ROUND_IMAGE_CAROUSEL",
+                "BANNER_GRID",
+                "MEDIUM_IMAGE_BANNER"
             ],
             "supported-actions":["card-content","catalog-item","last-restaurants","merchant","page","reorder","webmiddleware"]
         }
@@ -93,6 +93,8 @@ class IfoodSpider(scrapy.Spider):
             "Content-Type": "application/json",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
         }
+
+        BASE_URL = f"https://marketplace.ifood.com.br/v2/home?latitude=-23.7200517&longitude=-46.6224897&channel=IFOOD&alias=MERCADO_FARMACIA"
 
         for i in range(len(df)):
             lat = df['latitude'].iloc[i]
@@ -107,14 +109,14 @@ class IfoodSpider(scrapy.Spider):
             #     CHANNEL = ""
 
             # todo: debugger the v2 api call with post requests (check headers, format and query params)
-            merchants = True
+            merchants = False
             if merchants:
                 BASE_URL = f"https://marketplace.ifood.com.br/v1/merchants?latitude={lat}&longitude={long}&channel={CHANNEL}"
 
                 yield scrapy.Request(f'{BASE_URL}&size=0', callback=self.parse_core, meta={"ibge": ibge, "base_url": BASE_URL, "merchants": merchants})
             
             else:
-                BASE_URL = f"https://marketplace.ifood.com.br/v2/home?latitude={lat}&longitude=-{long}&channel=IFOOD&alias=MERCADO_FARMACIA"
+                BASE_URL = f"https://marketplace.ifood.com.br/v2/home?latitude={lat}&longitude={long}&channel=IFOOD&alias=MERCADO_FARMACIA"
 
                 yield scrapy.Request(BASE_URL, method="POST", callback=self.parse_page, headers=headers, body=json.dumps(payload), meta={"ibge": ibge, "base_url": BASE_URL, "merchants": merchants})
 
@@ -138,20 +140,24 @@ class IfoodSpider(scrapy.Spider):
 
         if merchants:
             for items in data['merchants']:
-                yield scrapy.Request(f'https://marketplace.ifood.com.br/v1/merchants/{items["id"]}/extra', callback=self.parse_details, meta={"ibge": response.meta['ibge'], "item": items})
+                yield scrapy.Request(f'https://marketplace.ifood.com.br/v1/merchants/{items["id"]}/extra', callback=self.parse_details, meta={"ibge": response.meta['ibge'], "item": items, "merchants": merchants})
         
         else:
             for cards in data["sections"][0]["cards"]:
-                for contents in cards["data"]["contents"]:
-                    # yield contents["id"]
-                    yield scrapy.Request(f'https://marketplace.ifood.com.br/v1/merchants/{contents["id"]}/extra', callback=self.parse_details, meta={"ibge": response.meta['ibge'], "item": contents})
+                try:
+                    for contents in cards["data"]["contents"]:
+                        # yield contents["id"]
+                        yield scrapy.Request(f'https://marketplace.ifood.com.br/v1/merchants/{contents["id"]}/extra', callback=self.parse_details, meta={"ibge": response.meta['ibge'], "item": contents, "merchants": merchants})
+                
+                except KeyError:
+                    pass
 
     def parse_details(self, response):
         data = json.loads(response.text)
         item = response.meta['item']
         
         yield scrapy.Request(f'https://marketplace.ifood.com.br/v1/merchants/{item["id"]}/menu', 
-        callback=self.parse_menu, meta={"ibge": response.meta['ibge'], "item": item, "details": data })
+        callback=self.parse_menu, meta={"ibge": response.meta['ibge'], "item": item, "details": data, "merchants": response.meta["merchants"] })
     
     def parse_menu(self, response):
         item = response.meta['item']
@@ -175,24 +181,43 @@ class IfoodSpider(scrapy.Spider):
         
         # for menu in filter_list:
         #     if str(menu["descrição"]).lower() in ["monage Shampoo", "condicionador hidrata com poder"]:
-        yield Restaurant({
-            'name': item['name'],
-            'city': item['slug'].split('/')[0],
-            'rating': item['userRating'],
-            'price_range': item['priceRange'],
-            'delivery_time': item['deliveryTime'],
-            'delivery_fee': item['deliveryFee']['value'],
-            'distance': item['distance'],
-            'category': item['mainCategory']['name'],
-            'avatar': Restaurant.parse_avatar(item),
-            'url': "{}{}/{}".format(BASE_IFOOD_URL, item['slug'], item['id']),
-            'tags': Restaurant.parse_list(item['tags']),
-            'paymentCodes': Restaurant.parse_list(item['paymentCodes']),
-            'minimumOrderValue': item['minimumOrderValue'],
-            'regionGroup': item['contextSetup']['regionGroup'],
-            'catalogGroup': item['contextSetup']['catalogGroup'],
-            'cnpj': data["documents"]["CNPJ"]["value"],
-            'address': f'{data["address"]["streetName"]}-{data["address"]["streetNumber"]}, {data["address"]["district"]}, {data["address"]["city"]}-{data["address"]["state"]}',
-            'ibge': response.meta['ibge'],
-            "menu": cardapio
-        })
+        
+        if not response.meta['merchants']:
+            yield Restaurant({
+                'name': data['name'],
+                'city': data["address"]["city"],
+                'rating': data["userRatingCount"],
+                'price_range': data['priceRange'],
+                'delivery_time': data['deliveryTime'],
+                'category': data['mainCategory']["friendlyName"],
+                'url': "{}{}".format(BASE_IFOOD_URL, data['id']),
+                'tags': Restaurant.parse_list(data['tags']),
+                'minimumOrderValue': data['minimumOrderValue'],
+                'cnpj': data["documents"]["CNPJ"]["value"],
+                'address': f'{data["address"]["streetName"]}-{data["address"]["streetNumber"]}, {data["address"]["district"]}, {data["address"]["city"]}-{data["address"]["state"]}',
+                'ibge': response.meta['ibge'],
+                "menu": cardapio
+            })
+        
+        else:
+            yield Restaurant({
+                'name': item['name'],
+                'city': item['slug'].split('/')[0],
+                'rating': item['userRating'],
+                'price_range': item['priceRange'],
+                'delivery_time': item['deliveryTime'],
+                'delivery_fee': item['deliveryFee']['value'],
+                'distance': item['distance'],
+                'category': item['mainCategory']['name'],
+                'avatar': Restaurant.parse_avatar(item),
+                'url': "{}{}/{}".format(BASE_IFOOD_URL, item['slug'], item['id']),
+                'tags': Restaurant.parse_list(item['tags']),
+                'paymentCodes': Restaurant.parse_list(item['paymentCodes']),
+                'minimumOrderValue': item['minimumOrderValue'],
+                'regionGroup': item['contextSetup']['regionGroup'],
+                'catalogGroup': item['contextSetup']['catalogGroup'],
+                'cnpj': data["documents"]["CNPJ"]["value"],
+                'address': f'{data["address"]["streetName"]}-{data["address"]["streetNumber"]}, {data["address"]["district"]}, {data["address"]["city"]}-{data["address"]["state"]}',
+                'ibge': response.meta['ibge'],
+                "menu": cardapio
+            })
