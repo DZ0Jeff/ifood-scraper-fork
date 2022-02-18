@@ -29,6 +29,8 @@ class Restaurant(scrapy.Item):
     catalogGroup = scrapy.Field()
     cnpj = scrapy.Field()
     address = scrapy.Field()
+    city = scrapy.Field()
+    state = scrapy.Field()
     ibge = scrapy.Field()
     menu = scrapy.Field()
     # schedule removed due to errors and not being able to extract useful data
@@ -179,7 +181,7 @@ class IfoodSpider(scrapy.Spider):
         
         if not response.meta['merchants']:
             for menu in filter_list:
-                if "monage Shampoo" in str(menu["descrição"]).lower() or "condicionador hidrata com poder" in str(menu["descrição"]).lower(): #["monage Shampoo", "condicionador hidrata com poder"]:
+                if "shampoo" in str(menu["descrição"]).lower() or "condicionador" in str(menu["descrição"]).lower(): #["monage Shampoo", "condicionador hidrata com poder"]:
                     yield Restaurant({
                         'name': data['name'],
                         'city': data["address"]["city"],
@@ -191,7 +193,9 @@ class IfoodSpider(scrapy.Spider):
                         'tags': Restaurant.parse_list(data['tags']),
                         'minimumOrderValue': data['minimumOrderValue'],
                         'cnpj': data["documents"]["CNPJ"]["value"],
-                        'address': f'{data["address"]["streetName"]}-{data["address"]["streetNumber"]}, {data["address"]["district"]}, {data["address"]["city"]}-{data["address"]["state"]}',
+                        'address': f'{data["address"]["streetName"]}-{data["address"]["streetNumber"]}, {data["address"]["district"]}',
+                        'city': data["address"]["city"],
+                        'state': data["address"]["state"],
                         'ibge': response.meta['ibge'],
                         "menu": cardapio
                     })
