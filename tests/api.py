@@ -12,9 +12,12 @@ def get_store_id():
 
 
 def get_details(restaurant_id):
-    response = requests.get(f"https://marketplace.ifood.com.br/v1/merchants/{restaurant_id}/extra")
+    response = requests.get(f"https://marketplace.ifood.com.br/v1/merchants/{restaurant_id}/menu")
     content = response.content
     restaurant_info = json.loads(content)
+
+    with open('data.json', 'w') as file:
+        json.dump(restaurant_info, file, indent=4)
 
     details = dict()
 
@@ -79,9 +82,9 @@ def get_products():
 
 
 def main():
-    # restaurant_id = get_store_id()
-    # get_details(restaurant_id)
-    get_products()
+    restaurant_id = get_store_id()
+    get_details(restaurant_id)
+    # get_products()
 
 
 if __name__ == "__main__":

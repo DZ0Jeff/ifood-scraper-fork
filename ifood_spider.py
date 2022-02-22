@@ -3,12 +3,31 @@
 import json
 import scrapy
 import pandas as pd
+import re
 
 
 BASE_IFOOD_URL = 'https://www.ifood.com.br/delivery/'
 BASE_AVATAR_URL = 'https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/'
 #BASE_URL = 'https://marketplace.ifood.com.br/v1/merchants?latitude=-23.19529&longitude=-45.90321&channel=IFOOD'
-
+BASE_PRODUCTS = [
+    "shampoo monange",
+    "monange deo aero",
+    "monange shampoo" # 325ml,
+    "risque regular blister",
+    "paixão hidratante regular", # 200ml
+    "biocolor mini kit",
+    "adidas deo aero", # 150ml
+    "monange cpp", # 300ml
+    "risque diamond gel regular",
+    "paixão-olep regular" # 200ml
+    "biocolor homem tonalizante home",
+    "bozzano gel pote", #300g
+    "monange deo roll", # 60mg
+    "monange hidratante", #200m
+    "monange condicionador", # 325ml
+    "risque regular comercial",
+    "condicionador monange hidrata com poder"
+]
 
 class Restaurant(scrapy.Item):
 
@@ -32,7 +51,9 @@ class Restaurant(scrapy.Item):
     city = scrapy.Field()
     state = scrapy.Field()
     ibge = scrapy.Field()
-    menu = scrapy.Field()
+    product = scrapy.Field()
+    promotional_price = scrapy.Field()
+    original_price = scrapy.Field()
     # schedule removed due to errors and not being able to extract useful data
     #schedule = scrapy.Field()
 
@@ -53,6 +74,28 @@ class Restaurant(scrapy.Item):
     @staticmethod
     def parse_list(lista):
         return " $$ ".join(str(e) for e in lista)
+
+    @staticmethod
+    def match_products(match_array:list, target:str):
+        """
+        Filter word if matches the content (unorded)
+
+        args:
+        match_array: the array of words of match patterns
+        target: the test to be matched
+
+        return: bool
+        """
+
+        for match_pattern in match_array:
+            splited = match_pattern.split(" ")
+            splited = [f"(?=.*{w})" for w in splited]
+            joined = "".join(splited)
+            match = re.compile(joined)
+            search_content = re.search(match, target)
+            if search_content: return True
+        
+        return
 
 
 class IfoodSpider(scrapy.Spider):
@@ -116,9 +159,11 @@ class IfoodSpider(scrapy.Spider):
                 yield scrapy.Request(f'{BASE_URL}&size=0', callback=self.parse_core, meta={"ibge": ibge, "base_url": BASE_URL, "merchants": merchants})
             
             else:
-                BASE_URL = f"https://marketplace.ifood.com.br/v2/home?latitude={lat}&longitude={long}&channel=IFOOD&alias=MERCADO_FARMACIA"
+                store_type = ["MERCADO", "MERCADO_FARMACIA"]
+                BASE_URL = f"https://marketplace.ifood.com.br/v2/home?latitude={lat}&longitude={long}&channel=IFOOD&alias="
 
-                yield scrapy.Request(BASE_URL, method="POST", callback=self.parse_page, headers=headers, body=json.dumps(payload), meta={"ibge": ibge, "base_url": BASE_URL, "merchants": merchants})
+                for store in store_type:
+                    yield scrapy.Request(f"{BASE_URL}{store}", method="POST", callback=self.parse_page, headers=headers, body=json.dumps(payload), meta={"ibge": ibge, "base_url": BASE_URL, "merchants": merchants})
 
     def parse_core(self, response):
         data = json.loads(response.text)
@@ -167,21 +212,30 @@ class IfoodSpider(scrapy.Spider):
         filter_list = []
         for menus in response.json():
             for product in menus['itens']:
+                id_product = product['id']
                 descrição = product['description']
                 try:
                     detalhes = product["details"] if product["details"] != "" else "Não informado..."
                 
                 except KeyError:
                     raise
+                        
+                try:
+                    preço_promocional = product["unitPrice"] if product["unitPrice"] != "" else "Não informado..."
+                    preço = product["unitOriginalPrice"] if product["unitOriginalPrice"] != "" else "não informado!"
 
-                preço = product["unitPrice"] if product["unitPrice"] != "" else "Não informado..."
+                except Exception:
+                    preço = product["unitPrice"] if product["unitPrice"] != "" else "Não informado..."
+                    preço_promocional = "Não informado..."
 
-                cardapio.append(f"Descrição: {descrição}\nDetalhes: {detalhes}\n\nPreço: {preço}\n")
-                filter_list.append({ "descrição": descrição, "detalhes": detalhes, "preço": preço })
+                cardapio.append(f"Descrição: {descrição}\nDetalhes: {detalhes}\nPreço: {preço}\nPreço promocional: {preço_promocional}")
+                filter_list.append({ "id": id_product, "descrição": descrição, "detalhes": detalhes, "preço": preço, "preço_promocional": preço_promocional })
         
         if not response.meta['merchants']:
             for menu in filter_list:
-                if "shampoo" in str(menu["descrição"]).lower() or "condicionador" in str(menu["descrição"]).lower(): #["monage Shampoo", "condicionador hidrata com poder"]:
+                # if "shampoo monange" in str(menu["descrição"]).lower() or "condicionador monange hidrata com poder" in str(menu["descrição"]).lower():
+
+                if Restaurant.match_products(BASE_PRODUCTS, str(menu["descrição"]).lower()):    
                     yield Restaurant({
                         'name': data['name'],
                         'city': data["address"]["city"],
@@ -189,7 +243,7 @@ class IfoodSpider(scrapy.Spider):
                         'price_range': data['priceRange'],
                         'delivery_time': data['deliveryTime'],
                         'category': data['mainCategory']["friendlyName"],
-                        'url': "{}{}".format(BASE_IFOOD_URL, data['id']),
+                        'url': f'{BASE_IFOOD_URL}{str(data["address"]["city"]).lower()}-{str(data["address"]["state"]).lower()}/{data["name"].lower()}/{data["id"]}?item={menu["id"]}',
                         'tags': Restaurant.parse_list(data['tags']),
                         'minimumOrderValue': data['minimumOrderValue'],
                         'cnpj': data["documents"]["CNPJ"]["value"],
@@ -197,9 +251,11 @@ class IfoodSpider(scrapy.Spider):
                         'city': data["address"]["city"],
                         'state': data["address"]["state"],
                         'ibge': response.meta['ibge'],
-                        "menu": cardapio
+                        'product': f"Descrição: {menu['descrição']}\nDetalhes: {menu['detalhes']}",
+                        'promotional_price': menu["preço_promocional"],
+                        'original_price': menu["preço"]
                     })
-                    break
+                    # break
         
         else:
             yield Restaurant({
