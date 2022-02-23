@@ -12,19 +12,19 @@ BASE_AVATAR_URL = 'https://static-images.ifood.com.br/image/upload/f_auto,t_high
 BASE_PRODUCTS = [
     "shampoo monange",
     "monange deo aero",
-    "monange shampoo" # 325ml,
+    "monange shampoo 325ml" # ,
     "risque regular blister",
-    "paixão hidratante regular", # 200ml
+    "paixão hidratante regular 200ml", # 
     "biocolor mini kit",
-    "adidas deo aero", # 150ml
-    "monange cpp", # 300ml
+    "adidas deo aero 150ml", # 
+    "monange cpp 300ml",
     "risque diamond gel regular",
-    "paixão-olep regular" # 200ml
+    "paixão-olep regular 200ml" # 
     "biocolor homem tonalizante home",
-    "bozzano gel pote", #300g
-    "monange deo roll", # 60mg
-    "monange hidratante", #200m
-    "monange condicionador", # 325ml
+    "bozzano gel pote 300g", #
+    "monange deo roll 60mg", # 
+    "monange hidratante 200m", #
+    "monange condicionador 325m", # l
     "risque regular comercial",
     "condicionador monange hidrata com poder"
 ]
@@ -102,7 +102,7 @@ class IfoodSpider(scrapy.Spider):
     name = 'ifood'
 
     def start_requests(self):
-        df = pd.read_csv("data/coordinates_list.csv")
+        df = pd.read_excel("data/cidades_target.xlsx")
 
         # you can use an smaller part of the df
         #df = df.iloc[5573:5660]
@@ -140,9 +140,15 @@ class IfoodSpider(scrapy.Spider):
         }
 
         for i in range(len(df)):
-            lat = df['latitude'].iloc[i]
-            long = df['longitude'].iloc[i]
-            ibge = df['codigo_ibge'].iloc[i]
+            lat = df['Long'].iloc[i]
+            long = df['Lat'].iloc[i]
+            ibge = df['cod ibge'].iloc[i]
+
+            # lat = df['latitude'].iloc[i]
+            # long = df['longitude'].iloc[i]
+            # ibge = df['codigo_ibge'].iloc[i]
+
+            if lat == "#N/A" or long == "#N/A": continue
             # country = df['country'].iloc[i]
             
             # if country == "Colombia":
