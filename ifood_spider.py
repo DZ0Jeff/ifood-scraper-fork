@@ -10,23 +10,20 @@ BASE_IFOOD_URL = 'https://www.ifood.com.br/delivery/'
 BASE_AVATAR_URL = 'https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/'
 #BASE_URL = 'https://marketplace.ifood.com.br/v1/merchants?latitude=-23.19529&longitude=-45.90321&channel=IFOOD'
 BASE_PRODUCTS = [
-    "shampoo monange",
-    "monange deo aero",
-    "monange shampoo 325ml" # ,
+    "monange deo aero 90g",
     "risque regular blister",
-    "paixão hidratante regular 200ml", # 
-    "biocolor mini kit",
-    "adidas deo aero 150ml", # 
-    "monange cpp 300ml",
+    "risqué regular blister",
+    "paixão hidratante regular", # 
+    "adidas deo aero", # 
+    "monange cpp",
     "risque diamond gel regular",
-    "paixão-olep regular 200ml" # 
-    "biocolor homem tonalizante home",
-    "bozzano gel pote 300g", #
-    "monange deo roll 60mg", # 
-    "monange hidratante 200m", #
-    "monange condicionador 325m", # l
+    "paixão-oleo regular" # 
+    "biocolor homem tonalizante homem",
+    "monange deo roll on", #
+    "monange deo roll-on", #
+    "monange deo rollon", #
     "risque regular comercial",
-    "condicionador monange hidrata com poder"
+    "risqué regular comercial",
 ]
 
 class Restaurant(scrapy.Item):
@@ -102,11 +99,17 @@ class IfoodSpider(scrapy.Spider):
     name = 'ifood'
 
     def start_requests(self):
-        df = pd.read_excel("data/cidades_target.xlsx")
+        filenames = ["data/cidades_target.xlsx", "data/coordinates_list.csv"]
+        # for filename in filenames:
+            # if filename.endswith('.xlsx'):
+        df = pd.read_csv(filenames[1])
+            
+            # else:
+            #     df = pd.read_csv(filename)
 
-        # you can use an smaller part of the df
-        #df = df.iloc[5573:5660]
-        # print(df)
+            # you can use an smaller part of the df
+            #df = df.iloc[5573:5660]
+            # print(df)
 
         CHANNEL = "IFOOD"
         payload = {
@@ -140,13 +143,15 @@ class IfoodSpider(scrapy.Spider):
         }
 
         for i in range(len(df)):
-            lat = df['Long'].iloc[i]
-            long = df['Lat'].iloc[i]
-            ibge = df['cod ibge'].iloc[i]
+            # if filename.endswith('.xlsx'):
+            # lat = df['Long'].iloc[i]
+            # long = df['Lat'].iloc[i]
+            # ibge = df['cod ibge'].iloc[i]
 
-            # lat = df['latitude'].iloc[i]
-            # long = df['longitude'].iloc[i]
-            # ibge = df['codigo_ibge'].iloc[i]
+            # else:
+            lat = df['latitude'].iloc[i]
+            long = df['longitude'].iloc[i]
+            ibge = df['codigo_ibge'].iloc[i]
 
             if lat == "#N/A" or long == "#N/A": continue
             # country = df['country'].iloc[i]
@@ -160,11 +165,13 @@ class IfoodSpider(scrapy.Spider):
             # todo: debugger the v2 api call with post requests (check headers, format and query params)
             merchants = False
             if merchants:
+                # get restaurants
                 BASE_URL = f"https://marketplace.ifood.com.br/v1/merchants?latitude={lat}&longitude={long}&channel={CHANNEL}"
 
                 yield scrapy.Request(f'{BASE_URL}&size=0', callback=self.parse_core, meta={"ibge": ibge, "base_url": BASE_URL, "merchants": merchants})
             
             else:
+                # get specific produts
                 store_type = ["MERCADO", "MERCADO_FARMACIA"]
                 BASE_URL = f"https://marketplace.ifood.com.br/v2/home?latitude={lat}&longitude={long}&channel=IFOOD&alias="
 
@@ -241,27 +248,27 @@ class IfoodSpider(scrapy.Spider):
             for menu in filter_list:
                 # if "shampoo monange" in str(menu["descrição"]).lower() or "condicionador monange hidrata com poder" in str(menu["descrição"]).lower():
 
-                if Restaurant.match_products(BASE_PRODUCTS, str(menu["descrição"]).lower()):    
-                    yield Restaurant({
-                        'name': data['name'],
-                        'city': data["address"]["city"],
-                        'rating': data["userRatingCount"],
-                        'price_range': data['priceRange'],
-                        'delivery_time': data['deliveryTime'],
-                        'category': data['mainCategory']["friendlyName"],
-                        'url': f'{BASE_IFOOD_URL}{str(data["address"]["city"]).lower()}-{str(data["address"]["state"]).lower()}/{data["name"].lower()}/{data["id"]}?item={menu["id"]}',
-                        'tags': Restaurant.parse_list(data['tags']),
-                        'minimumOrderValue': data['minimumOrderValue'],
-                        'cnpj': data["documents"]["CNPJ"]["value"],
-                        'address': f'{data["address"]["streetName"]}-{data["address"]["streetNumber"]}, {data["address"]["district"]}',
-                        'city': data["address"]["city"],
-                        'state': data["address"]["state"],
-                        'ibge': response.meta['ibge'],
-                        'product': f"Descrição: {menu['descrição']}\nDetalhes: {menu['detalhes']}",
-                        'promotional_price': menu["preço_promocional"],
-                        'original_price': menu["preço"]
-                    })
-                    # break
+                # if Restaurant.match_products(BASE_PRODUCTS, str(menu["descrição"]).lower()):    
+                yield Restaurant({
+                    'name': data['name'],
+                    'city': data["address"]["city"],
+                    'rating': data["userRatingCount"],
+                    'price_range': data['priceRange'],
+                    'delivery_time': data['deliveryTime'],
+                    'category': data['mainCategory']["friendlyName"],
+                    'url': f'{BASE_IFOOD_URL}{str(data["address"]["city"]).lower()}-{str(data["address"]["state"]).lower()}/{data["name"].lower()}/{data["id"]}?item={menu["id"]}',
+                    'tags': Restaurant.parse_list(data['tags']),
+                    'minimumOrderValue': data['minimumOrderValue'],
+                    'cnpj': data["documents"]["CNPJ"]["value"],
+                    'address': f'{data["address"]["streetName"]}-{data["address"]["streetNumber"]}, {data["address"]["district"]}',
+                    'city': data["address"]["city"],
+                    'state': data["address"]["state"],
+                    'ibge': response.meta['ibge'],
+                    'product': f"Descrição: {menu['descrição']}\nDetalhes: {menu['detalhes']}",
+                    'promotional_price': menu["preço_promocional"],
+                    'original_price': menu["preço"]
+                })
+                # break
         
         else:
             yield Restaurant({
