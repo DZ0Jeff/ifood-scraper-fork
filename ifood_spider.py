@@ -102,7 +102,7 @@ class IfoodSpider(scrapy.Spider):
         filenames = ["data/cidades_target.xlsx", "data/coordinates_list.csv"]
         # for filename in filenames:
             # if filename.endswith('.xlsx'):
-        df = pd.read_csv(filenames[1])
+        df = pd.read_excel(filenames[0])
             
             # else:
             #     df = pd.read_csv(filename)
@@ -149,9 +149,9 @@ class IfoodSpider(scrapy.Spider):
             # ibge = df['cod ibge'].iloc[i]
 
             # else:
-            lat = df['latitude'].iloc[i]
-            long = df['longitude'].iloc[i]
-            ibge = df['codigo_ibge'].iloc[i]
+            lat = df['Long'].iloc[i]
+            long = df['Lat'].iloc[i]
+            ibge = df['cod ibge'].iloc[i]
 
             if lat == "#N/A" or long == "#N/A": continue
             # country = df['country'].iloc[i]
