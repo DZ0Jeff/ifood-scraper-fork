@@ -1,25 +1,6 @@
 import re
+import unittest
 
-
-BASE_PRODUCTS = [
-    "shampoo monange",
-    "monange deo aero",
-    "monange shampoo" # 325ml,
-    "risque regular blister",
-    "paixão hidratante regular", # 200ml
-    "biocolor mini kit",
-    "adidas deo aero", # 150ml
-    "monange cpp", # 300ml
-    "risque diamond gel regular",
-    "paixão-olep regular" # 200ml
-    "biocolor homem tonalizante home",
-    "bozzano gel pote", #300g
-    "monange deo roll", # 60mg
-    "monange hidratante", #200m
-    "monange condicionador", # 325ml
-    "risque regular comercial",
-    "condicionador monange hidrata com poder"
-]
 
 
 def match_products(match_array:list, target:str):
@@ -43,8 +24,40 @@ def match_products(match_array:list, target:str):
     
     return
 
-if match_products(BASE_PRODUCTS, "monange shampoo"):
-    print("Matched!")
 
-else:
-    print("Not matched")
+
+class FilterProducts(unittest.TestCase):
+    def setUp(self) -> None:
+        self.BASE_PRODUCTS = [
+            "shampoo monange",
+            "monange deo aero",
+            "monange shampoo" # 325ml,
+            "risque regular blister",
+            "paixão hidratante regular", # 200ml
+            "biocolor mini kit",
+            "adidas deo aero", # 150ml
+            "monange cpp", # 300ml
+            "risque diamond gel regular",
+            "paixão-olep regular" # 200ml
+            "biocolor homem tonalizante home",
+            "bozzano gel pote", #300g
+            "monange deo roll", # 60mg
+            "monange hidratante", #200m
+            "monange condicionador", # 325ml
+            "risque regular comercial",
+            "condicionador monange hidrata com poder"
+        ]
+
+
+    def test_match_products(self):
+        self.assertTrue(match_products(self.BASE_PRODUCTS, "monange shampoo"))
+
+    def test_match_products_uppercase(self):
+        self.assertTrue(match_products(self.BASE_PRODUCTS, "Monange shampoo"))
+
+    def test_match_products_wrong(self):
+        self.assertFalse(match_products(self.BASE_PRODUCTS, "monange shampoo x1"))
+
+
+if __name__ == "__main__":
+    unittest.main()

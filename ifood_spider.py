@@ -99,13 +99,13 @@ class IfoodSpider(scrapy.Spider):
     name = 'ifood'
 
     def start_requests(self):
-        filenames = ["data/cidades_target.xlsx", "data/coordinates_list.csv"]
+        filenames = ["data/cidades_target.xlsx", "data/coordinates_list.csv", "data/coordinates_list_filtered.csv"]
         # for filename in filenames:
             # if filename.endswith('.xlsx'):
-        df = pd.read_excel(filenames[0])
+        # df = pd.read_excel(filenames[0])
             
             # else:
-            #     df = pd.read_csv(filename)
+        df = pd.read_csv(filenames[2])
 
             # you can use an smaller part of the df
             #df = df.iloc[5573:5660]
@@ -149,9 +149,9 @@ class IfoodSpider(scrapy.Spider):
             # ibge = df['cod ibge'].iloc[i]
 
             # else:
-            lat = df['Long'].iloc[i]
-            long = df['Lat'].iloc[i]
-            ibge = df['cod ibge'].iloc[i]
+            lat = df['Longitude'].iloc[i]
+            long = df['Latitude'].iloc[i]
+            ibge = df['codigo_ibge'].iloc[i]
 
             if lat == "#N/A" or long == "#N/A": continue
             # country = df['country'].iloc[i]
@@ -163,7 +163,7 @@ class IfoodSpider(scrapy.Spider):
             #     CHANNEL = ""
 
             # todo: debugger the v2 api call with post requests (check headers, format and query params)
-            merchants = False
+            merchants = True
             if merchants:
                 # get restaurants
                 BASE_URL = f"https://marketplace.ifood.com.br/v1/merchants?latitude={lat}&longitude={long}&channel={CHANNEL}"
@@ -172,7 +172,7 @@ class IfoodSpider(scrapy.Spider):
             
             else:
                 # get specific produts
-                store_type = ["MERCADO", "MERCADO_FARMACIA"]
+                store_type = ["MERCADO"] # "MERCADO_FARMACIA"
                 BASE_URL = f"https://marketplace.ifood.com.br/v2/home?latitude={lat}&longitude={long}&channel=IFOOD&alias="
 
                 for store in store_type:
@@ -223,6 +223,7 @@ class IfoodSpider(scrapy.Spider):
 
         cardapio = []
         filter_list = []
+        
         for menus in response.json():
             for product in menus['itens']:
                 id_product = product['id']
