@@ -149,8 +149,8 @@ class IfoodSpider(scrapy.Spider):
             # ibge = df['cod ibge'].iloc[i]
 
             # else:
-            lat = df['Longitude'].iloc[i]
-            long = df['Latitude'].iloc[i]
+            lat = df['latitude'].iloc[i]
+            long = df['longitude'].iloc[i]
             ibge = df['codigo_ibge'].iloc[i]
 
             if lat == "#N/A" or long == "#N/A": continue
