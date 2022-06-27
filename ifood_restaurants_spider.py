@@ -84,13 +84,13 @@ class IfoodSpider(scrapy.Spider):
     name = 'ifood'
 
     def start_requests(self):
-        filenames = ["data/base input ifood.xlsx", "data/cidades_target.xlsx", "data/coordinates_list.csv", "data/coordinates_list_filtered.csv"]
+        filenames = ["data/base input ifood_v2.xlsx", "data/cidades_target.xlsx", "data/coordinates_list.csv", "data/coordinates_list_filtered.csv"]
         
         df = pd.read_excel(filenames[0])
             
         for i in range(len(df)):
 
-            id = df['avatar'].iloc[i].split('/')[-2]
+            id = df['url'].iloc[i].split('/')[-1]
 
             yield scrapy.Request(f'https://marketplace.ifood.com.br/v1/merchants/{id}/extra', callback=self.parse_details, meta={"id": id})    
 
